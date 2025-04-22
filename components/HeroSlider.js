@@ -120,7 +120,7 @@ export default function HeroSlider() {
                 className="h-32 w-auto drop-shadow-xl"
               />
             </div>
-            <div className="w-full flex flex-wrap justify-center md:justify-between gap-6 mt-6 px-4">
+            <div className="w-full flex flex-wrap justify-center md:justify-between gap-6 mt-[-10] px-4">
               {highlights.map((item, i) => (
                 <div key={i} className="flex flex-col items-center text-center min-w-[100px] flex-1">
                   <div className="bg-white/80 text-orange-600 rounded-full p-3 mb-3">
