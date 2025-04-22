@@ -30,7 +30,7 @@ export default function App({ Component, pageProps }) {
         <meta name="twitter:image" content="https://edubridgeerp.in/og-image.png" />
 
         {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/faviconN.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
         {/* Tawk.to Live Chat Script */}
