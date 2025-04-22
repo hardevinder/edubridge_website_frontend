@@ -11,6 +11,7 @@ import {
   Layers,
   Globe,
   X,
+  Menu,
 } from "lucide-react";
 import RequestDemoForm from "../components/RequestDemoForm";
 
@@ -18,6 +19,7 @@ export default function Navbar() {
   const [isMegaOpen, setMegaOpen] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [showNav, setShowNav] = useState(true);
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     let lastY = window.scrollY;
@@ -101,7 +103,11 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className={`sticky top-0 z-50 bg-white text-black px-6 py-4 shadow transform transition-transform duration-300 ${showNav ? 'translate-y-0' : '-translate-y-full'}`}>
+      <nav
+        className={`sticky top-0 z-50 bg-white text-black px-6 py-4 shadow transform transition-transform duration-300 ${
+          showNav ? "translate-y-0" : "-translate-y-full"
+        }`}
+      >
         <div className="flex justify-between items-center max-w-7xl mx-auto">
           {/* Logo */}
           <div className="flex items-center gap-3">
@@ -110,8 +116,18 @@ export default function Navbar() {
             </Link>
           </div>
 
-          {/* Navigation */}
-          <ul className="flex gap-10 items-center text-sm font-medium">
+          {/* Hamburger Icon for Mobile */}
+          <div className="md:hidden">
+            <button
+              onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
+              className="text-black hover:text-orange-500 transition mr-4" // Added right margin
+            >
+              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
+
+          {/* Desktop Navigation */}
+          <ul className="hidden md:flex gap-10 items-center text-sm font-medium">
             <li className="relative">
               <button
                 onMouseEnter={() => setMegaOpen(true)}
@@ -126,7 +142,12 @@ export default function Navbar() {
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                 >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
                 </svg>
               </button>
 
@@ -135,27 +156,27 @@ export default function Navbar() {
                 onMouseEnter={() => setMegaOpen(true)}
                 onMouseLeave={() => setMegaOpen(false)}
                 className={`absolute left-[43%] transform -translate-x-1/2 w-[80vw] max-w-[1100px] bg-white text-black rounded-xl shadow-2xl px-10 pr-14 z-50 transition-all duration-500 ease-out delay-100 ${
-                  isMegaOpen ? "opacity-100 visible mt-14 translate-y-0" : "opacity-0 invisible -translate-y-3"
+                  isMegaOpen
+                    ? "opacity-100 visible mt-14 translate-y-0"
+                    : "opacity-0 invisible -translate-y-3"
                 }`}
               >
-                {/* Desktop View */}
                 <div className="hidden md:grid py-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-8">
                   {productList.map((item, idx) => (
-                    <Link key={idx} href={item.link} className="flex gap-3 items-start p-3 rounded-lg hover:bg-orange-50 transition">
+                    <Link
+                      key={idx}
+                      href={item.link}
+                      className="flex gap-3 items-start p-3 rounded-lg hover:bg-orange-50 transition"
+                    >
                       <div className="pt-1">{item.icon}</div>
                       <div>
-                        <h4 className="text-md font-semibold text-orange-600 mb-1">{item.title}</h4>
-                        <p className="text-sm text-gray-600 leading-snug break-words">{item.desc}</p>
+                        <h4 className="text-md font-semibold text-orange-600 mb-1">
+                          {item.title}
+                        </h4>
+                        <p className="text-sm text-gray-600 leading-snug break-words">
+                          {item.desc}
+                        </p>
                       </div>
-                    </Link>
-                  ))}
-                </div>
-
-                {/* Mobile View */}
-                <div className="md:hidden flex flex-col gap-2 py-4">
-                  {productList.map((item, idx) => (
-                    <Link key={idx} href={item.link} className="block px-4 py-2 text-sm text-orange-600 hover:bg-orange-100 rounded transition">
-                      {item.title}
                     </Link>
                   ))}
                 </div>
@@ -163,7 +184,7 @@ export default function Navbar() {
             </li>
 
             <li>
-              <Link href="#features" className="hover:text-orange-500 transition">
+              <Link href="/features" className="hover:text-orange-500 transition">
                 Features
               </Link>
             </li>
@@ -182,16 +203,101 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
+
+        {/* Mobile Menu */}
+        {isMobileMenuOpen && (
+          <div className="md:hidden absolute top-full left-0 w-full bg-gray-100 z-50 min-h-screen mt-4 px-6 py-8">
+            <button
+              onClick={() => setMobileMenuOpen(false)}
+              className="absolute top-4 right-4 text-gray-600 hover:text-black"
+            >
+              <X size={24} />
+            </button>
+            <ul className="flex flex-col items-center gap-6 text-lg font-medium">
+              <li>
+                <button
+                  onClick={() => setMegaOpen(!isMegaOpen)}
+                  className="flex items-center gap-1 hover:text-orange-500 transition"
+                >
+                  Products
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </button>
+                {/* Mobile Mega Menu */}
+                {isMegaOpen && (
+                  <div className="flex flex-col gap-2 mt-2 max-h-60 overflow-y-auto w-full">
+                    {productList.map((item, idx) => (
+                      <Link
+                        key={idx}
+                        href={item.link}
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="block px-4 py-2 text-sm text-orange-600 hover:bg-orange-100 rounded transition"
+                      >
+                        {item.title}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </li>
+              <li>
+                <Link
+                  href="#features"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="hover:text-orange-500 transition"
+                >
+                  Features
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="hover:text-orange-500 transition"
+                >
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <button
+                  onClick={() => {
+                    setShowModal(true);
+                    setMobileMenuOpen(false);
+                  }}
+                  className="bg-orange-500 px-6 py-3 rounded text-white hover:bg-orange-600 transition"
+                >
+                  Request Demo
+                </button>
+              </li>
+            </ul>
+          </div>
+        )}
       </nav>
 
       {/* Request Demo Modal */}
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center">
           <div className="bg-white max-w-lg w-full p-6 rounded-xl shadow-xl relative">
-            <button className="absolute top-4 right-4 text-gray-600 hover:text-black" onClick={() => setShowModal(false)}>
+            <button
+              className="absolute top-4 right-4 text-gray-600 hover:text-black"
+              onClick={() => setShowModal(false)}
+            >
               <X size={24} />
             </button>
-            <h2 className="text-2xl font-bold text-center mb-4 text-orange-600">Request a Free Demo</h2>
+            <h2 className="text-2xl font-bold text-center mb-4 text-orange-600">
+              Request a Free Demo
+            </h2>
             <RequestDemoForm onSuccess={() => setShowModal(false)} />
           </div>
         </div>
