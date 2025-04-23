@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Link from "next/link"; // 👈 Add this at the top if not already
 
 export default function App({ Component, pageProps }) {
   return (
@@ -53,6 +54,15 @@ export default function App({ Component, pageProps }) {
       </Head>
 
       <Component {...pageProps} />
+      <Link
+        href="/cbse-analyzer"
+        className="fixed left-4 bottom-6 z-50 bg-orange-500 text-white px-4 py-2 text-sm font-semibold rounded-full shadow-lg hover:bg-orange-600 transition animate-bounce"
+      >
+          CBSE Result Analyzer
+      </Link>
+
+
+
       <ToastContainer
         position="top-right"
         autoClose={3000}

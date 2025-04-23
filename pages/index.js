@@ -9,6 +9,8 @@ import FAQ from "../components/FAQ";
 import PricingPlans from "../components/PricingPlans";
 import FinalCTA from "../components/FinalCTA";
 import Footer from "../components/Footer";
+// import CBSEAnalyzerPopup from "@/components/CBSEAnalyzerPopup"; // adjust path if needed
+
 
 export default function Home() {
   return (
@@ -40,6 +42,7 @@ export default function Home() {
 
       <Navbar />
       <HeroSlider />
+      {/* <CBSEAnalyzerPopup /> */}
       <KeyFeatures />
       <ModulesOverview />
       <Testimonials />

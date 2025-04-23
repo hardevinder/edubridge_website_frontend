@@ -99,6 +99,12 @@ export default function Navbar() {
       icon: <ClipboardList className="text-orange-600" size={20} />,
       link: "/cbt",
     },
+    {
+      title: "CBSE Analyzer",
+      desc: "Analyze CBSE exam results and generate detailed performance reports.",
+      icon: <ClipboardList className="text-orange-600" size={20} />,
+      link: "/cbse-analyzer",
+    },
   ];
 
   return (
@@ -120,7 +126,7 @@ export default function Navbar() {
           <div className="md:hidden">
             <button
               onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-black hover:text-orange-500 transition mr-4" // Added right margin
+              className="text-black hover:text-orange-500 transition mr-4"
             >
               {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
