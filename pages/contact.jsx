@@ -19,9 +19,9 @@ export default function ContactPage() {
             <div className="flex items-start gap-4">
               <MapPin className="text-orange-500" size={28} />
               <div className="text-gray-700 leading-relaxed">
-                NEXT57 COWORKING<br/>
-                Plot No‑F88, Industrial Area, Phase 7<br/>
-                Sector 73, SAS Nagar, Mohali‑160055
+                EduBridge Solutions<br/>
+                Phase 8B, Industrial Area, Sector 74,<br/>
+                Sahibzada Ajit Singh Nagar (Mohali), Punjab – 160055, India.
               </div>
             </div>
 
