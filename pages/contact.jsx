@@ -25,23 +25,37 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <div className="flex items-center gap-4">
+            <div className="flex items-start gap-4">
               <Phone className="text-orange-500" size={24} />
-              <a
-                href="tel:+917986912732"
-                className="text-gray-700 hover:text-orange-600 transition"
-              >
-                +91 79869 12732
-              </a>
+              <div className="text-gray-700 leading-relaxed space-y-1">
+                <div>
+                  <strong>Ajay Saini</strong>:{" "}
+                  <a href="tel:+919888042371" className="hover:text-orange-600 transition">
+                    +91 98880 42371
+                  </a>
+                </div>
+                <div>
+                  <strong>Sandeep Pruthi</strong>:{" "}
+                  <a href="tel:+919312229007" className="hover:text-orange-600 transition">
+                    +91 93122 9007
+                  </a>
+                </div>
+                <div>
+                  <strong>Hardevinder Singh</strong>:{" "}
+                  <a href="tel:+919417873297" className="hover:text-orange-600 transition">
+                    +91 94178 73297
+                  </a>
+                </div>
+              </div>
             </div>
 
             <div className="flex items-center gap-4">
               <Mail className="text-orange-500" size={24} />
               <a
-                href="mailto:contact@edubridgeerp.in"
+                href="mailto:info@edubridgeerp.in"
                 className="text-gray-700 hover:text-orange-600 transition"
               >
-                contact@edubridgeerp.in
+                info@edubridgeerp.in
               </a>
             </div>
           </div>
