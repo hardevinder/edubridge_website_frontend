@@ -17,6 +17,7 @@ import RequestDemoForm from "../components/RequestDemoForm";
 
 export default function Navbar() {
   const [isMegaOpen, setMegaOpen] = useState(false);
+  const [isPoliciesOpen, setPoliciesOpen] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [showNav, setShowNav] = useState(true);
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -104,6 +105,25 @@ export default function Navbar() {
       desc: "Analyze CBSE exam results and generate detailed performance reports.",
       icon: <ClipboardList className="text-orange-600" size={20} />,
       link: "/cbse-analyzer",
+    },
+  ];
+
+  const policiesList = [
+    {
+      title: "Privacy Policy",
+      link: "/privacy-policy",
+    },
+    {
+      title: "Terms & Conditions",
+      link: "/terms-and-conditions",
+    },
+    {
+      title: "Cancellation & Refund",
+      link: "/cancellation-policy",
+    },
+    {
+      title: "Shipping & Delivery",
+      link: "/shipping-policy",
     },
   ];
 
@@ -199,6 +219,51 @@ export default function Navbar() {
                 Contact
               </Link>
             </li>
+            <li className="relative">
+              <button
+                onMouseEnter={() => setPoliciesOpen(true)}
+                onMouseLeave={() => setPoliciesOpen(false)}
+                className="flex items-center gap-1 hover:text-orange-500 transition"
+              >
+                Policies
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+              <div
+                onMouseEnter={() => setPoliciesOpen(true)}
+                onMouseLeave={() => setPoliciesOpen(false)}
+                className={`absolute left-0 w-48 bg-white text-black rounded-xl shadow-2xl z-50 transition-all duration-300 ease-out ${
+                  isPoliciesOpen
+                    ? "opacity-100 visible mt-2 translate-y-0"
+                    : "opacity-0 invisible -translate-y-3"
+                }`}
+              >
+                <ul className="py-2">
+                  {policiesList.map((policy, idx) => (
+                    <li key={idx}>
+                      <Link
+                        href={policy.link}
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100 hover:text-orange-600 transition"
+                      >
+                        {policy.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </li>
             <li>
               <button
                 onClick={() => setShowModal(true)}
@@ -241,7 +306,6 @@ export default function Navbar() {
                     />
                   </svg>
                 </button>
-                {/* Mobile Mega Menu */}
                 {isMegaOpen && (
                   <div className="flex flex-col gap-2 mt-2 max-h-60 overflow-y-auto w-full">
                     {productList.map((item, idx) => (
@@ -274,6 +338,42 @@ export default function Navbar() {
                 >
                   Contact
                 </Link>
+              </li>
+              <li>
+                <button
+                  onClick={() => setPoliciesOpen(!isPoliciesOpen)}
+                  className="flex items-center gap-1 hover:text-orange-500 transition"
+                >
+                  Policies
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </button>
+                {isPoliciesOpen && (
+                  <div className="flex flex-col gap-2 mt-2 w-full">
+                    {policiesList.map((policy, idx) => (
+                      <Link
+                        key={idx}
+                        href={policy.link}
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100 hover:text-orange-600 rounded transition"
+                      >
+                        {policy.title}
+                      </Link>
+                    ))}
+                  </div>
+                )}
               </li>
               <li>
                 <button

@@ -48,7 +48,7 @@ export default function Home() {
       <Testimonials />
       <ScreenshotsIntroduction />
       <FAQ />
-      <PricingPlans />
+      {/* <PricingPlans /> */}
       <FinalCTA />
       <Footer />
     </div>

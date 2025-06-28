@@ -19,8 +19,8 @@ export default function ContactPage() {
             <div className="flex items-start gap-4">
               <MapPin className="text-orange-500" size={28} />
               <div className="text-gray-700 leading-relaxed">
-                EduBridge Solutions<br/>
-                Phase 8B, Industrial Area, Sector 74,<br/>
+                EduBridge Solutions<br />
+                Phase 8B, Industrial Area, Sector 74,<br />
                 Sahibzada Ajit Singh Nagar (Mohali), Punjab – 160055, India.
               </div>
             </div>
@@ -29,19 +29,19 @@ export default function ContactPage() {
               <Phone className="text-orange-500" size={24} />
               <div className="text-gray-700 leading-relaxed space-y-1">
                 <div>
-                  <strong>Ajay Saini</strong>:{" "}
+                  <strong>Sales</strong>:{" "}
                   <a href="tel:+919888042371" className="hover:text-orange-600 transition">
                     +91 98880 42371
                   </a>
                 </div>
                 <div>
-                  <strong>Sandeep Pruthi</strong>:{" "}
+                  <strong>Sales</strong>:{" "}
                   <a href="tel:+919312229007" className="hover:text-orange-600 transition">
                     +91 93122 9007
                   </a>
                 </div>
                 <div>
-                  <strong>Hardevinder Singh</strong>:{" "}
+                  <strong>Technical Support</strong>:{" "}
                   <a href="tel:+919417873297" className="hover:text-orange-600 transition">
                     +91 94178 73297
                   </a>
