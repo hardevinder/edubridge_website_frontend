@@ -40,7 +40,7 @@ export default function ContactPage() {
                 <div>
                   <strong>Sales</strong>:{" "}
                   <a href="tel:+919312229007" className="hover:text-orange-600 transition">
-                    +91 93122 9007
+                    +91 93122 29007
                   </a>
                 </div>
                 <div>
