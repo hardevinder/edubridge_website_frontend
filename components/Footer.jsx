@@ -122,8 +122,8 @@ export default function Footer() {
             </li>
             <li className="flex items-center">
               <Phone size={18} className="mr-2 text-orange-400" />
-              <Link href="tel:+917986912732" className="hover:text-white transition-colors duration-200">
-                +91 79869 12732
+              <Link href="tel:+919417873297" className="hover:text-white transition-colors duration-200">
+                +91 94178 73297
               </Link>
             </li>
           </ul>
@@ -151,7 +151,7 @@ export default function Footer() {
           <p>© {new Date().getFullYear()} EduBridgeERP. All rights reserved.</p>
           <p>
             Designed with  by{" "}
-            <Link href="https://yourcompany.com" className="text-orange-400 hover:underline">
+            <Link href="https://edubridgeerp.in/" className="text-orange-400 hover:underline">
               EduBridge ERP
             </Link>
           </p>
