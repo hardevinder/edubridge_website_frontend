@@ -116,7 +116,7 @@ export default function Footer() {
             </li>
             <li className="flex items-center">
               <Mail size={18} className="mr-2 text-orange-400" />
-              <Link href="mailto:contact@edubridgeerp.in" className="hover:text-white transition-colors duration-200">
+              <Link href="mailto:info@edubridgeerp.in" className="hover:text-white transition-colors duration-200">
                 contact@edubridgeerp.in
               </Link>
             </li>
