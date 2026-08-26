@@ -1,413 +1,116 @@
-import { useState, useEffect } from "react";
-import Link from "next/link";
-import {
-  LayoutDashboard,
-  BookOpen,
-  Users,
-  GraduationCap,
-  ClipboardList,
-  Smartphone,
-  FileText,
-  Layers,
-  Globe,
-  X,
-  Menu,
-} from "lucide-react";
-import RequestDemoForm from "../components/RequestDemoForm";
+import { useState } from 'react';
+import Link from 'next/link';
+import { ChevronDown, Menu, X, Sparkles, Smartphone, GraduationCap, Building2, ArrowRight } from 'lucide-react';
+import DemoModal from './DemoModal';
+
+const solutions = [
+  { title: 'School ERP', href: '/school-erp', desc: 'Connected management for K-12 institutions', icon: Building2 },
+  { title: 'College ERP', href: '/college-erp', desc: 'Academic, administrative and campus workflows', icon: GraduationCap },
+  { title: 'AI-Powered ERP', href: '/modules/ai-assistant', desc: 'AI-assisted planning, assessment and insight', icon: Sparkles },
+  { title: 'Branded Mobile Apps', href: '/modules/branded-mobile-apps', desc: 'Institution-branded iOS & Android apps', icon: Smartphone },
+];
+
+const popularModules = [
+  ['Admissions CRM', '/modules/admission-crm'],
+  ['Student 360°', '/modules/student-360'],
+  ['Timetable', '/modules/timetable'],
+  ['Smart Assessments', '/modules/smart-assessments'],
+  ['Examination Management', '/roles/examination'],
+  ['HOD & Department Management', '/roles/hod'],
+  ['Exam Management', '/modules/exam-management'],
+  ['Fees & Payments', '/modules/fee-management'],
+  ['HR & Payroll', '/modules/payroll'],
+  ['Live Bus Tracking', '/modules/live-bus-tracking'],
+  ['Inventory', '/modules/inventory'],
+  ['Library', '/modules/library'],
+  ['Secure Chat', '/modules/secure-chat'],
+  ['Teacher Performance', '/modules/teacher-performance'],
+];
 
 export default function Navbar() {
-  const [isMegaOpen, setMegaOpen] = useState(false);
-  const [isPoliciesOpen, setPoliciesOpen] = useState(false);
-  const [showModal, setShowModal] = useState(false);
-  const [showNav, setShowNav] = useState(true);
-  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  useEffect(() => {
-    let lastY = window.scrollY;
-    const handleScroll = () => {
-      const currentY = window.scrollY;
-      setShowNav(currentY < lastY || currentY < 50);
-      lastY = currentY;
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const productList = [
-    {
-      title: "School ERP",
-      desc: "All-in-one digital school management system with fee, attendance, exams & reports.",
-      icon: <LayoutDashboard className="text-orange-600" size={20} />,
-      link: "/school-erp",
-    },
-    {
-      title: "Library Software",
-      desc: "Organize and track your books, members, and lending efficiently.",
-      icon: <BookOpen className="text-orange-600" size={20} />,
-      link: "/library",
-    },
-    {
-      title: "Visitor Management",
-      desc: "Securely record and monitor all school visitors with instant logs.",
-      icon: <Users className="text-orange-600" size={20} />,
-      link: "/visitor-management",
-    },
-    {
-      title: "Institute Management",
-      desc: "Handle multi-branch operations, HR, inventory, and student lifecycle.",
-      icon: <Layers className="text-orange-600" size={20} />,
-      link: "/institute-management",
-    },
-    {
-      title: "Exam Software",
-      desc: "Plan, conduct, and evaluate online/offline exams easily.",
-      icon: <ClipboardList className="text-orange-600" size={20} />,
-      link: "/exam-management",
-    },
-    {
-      title: "School/College Website",
-      desc: "Modern, mobile-friendly websites for your institution with dynamic content.",
-      icon: <Globe className="text-orange-600" size={20} />,
-      link: "/school-website",
-    },
-    {
-      title: "College ERP",
-      desc: "Digitize your college admin tasks, academics, and communication.",
-      icon: <GraduationCap className="text-orange-600" size={20} />,
-      link: "/college-erp",
-    },
-    {
-      title: "Admission CRM",
-      desc: "Manage leads, follow-ups, and admissions with powerful tracking.",
-      icon: <FileText className="text-orange-600" size={20} />,
-      link: "/admission-crm",
-    },
-    {
-      title: "School Mobile App",
-      desc: "Stay connected with students, parents & staff using a branded app.",
-      icon: <Smartphone className="text-orange-600" size={20} />,
-      link: "/mobile-app",
-    },
-    {
-      title: "LMS",
-      desc: "Create, assign, and track learning content & student progress online.",
-      icon: <BookOpen className="text-orange-600" size={20} />,
-      link: "/lms",
-    },
-    {
-      title: "Online Assessments",
-      desc: "Conduct timed MCQ tests with auto evaluation & analytics.",
-      icon: <ClipboardList className="text-orange-600" size={20} />,
-      link: "/cbt",
-    },
-    {
-      title: "CBSE Analyzer",
-      desc: "Analyze CBSE exam results and generate detailed performance reports.",
-      icon: <ClipboardList className="text-orange-600" size={20} />,
-      link: "/cbse-analyzer",
-    },
-  ];
-
-  const policiesList = [
-    {
-      title: "Privacy Policy",
-      link: "/privacy-policy",
-    },
-    {
-      title: "Terms & Conditions",
-      link: "/terms-and-conditions",
-    },
-    {
-      title: "Cancellation & Refund",
-      link: "/cancellation-policy",
-    },
-    {
-      title: "Shipping & Delivery",
-      link: "/shipping-policy",
-    },
-  ];
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [productsOpen, setProductsOpen] = useState(false);
+  const [demoOpen, setDemoOpen] = useState(false);
 
   return (
     <>
-      <nav
-        className={`sticky top-0 z-50 bg-white text-black px-6 py-4 shadow transform transition-transform duration-300 ${
-          showNav ? "translate-y-0" : "-translate-y-full"
-        }`}
-      >
-        <div className="flex justify-between items-center max-w-7xl mx-auto">
-          {/* Logo */}
-          <div className="flex items-center gap-3">
-            <Link href="/">
-              <img src="/logo.png" alt="EduBridge ERP" className="h-14" />
-            </Link>
-          </div>
+      <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur-xl">
+        <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 md:px-8">
+          <Link href="/" className="flex items-center gap-3" aria-label="EduBridge ERP home">
+            <img src="/logo.png" alt="EduBridge ERP" className="h-11 w-auto" />
+          </Link>
 
-          {/* Hamburger Icon for Mobile */}
-          <div className="md:hidden">
-            <button
-              onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-black hover:text-orange-500 transition mr-4"
-            >
-              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
-          </div>
-
-          {/* Desktop Navigation */}
-          <ul className="hidden md:flex gap-10 items-center text-sm font-medium">
-            <li className="relative">
-              <button
-                onMouseEnter={() => setMegaOpen(true)}
-                onMouseLeave={() => setMegaOpen(false)}
-                className="flex items-center gap-1 hover:text-orange-500 transition"
-              >
-                Products
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </button>
-
-              {/* Mega Menu */}
-              <div
-                onMouseEnter={() => setMegaOpen(true)}
-                onMouseLeave={() => setMegaOpen(false)}
-                className={`absolute left-[43%] transform -translate-x-1/2 w-[80vw] max-w-[1100px] bg-white text-black rounded-xl shadow-2xl px-10 pr-14 z-50 transition-all duration-500 ease-out delay-100 ${
-                  isMegaOpen
-                    ? "opacity-100 visible mt-14 translate-y-0"
-                    : "opacity-0 invisible -translate-y-3"
-                }`}
-              >
-                <div className="hidden md:grid py-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-8">
-                  {productList.map((item, idx) => (
-                    <Link
-                      key={idx}
-                      href={item.link}
-                      className="flex gap-3 items-start p-3 rounded-lg hover:bg-orange-50 transition"
-                    >
-                      <div className="pt-1">{item.icon}</div>
-                      <div>
-                        <h4 className="text-md font-semibold text-orange-600 mb-1">
-                          {item.title}
-                        </h4>
-                        <p className="text-sm text-gray-600 leading-snug break-words">
-                          {item.desc}
-                        </p>
-                      </div>
-                    </Link>
-                  ))}
+          <nav className="hidden items-center gap-8 lg:flex">
+            <div className="relative" onMouseEnter={() => setProductsOpen(true)} onMouseLeave={() => setProductsOpen(false)}>
+              <button className="nav-link flex items-center gap-1.5">Platform <ChevronDown size={16} /></button>
+              <div className={`absolute left-1/2 top-full w-[760px] -translate-x-1/2 pt-5 transition ${productsOpen ? 'visible translate-y-0 opacity-100' : 'invisible -translate-y-2 opacity-0'}`}>
+                <div className="grid grid-cols-[1fr_1.35fr] gap-2 rounded-3xl border border-slate-200 bg-white p-4 shadow-2xl shadow-slate-900/10">
+                  <div className="rounded-2xl bg-slate-950 p-4 text-white">
+                    <p className="px-2 text-xs font-bold uppercase tracking-[.18em] text-orange-300">Solutions</p>
+                    <div className="mt-2 space-y-1">
+                      {solutions.map(({ title, href, desc, icon: Icon }) => (
+                        <Link key={href} href={href} className="group flex gap-3 rounded-xl p-3 hover:bg-white/10">
+                          <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/10 text-orange-300"><Icon size={18} /></span>
+                          <span><b className="block text-sm">{title}</b><small className="mt-0.5 block leading-5 text-slate-400">{desc}</small></span>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="p-3">
+                    <div className="flex items-center justify-between">
+                      <p className="text-xs font-bold uppercase tracking-[.18em] text-slate-400">Popular capabilities</p>
+                      <Link href="/modules" className="flex items-center gap-1 text-xs font-bold text-orange-600">View all <ArrowRight size={13} /></Link>
+                    </div>
+                    <div className="mt-4 grid grid-cols-2 gap-x-5 gap-y-1">
+                      {popularModules.map(([name, href]) => (
+                        <Link key={href} href={href} className="rounded-xl px-3 py-2.5 text-sm font-semibold text-slate-700 hover:bg-orange-50 hover:text-orange-700">{name}</Link>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </div>
-            </li>
+            </div>
+            <Link href="/modules" className="nav-link">Modules</Link>
+            <Link href="/roles" className="nav-link">Solutions by Role</Link>
+            <Link href="/features" className="nav-link">Features</Link>
+            <Link href="/mobile-app" className="nav-link">Mobile Apps</Link>
+            <Link href="/contact" className="nav-link">Contact</Link>
+          </nav>
 
-            <li>
-              <Link href="/features" className="hover:text-orange-500 transition">
-                Features
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact" className="hover:text-orange-500 transition">
-                Contact
-              </Link>
-            </li>
-            <li className="relative">
-              <button
-                onMouseEnter={() => setPoliciesOpen(true)}
-                onMouseLeave={() => setPoliciesOpen(false)}
-                className="flex items-center gap-1 hover:text-orange-500 transition"
-              >
-                Policies
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </button>
-              <div
-                onMouseEnter={() => setPoliciesOpen(true)}
-                onMouseLeave={() => setPoliciesOpen(false)}
-                className={`absolute left-0 w-48 bg-white text-black rounded-xl shadow-2xl z-50 transition-all duration-300 ease-out ${
-                  isPoliciesOpen
-                    ? "opacity-100 visible mt-2 translate-y-0"
-                    : "opacity-0 invisible -translate-y-3"
-                }`}
-              >
-                <ul className="py-2">
-                  {policiesList.map((policy, idx) => (
-                    <li key={idx}>
-                      <Link
-                        href={policy.link}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100 hover:text-orange-600 transition"
-                      >
-                        {policy.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </li>
-            <li>
-              <button
-                onClick={() => setShowModal(true)}
-                className="bg-orange-500 px-5 py-2 rounded text-white hover:bg-orange-600 transition"
-              >
-                Request Demo
-              </button>
-            </li>
-          </ul>
+          <div className="hidden items-center gap-3 lg:flex">
+            <button onClick={() => setDemoOpen(true)} className="rounded-full bg-slate-950 px-5 py-2.5 text-sm font-bold text-white transition hover:bg-orange-600">Request Demo</button>
+          </div>
+
+          <button onClick={() => setMobileOpen(!mobileOpen)} className="flex h-11 w-11 items-center justify-center rounded-xl border border-slate-200 text-slate-800 lg:hidden" aria-label="Open menu">
+            {mobileOpen ? <X /> : <Menu />}
+          </button>
         </div>
 
-        {/* Mobile Menu */}
-        {isMobileMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 w-full bg-gray-100 z-50 min-h-screen mt-4 px-6 py-8">
-            <button
-              onClick={() => setMobileMenuOpen(false)}
-              className="absolute top-4 right-4 text-gray-600 hover:text-black"
-            >
-              <X size={24} />
-            </button>
-            <ul className="flex flex-col items-center gap-6 text-lg font-medium">
-              <li>
-                <button
-                  onClick={() => setMegaOpen(!isMegaOpen)}
-                  className="flex items-center gap-1 hover:text-orange-500 transition"
-                >
-                  Products
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg>
-                </button>
-                {isMegaOpen && (
-                  <div className="flex flex-col gap-2 mt-2 max-h-60 overflow-y-auto w-full">
-                    {productList.map((item, idx) => (
-                      <Link
-                        key={idx}
-                        href={item.link}
-                        onClick={() => setMobileMenuOpen(false)}
-                        className="block px-4 py-2 text-sm text-orange-600 hover:bg-orange-100 rounded transition"
-                      >
-                        {item.title}
-                      </Link>
-                    ))}
-                  </div>
-                )}
-              </li>
-              <li>
-                <Link
-                  href="#features"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="hover:text-orange-500 transition"
-                >
-                  Features
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="hover:text-orange-500 transition"
-                >
-                  Contact
-                </Link>
-              </li>
-              <li>
-                <button
-                  onClick={() => setPoliciesOpen(!isPoliciesOpen)}
-                  className="flex items-center gap-1 hover:text-orange-500 transition"
-                >
-                  Policies
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M19 9l-7 7-7-7"
-                    />
-                  </svg>
-                </button>
-                {isPoliciesOpen && (
-                  <div className="flex flex-col gap-2 mt-2 w-full">
-                    {policiesList.map((policy, idx) => (
-                      <Link
-                        key={idx}
-                        href={policy.link}
-                        onClick={() => setMobileMenuOpen(false)}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100 hover:text-orange-600 rounded transition"
-                      >
-                        {policy.title}
-                      </Link>
-                    ))}
-                  </div>
-                )}
-              </li>
-              <li>
-                <button
-                  onClick={() => {
-                    setShowModal(true);
-                    setMobileMenuOpen(false);
-                  }}
-                  className="bg-orange-500 px-6 py-3 rounded text-white hover:bg-orange-600 transition"
-                >
-                  Request Demo
-                </button>
-              </li>
-            </ul>
+        {mobileOpen && (
+          <div className="border-t border-slate-100 bg-white px-5 pb-6 pt-4 lg:hidden">
+            <div className="mx-auto max-w-7xl space-y-1">
+              <p className="px-3 pb-2 text-xs font-bold uppercase tracking-wider text-slate-400">Explore EduBridge</p>
+              {[
+                ['Home', '/'],
+                ['All Modules', '/modules'],
+                ['Solutions by Role', '/roles'],
+                ['Examination Management', '/roles/examination'],
+                ['HOD & Department Management', '/roles/hod'],
+                ['School ERP', '/school-erp'],
+                ['College ERP', '/college-erp'],
+                ['AI-Powered ERP', '/modules/ai-assistant'],
+                ['Branded iOS & Android Apps', '/modules/branded-mobile-apps'],
+                ['Features', '/features'],
+                ['Contact', '/contact'],
+              ].map(([x, h]) => (
+                <Link key={h} href={h} onClick={() => setMobileOpen(false)} className="block rounded-xl px-3 py-3 font-semibold text-slate-800 hover:bg-slate-50">{x}</Link>
+              ))}
+              <button onClick={() => { setMobileOpen(false); setDemoOpen(true); }} className="mt-3 w-full rounded-xl bg-orange-500 px-5 py-3 font-bold text-white">Request Demo</button>
+            </div>
           </div>
         )}
-      </nav>
-
-      {/* Request Demo Modal */}
-      {showModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center">
-          <div className="bg-white max-w-lg w-full p-6 rounded-xl shadow-xl relative">
-            <button
-              className="absolute top-4 right-4 text-gray-600 hover:text-black"
-              onClick={() => setShowModal(false)}
-            >
-              <X size={24} />
-            </button>
-            <h2 className="text-2xl font-bold text-center mb-4 text-orange-600">
-              Request a Free Demo
-            </h2>
-            <RequestDemoForm onSuccess={() => setShowModal(false)} />
-          </div>
-        </div>
-      )}
+      </header>
+      <DemoModal open={demoOpen} onClose={() => setDemoOpen(false)} />
     </>
   );
 }

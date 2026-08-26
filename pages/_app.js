@@ -1,42 +1,46 @@
-// pages/_app.jsx
 import Head from 'next/head';
+import Script from 'next/script';
 import '../styles/globals.css';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import Link from "next/link";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Link from 'next/link';
+import RouteLoadingIndicator from '../components/RouteLoadingIndicator';
 
 export default function App({ Component, pageProps }) {
+  const isProduction = process.env.NODE_ENV === 'production';
+
   return (
     <>
+      <RouteLoadingIndicator />
       <Head>
-        <title>EduBridge ERP – CBSE Result Analyzer & Smart School Management</title>
-        <meta name="description" content="EduBridge offers a powerful CBSE Result Analyzer with graphs, celebration posters, PPT reports, subject filters, and a full-featured school ERP system." />
-        <meta name="keywords" content="CBSE Result Analyzer, CBSE Class 10 12 Reports, CBSE Analyzer, Result Poster Generator, PPT Generator, CBSE Graph Analysis, EduBridge Analyzer, School ERP, Smart School Management Software, Fee Management, Exam System, Online Result Tool, CBSE Dashboard" />
-        <meta name="author" content="Hardevinder Singh" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="robots" content="index, follow" />
-
-        {/* Open Graph / Facebook */}
-        <meta property="og:title" content="EduBridge – CBSE Result Analyzer & School ERP" />
-        <meta property="og:description" content="Generate ready-to-present CBSE results with graphs, toppers posters, and PPT reports. Also manage your school digitally with EduBridge ERP." />
-        <meta property="og:image" content="https://edubridgeerp.in/og-image.png" />
-        <meta property="og:url" content="https://edubridgeerp.in/" />
-        <meta property="og:type" content="website" />
-
-        {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="CBSE Analyzer + School ERP – EduBridge" />
-        <meta name="twitter:description" content="Analyze CBSE results & manage school with EduBridge ERP. Features include celebration posters, subject filters & exportable PPT reports." />
-        <meta name="twitter:image" content="https://edubridgeerp.in/og-image.png" />
-
-        {/* Favicon */}
+        <meta name="robots" content="index, follow, max-image-preview:large" />
+        <meta name="theme-color" content="#0f172a" />
         <link rel="icon" href="/favicon.ico?v=2" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      </Head>
 
-        {/* Tawk.to Live Chat Script */}
-        <script
+      <Component {...pageProps} />
+
+      <Link
+        href="/cbse-analyzer"
+        className="fixed bottom-5 left-4 z-40 hidden rounded-full border border-orange-200 bg-white/95 px-4 py-2 text-xs font-bold text-orange-700 shadow-lg backdrop-blur transition hover:bg-orange-50 sm:block"
+      >
+        CBSE Result Analyzer
+      </Link>
+
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar
+        closeOnClick
+        pauseOnHover
+      />
+
+      {isProduction && (
+        <Script
+          id="tawk-live-chat"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
               var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
@@ -52,29 +56,7 @@ export default function App({ Component, pageProps }) {
             `,
           }}
         />
-      </Head>
-
-      <Component {...pageProps} />
-
-      {/* Floating Button for CBSE Analyzer */}
-      <Link
-        href="/cbse-analyzer"
-        className="fixed left-4 bottom-6 z-50 bg-orange-500 text-white px-4 py-2 text-sm font-semibold rounded-full shadow-lg hover:bg-orange-600 transition animate-bounce"
-      >
-        CBSE Result Analyzer
-      </Link>
-
-      <ToastContainer
-        position="top-right"
-        autoClose={3000}
-        hideProgressBar
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-      />
+      )}
     </>
   );
 }
