@@ -74,28 +74,10 @@ export default function Home() {
   const orgSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    '@id': 'https://www.edubridgeerp.in/#organization',
     name: 'EduBridge ERP',
     url: 'https://www.edubridgeerp.in/',
-    logo: 'https://www.edubridgeerp.in/logo.png',
     email: 'info@edubridgeerp.in',
     telephone: '+91 94178 73297',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: 'NEXT57 Coworking, Plot F88, Industrial Area Phase 7, Sector 73',
-      addressLocality: 'SAS Nagar',
-      addressRegion: 'Punjab',
-      postalCode: '160055',
-      addressCountry: 'IN',
-    },
-    contactPoint: {
-      '@type': 'ContactPoint',
-      contactType: 'sales and support',
-      telephone: '+91 94178 73297',
-      email: 'info@edubridgeerp.in',
-      areaServed: 'IN',
-      availableLanguage: ['English', 'Hindi', 'Punjabi'],
-    },
   };
 
   const softwareSchema = {
@@ -104,25 +86,14 @@ export default function Home() {
     name: 'EduBridge ERP',
     applicationCategory: 'EducationalApplication',
     operatingSystem: 'Web, iOS, Android',
-    url: 'https://www.edubridgeerp.in/',
-    description: 'AI-powered school and education ERP for schools, colleges and multi-campus institutions with academics, examinations, admissions, finance, HR, transport and institution-branded mobile apps.',
-    provider: { '@id': 'https://www.edubridgeerp.in/#organization' },
-    featureList: [
-      'AI-assisted academic planning and lesson plans',
-      'AI-assisted assessment and question generation',
-      'AI-assisted evaluation with educator review',
-      'Examination and result management',
-      'Fees, admissions, HR and payroll',
-      'Transport and live bus operations',
-      'Institution-branded iOS and Android apps',
-    ],
+    description: 'AI-powered education ERP for schools, colleges and multi-campus institutions with academics, examinations, admissions, finance, HR, transport and institution-branded mobile apps.',
   };
 
   return (
     <div className="bg-white text-slate-800">
       <SEOHead
-        title="AI-Powered School ERP & Education Management Software | EduBridge ERP"
-        description="EduBridge is an AI-powered school ERP and education management platform for academics, exams, admissions, fees, HR, transport, leadership and branded iOS & Android apps."
+        title="EduBridge ERP | AI-Powered ERP for Schools & Colleges"
+        description="AI-powered education ERP for schools and colleges with academics, examinations, admissions, fees, HR, transport, leadership dashboards and institution-branded iOS & Android apps."
         path="/"
         keywords={[
           'education ERP India',
@@ -159,11 +130,11 @@ export default function Home() {
               </div>
 
               <h1 className="mt-7 text-4xl font-black leading-[1.02] tracking-[-.045em] text-slate-950 sm:text-5xl md:text-6xl lg:text-[4.5rem]">
-                AI-powered ERP for <span className="gradient-text">schools, colleges & institutions.</span>
+                One intelligent platform to run your <span className="gradient-text">entire institution.</span>
               </h1>
 
               <p className="mt-6 max-w-xl text-base leading-8 text-slate-600 md:text-lg">
-                EduBridge is an AI-powered school and education ERP that connects academics, examinations, admissions, finance, HR, transport and campus operations across web and institution-branded iOS & Android apps.
+                EduBridge connects academics, examinations, admissions, finance, HR, transport and campus operations across web and institution-branded iOS & Android apps — built for schools, colleges and multi-campus institutions.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
@@ -291,14 +262,9 @@ export default function Home() {
               <p className="mt-4 max-w-xl leading-7 text-slate-300">
                 Use AI to assist lesson planning, question and assessment creation, evaluation support, academic improvement and management insight — while keeping educators and administrators in control.
               </p>
-              <div className="mt-7 flex flex-wrap items-center gap-x-5 gap-y-3">
-                <Link href="/ai-powered-school-erp" className="inline-flex items-center gap-2 font-black text-orange-400">
-                  Explore AI-Powered School ERP <ArrowRight size={17} />
-                </Link>
-                <Link href="/modules/ai-assistant" className="text-sm font-bold text-slate-300 transition hover:text-white">
-                  View AI module
-                </Link>
-              </div>
+              <Link href="/modules/ai-assistant" className="mt-7 inline-flex items-center gap-2 font-black text-orange-400">
+                Explore AI capabilities <ArrowRight size={17} />
+              </Link>
             </div>
 
             <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white p-7 text-slate-900 md:p-10">

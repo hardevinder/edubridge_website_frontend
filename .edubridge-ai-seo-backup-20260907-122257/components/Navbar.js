@@ -6,7 +6,7 @@ import DemoModal from './DemoModal';
 const solutions = [
   { title: 'School ERP', href: '/school-erp', desc: 'Connected management for K-12 institutions', icon: Building2 },
   { title: 'College ERP', href: '/college-erp', desc: 'Academic, administrative and campus workflows', icon: GraduationCap },
-  { title: 'AI-Powered School ERP', href: '/ai-powered-school-erp', desc: 'AI-assisted school workflows connected to the ERP', icon: Sparkles },
+  { title: 'AI-Powered ERP', href: '/modules/ai-assistant', desc: 'AI-assisted planning, assessment and insight', icon: Sparkles },
   { title: 'Branded Mobile Apps', href: '/modules/branded-mobile-apps', desc: 'Institution-branded iOS & Android apps', icon: Smartphone },
 ];
 
@@ -98,7 +98,7 @@ export default function Navbar() {
                 ['HOD & Department Management', '/roles/hod'],
                 ['School ERP', '/school-erp'],
                 ['College ERP', '/college-erp'],
-                ['AI-Powered School ERP', '/ai-powered-school-erp'],
+                ['AI-Powered ERP', '/modules/ai-assistant'],
                 ['Branded iOS & Android Apps', '/modules/branded-mobile-apps'],
                 ['Features', '/features'],
                 ['Contact', '/contact'],

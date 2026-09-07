@@ -9,7 +9,7 @@ const groups = [
       ['Solutions by Role', '/roles'],
       ['School ERP', '/school-erp'],
       ['College ERP', '/college-erp'],
-      ['AI-Powered School ERP', '/ai-powered-school-erp'],
+      ['AI-Powered ERP', '/modules/ai-assistant'],
       ['Branded Mobile Apps', '/modules/branded-mobile-apps'],
     ],
   },

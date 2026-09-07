@@ -1,11 +1,11 @@
 export const solutions = {
   'school-erp': {
-    title:'School ERP Software for Modern K-12 Institutions', kicker:'AI-Powered School ERP',
-    description:'Connect academics, examinations, fees, admissions, HR, transport, student services and communication in one school ERP, with practical AI assistance built into academic and management workflows.',
-    image:'/images/screenshots/Admin.png', imageAlt:'EduBridge AI-powered School ERP administration dashboard',
-    modules:['student-information-system','attendance-management','timetable','exam-management','fee-management','transport-management','student-parent-app','teacher-performance','ai-assistant'],
-    bullets:['Complete K-12 academic and campus operations','AI-assisted planning, assessment, evaluation and management insight','Role-based access for management, staff, students and parents','Institution-branded iOS & Android apps connected to the same ERP'],
-    seo:'EduBridge is AI-powered school ERP software for K-12 institutions, connecting academics, exams, fees, admissions, HR, transport, communication, AI workflows and branded mobile apps.'
+    title:'School ERP Software', kicker:'AI-Powered School Management',
+    description:'Run academics, examinations, fees, HR, transport, student services, communication and campus operations from one connected school ERP.',
+    image:'/images/screenshots/Admin.png', imageAlt:'EduBridge School ERP administration dashboard',
+    modules:['student-information-system','attendance-management','timetable','exam-management','fee-management','transport-management','student-parent-app','teacher-performance'],
+    bullets:['Complete K-12 institution operations','Role-based access for management, staff, students and parents','AI-assisted academic workflows','Institution-branded iOS & Android apps'],
+    seo:'AI-powered school ERP software for academics, fees, exams, HR, admissions, transport, communication and branded mobile apps.'
   },
   'college-erp': {
     title:'College ERP Software', kicker:'Modern Campus Management',
