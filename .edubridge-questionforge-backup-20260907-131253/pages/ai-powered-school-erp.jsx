@@ -18,7 +18,6 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import FinalCTA from '../components/FinalCTA';
 import SEOHead from '../components/SEOHead';
-import AIVideoShowcase from '../components/AIVideoShowcase';
 
 const aiWorkflows = [
   {
@@ -37,7 +36,7 @@ const aiWorkflows = [
     icon: ClipboardCheck,
     title: 'Assessments & Questions',
     text: 'Generate assessment and question drafts faster, then let educators review difficulty, relevance and the final paper before use.',
-    href: '/questionforge',
+    href: '/modules/smart-assessments',
   },
   {
     icon: CheckCircle2,
@@ -145,15 +144,12 @@ export default function AIPoweredSchoolERP() {
   return (
     <div className="bg-white text-slate-800">
       <SEOHead
-        title="AI-Powered School ERP & LMS in Punjab, India | EduBridge ERP"
-        description="Explore EduBridge AI-powered School ERP & LMS in Punjab and India for academics, assessments, exams, fees, HR, transport, management insight and branded apps."
+        title="AI-Powered School ERP Software in India | EduBridge ERP"
+        description="Explore EduBridge AI-powered school ERP software for academics, assessments, exams, fees, HR, transport, management insight and branded iOS & Android apps."
         path="/ai-powered-school-erp"
         keywords={[
           'AI powered school ERP',
           'AI school ERP software India',
-          'AI powered school ERP Punjab',
-          'best school ERP Punjab',
-          'school ERP LMS India',
           'school ERP software India',
           'AI school management software',
           'education ERP software',
@@ -180,7 +176,7 @@ export default function AIPoweredSchoolERP() {
               <div>
                 <span className="brand-kicker brand-kicker-dark"><Sparkles size={14} className="mr-2" /> AI-Powered School Management</span>
                 <h1 className="mt-5 max-w-4xl text-4xl font-black tracking-tight md:text-6xl">
-                  AI-Powered School ERP & LMS for Schools in Punjab & India
+                  AI-Powered School ERP Software Built for Real School Workflows
                 </h1>
                 <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
                   EduBridge combines a connected school ERP with practical AI assistance for academic planning, assessments, evaluation and management insight — without separating AI from the institution&apos;s day-to-day workflows.
@@ -323,8 +319,6 @@ export default function AIPoweredSchoolERP() {
             </div>
           </div>
         </section>
-
-        <AIVideoShowcase />
 
         <FinalCTA />
       </main>

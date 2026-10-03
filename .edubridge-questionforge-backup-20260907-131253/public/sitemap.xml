@@ -736,57 +736,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
-  <url>
-    <loc>https://www.edubridgeerp.in/questionforge</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
-  </url>
   <url><loc>https://cbse10.edubridgeerp.in/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://cbse12.edubridgeerp.in/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-
-  <url>
-    <loc>https://www.edubridgeerp.in/best-ai-powered-school-erp-india</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://www.edubridgeerp.in/best-school-erp-punjab</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://www.edubridgeerp.in/cbse-school-erp-lms</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.93</priority>
-  </url>
-  <url>
-    <loc>https://www.edubridgeerp.in/state-board-school-erp-lms</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.91</priority>
-  </url>
-  <url>
-    <loc>https://www.edubridgeerp.in/school-erp-lms-india</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.94</priority>
-  </url>
-  <url>
-    <loc>https://www.edubridgeerp.in/best-school-college-erp-india</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.92</priority>
-  </url>
-  <url>
-    <loc>https://www.edubridgeerp.in/ai-assessment-evaluation-school</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.91</priority>
-  </url>
-  <url>
-    <loc>https://www.edubridgeerp.in/exam-seating-plan-software</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.edubridgeerp.in/ai-entrance-exam-software</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
-  </url>
 </urlset>

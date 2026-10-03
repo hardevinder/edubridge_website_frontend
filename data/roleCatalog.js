@@ -5,7 +5,7 @@ export const roleCategories = [
   { id: 'community', label: 'Students, Parents & Staff' },
 ];
 
-const r = (slug, title, category, eyebrow, summary, features, outcomes, modules, mobile, spotlight) => ({
+const r = (slug, title, category, eyebrow, summary, features, outcomes, modules, mobile, spotlight = false) => ({
   slug, title, category, eyebrow, summary, features, outcomes, modules, mobile, spotlight,
 });
 
