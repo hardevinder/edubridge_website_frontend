@@ -165,39 +165,6 @@ export default function SearchLandingPage({ data }) {
           </div>
         </section>
 
-        {data.transportSections?.length > 0 && (
-          <section className="py-16 md:py-24">
-            <div className="mx-auto max-w-7xl px-5 md:px-8">
-              <div className="max-w-4xl">
-                <span className="brand-kicker">How the transport workflow works</span>
-                <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 md:text-5xl">From route planning to the final drop, every step stays connected.</h2>
-                <p className="mt-5 max-w-3xl leading-7 text-slate-600">EduBridge is designed to give transport administrators, drivers, students and parents the right information at the right stage of the journey.</p>
-              </div>
-              <div className="mt-10 grid gap-6 lg:grid-cols-2">
-                {data.transportSections.map((section, index) => (
-                  <article key={section.title} className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
-                    <div className="flex items-start gap-4">
-                      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-orange-500 text-sm font-black text-white">{String(index + 1).padStart(2, '0')}</span>
-                      <div>
-                        <h3 className="text-xl font-black leading-7 text-slate-950">{section.title}</h3>
-                        <p className="mt-3 leading-7 text-slate-600">{section.text}</p>
-                      </div>
-                    </div>
-                    <div className="mt-6 grid gap-3 sm:grid-cols-2">
-                      {section.bullets.map((item) => (
-                        <div key={item} className="flex gap-2 rounded-xl bg-slate-50 px-4 py-3 text-sm font-bold leading-5 text-slate-700">
-                          <CheckCircle2 className="mt-0.5 shrink-0 text-orange-500" size={16} />
-                          <span>{item}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </article>
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
-
         {data.videos?.length > 0 && (
           <section className="py-16 md:py-24">
             <div className="mx-auto max-w-7xl px-5 md:px-8">
