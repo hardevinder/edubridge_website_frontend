@@ -35,7 +35,6 @@ const groups = [
     title: 'Company',
     links: [
       ['Features', '/features'],
-      ['Case Studies', '/case-studies'],
       ['Contact', '/contact'],
       ['Privacy Policy', '/privacy-policy'],
       ['Terms & Conditions', '/terms-and-conditions'],

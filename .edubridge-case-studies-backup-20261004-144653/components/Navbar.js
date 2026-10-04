@@ -74,7 +74,6 @@ export default function Navbar() {
             <Link href="/modules" className="nav-link">Modules</Link>
             <Link href="/roles" className="nav-link">Solutions by Role</Link>
             <Link href="/features" className="nav-link">Features</Link>
-            <Link href="/case-studies" className="nav-link">Case Studies</Link>
             <Link href="/mobile-app" className="nav-link">Mobile Apps</Link>
             <Link href="/contact" className="nav-link">Contact</Link>
           </nav>
@@ -104,7 +103,6 @@ export default function Navbar() {
                 ['QuestionForge AI', '/questionforge'],
                 ['Branded iOS & Android Apps', '/modules/branded-mobile-apps'],
                 ['Features', '/features'],
-                ['Case Studies', '/case-studies'],
                 ['Contact', '/contact'],
               ].map(([x, h]) => (
                 <Link key={h} href={h} onClick={() => setMobileOpen(false)} className="block rounded-xl px-3 py-3 font-semibold text-slate-800 hover:bg-slate-50">{x}</Link>
