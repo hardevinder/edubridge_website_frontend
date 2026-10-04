@@ -9,12 +9,6 @@ const base = 'https://www.edubridgeerp.in';
 
 export default function CaseStudyPage({ data }) {
   const pageUrl = `${base}${data.path}`;
-  const seoKeywords = Array.isArray(data.keywords)
-    ? data.keywords
-    : String(data.keywords || '')
-        .split(',')
-        .map((keyword) => keyword.trim())
-        .filter(Boolean);
 
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -50,7 +44,7 @@ export default function CaseStudyPage({ data }) {
 
   return (
     <div className="bg-white text-slate-800">
-      <SEOHead title={data.title} description={data.description} path={data.path} keywords={seoKeywords} />
+      <SEOHead title={data.title} description={data.description} path={data.path} keywords={data.keywords} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
