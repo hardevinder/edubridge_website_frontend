@@ -1,16 +1,22 @@
-EDUBRIDGE INTELLIGENT TRANSPORT SEO — FRESH FULL PATCH
-Base: uploaded edubridge_website_frontend-main (4).zip; includes previous v6 improvements plus Intelligent wording. No earlier patch needed.
+EduBridge College ERP + LMS SEO Patch — 8 October 2026
 
-HOW TO APPLY (Ubuntu/Linux):
-1. Copy this ZIP to your computer / home folder.
-2. In terminal:
+This is a MERGE PATCH, not replacement files. It preserves previous Transport SEO updates.
+
+1. Download ZIP into ~/Downloads and extract ZIP directly in ~/edubridge-website:
    cd ~/edubridge-website
-   unzip -o ~/EduBridge_Intelligent_Transport_SEO_Full_Patch.zip -d .
+   unzip -o ~/Downloads/EduBridge_College_ERP_LMS_SEO_Full_Patch.zip -d .
+
+2. Apply changes:
+   python3 apply_college_seo.py
+
+3. Verify:
    npm run build
-   git diff -- data/seoLandingPages.js components/SearchLandingPage.jsx
-3. Review changes, then commit, push and deploy through your usual process.
+   git diff --stat
+   git status
 
-IMPORTANT: This patch updates only 2 existing source files. Other pages, URLs, sitemap and routes are kept intact. Canonical URL remains /school-college-transport-management-software.
-After deployment inspect the page in Google Search Console and request indexing. Rankings cannot be guaranteed.
+4. After successful build, review pages and commit:
+   git add data/seoLandingPages.js components/SearchLandingPage.jsx public/sitemap.xml pages/college-erp-lms-software.jsx pages/group-of-colleges-management-software.jsx pages/college-lecture-attendance-software.jsx
+   git commit -m "Expand college ERP LMS and multi campus SEO"
+   git push
 
-Do not claim AI-based route optimization unless that feature has actually been implemented; Intelligent refers to connected workflows and automation.
+Existing /college-management-software URL is preserved; /college-erp is untouched. The script backs up original edited files into .college-seo-backup-* before changing them. Re-running updates safely. Do not publish unverified feature claims; check demonstration readiness first. Google rankings are not guaranteed.

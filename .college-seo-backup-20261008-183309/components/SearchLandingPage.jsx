@@ -166,18 +166,6 @@ export default function SearchLandingPage({ data }) {
           </div>
         </section>
 
-        {data.collegeSections?.length > 0 && (
-          <section className="py-16 md:py-24" aria-label="College ERP and LMS workflows">
-            <div className="mx-auto max-w-7xl px-5 md:px-8">
-              <div className="max-w-3xl"><span className="brand-kicker">College workflows in detail</span><h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 md:text-5xl">Built around how colleges teach, manage and grow.</h2></div>
-              <div className="mt-10 grid gap-6 md:grid-cols-2">
-                {data.collegeSections.map((section) => <article key={section.title} className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm"><h3 className="text-xl font-black text-slate-950">{section.title}</h3><p className="mt-3 leading-7 text-slate-600">{section.text}</p><ul className="mt-5 space-y-3">{section.bullets.map((item) => <li key={item} className="flex gap-2 font-semibold text-slate-700"><CheckCircle2 size={17} className="mt-1 shrink-0 text-orange-500" />{item}</li>)}</ul></article>)}
-              </div>
-              <p className="mt-8 text-sm leading-7 text-slate-600">Looking for a walkthrough tailored to your college, university department or education group? <Link href="/contact" className="font-bold text-orange-700 underline">Request a college ERP + LMS demonstration</Link>.</p>
-            </div>
-          </section>
-        )}
-
         {data.transportSections?.length > 0 && (
           <section className="py-16 md:py-24">
             <div className="mx-auto max-w-7xl px-5 md:px-8">
@@ -239,7 +227,7 @@ export default function SearchLandingPage({ data }) {
         <section className="bg-slate-950 py-16 text-white md:py-24">
           <div className="mx-auto max-w-7xl px-5 md:px-8">
             <div className="grid gap-10 lg:grid-cols-[.8fr_1.2fr]">
-              <div><span className="brand-kicker brand-kicker-dark">Related solutions</span><h2 className="mt-4 text-3xl font-black tracking-tight md:text-5xl">Continue your ERP research.</h2><p className="mt-5 leading-7 text-slate-300">Explore related modules and solutions for schools, colleges, institution groups and AI-assisted workflows.</p></div>
+              <div><span className="brand-kicker brand-kicker-dark">Related solutions</span><h2 className="mt-4 text-3xl font-black tracking-tight md:text-5xl">Continue your ERP research.</h2><p className="mt-5 leading-7 text-slate-300">Explore focused pages for Indian schools, Punjab institutions, boards and AI-enabled workflows.</p></div>
               <div className="grid gap-3 sm:grid-cols-2">
                 {linkedPages.map((item) => (
                   <Link key={item.path} href={item.path} className="group rounded-2xl border border-white/10 bg-white/[.055] p-5 hover:bg-white/[.08]">
