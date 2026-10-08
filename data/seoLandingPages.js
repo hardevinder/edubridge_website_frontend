@@ -140,15 +140,22 @@ export const seoLandingPages = {
   },
   'school-college-transport-management-software': {
     path: '/school-college-transport-management-software',
-    eyebrow: 'School & College Transport Management',
-    title: 'School & College Transport Management Software with Live Tracking | EduBridge',
-    h1: 'School & College Transport Management Software with Smart Routes, Live Tracking and Driver Apps',
+    eyebrow: 'Intelligent School & College Transport Management',
+    title: 'Intelligent School & College Transport Management Software | EduBridge',
+    h1: 'Intelligent School & College Transport Management Software',
     description:
-      'EduBridge transport management software helps schools and colleges plan efficient routes, track buses live, guide drivers, manage student pickup/drop and send instant arrival or delay notifications.',
+      'Intelligent school and college transport management software with GPS tracking, Google Maps numbered stops, pickup and drop attendance, bus alerts and transport fee management.',
     intro:
-      'EduBridge brings route planning, vehicles, stops, student pickup and drop assignments, driver workflows, live bus visibility and communication into one connected transport system. Transport teams can plan efficient routes, drivers can see exactly which students must be picked up or dropped at each stop, and institutions can quickly notify students and parents when a bus is approaching, delayed or changed.',
+      'EduBridge is an intelligent transport management system for schools and colleges combining GPS bus tracking, Google Maps routes with numbered pickup and drop stops, transport administrator and driver workflows, student and parent apps, separate pickup/drop attendance, arrival and late-bus alerts, and online or offline transport fees. Transport teams can find student-wise pending fees and manage months when a student temporarily skips bus service. See the full route, identify assigned passengers and coordinate each journey from one connected platform.',
     audience: 'Schools, colleges and multi-campus institutions that need safer, clearer and more efficient daily transport operations with live information for transport teams, drivers, students and parents.',
     highlights: [
+      'GPS-based live school bus tracking and route progress visibility',
+      'Google Maps complete route view with numbered pickup and drop stops',
+      'Separate student pickup and drop attendance for each journey',
+      'School bus approaching-stop reminders and quick late-arrival alerts',
+      'Online and offline transport fee collection with pending-dues reporting',
+      'Month-wise transport skip and fee adjustment workflows',
+      'Transport admin, driver and student/parent app experiences',
       'Smart route planning to help identify shorter and more efficient bus routes',
       'Live bus tracking for authorized school or college users and transport stakeholders',
       'Driver app with assigned bus, route, stops and student pickup/drop information',
@@ -163,6 +170,26 @@ export const seoLandingPages = {
       'Connected parent/student communication without maintaining a separate transport communication tool',
     ],
     transportSections: [
+      {
+        title: 'Intelligent GPS school bus tracking and Google Maps route visualization',
+        text: 'View the school or college bus route on Google Maps with numbered pickup and drop stops. Transport administrators and drivers can follow the stop sequence and associated student pickup/drop assignments alongside supported GPS location information.',
+        bullets: ['GPS bus tracking', 'Google Maps route view', 'Numbered stops in sequence', 'Student-wise pickup and drop points'],
+      },
+      {
+        title: 'Separate pickup and drop attendance and timely passenger alerts',
+        text: 'Record pickup and drop transport attendance, view bus-wise student lists and send practical bus-arriving or late-arrival alerts to affected students and parents. Authorized transport staff can manage present, absent or leave statuses.',
+        bullets: ['Pickup attendance', 'Drop attendance', 'Approaching-bus notifications', 'Late arrival reminders'],
+      },
+      {
+        title: 'Flexible school transport fees, pending dues and skip-month handling',
+        text: 'Collect student transport fees online or offline, see student-wise pending amounts and handle cases where a student skips transport for a particular month. This keeps transport operations and financial records connected to the institutional ERP.',
+        bullets: ['Online fee collection', 'Offline fee recording', 'Student-wise pending transport fees', 'Month-wise service skip management'],
+      },
+      {
+        title: 'Dedicated transport administrator, driver and parent or student apps',
+        text: 'Transport admins manage vehicles, routes, stops, student assignments and fees. Drivers access bus-wise stop sequences and manifests while students and parents receive relevant journey information and transport reminders.',
+        bullets: ['Transport admin dashboard', 'Driver app', 'Parent and student app', 'Role-based visibility'],
+      },
       {
         title: 'Plan efficient routes instead of managing routes manually',
         text: 'Transport administrators can organize vehicles, routes and stops around actual student pickup and drop requirements. Route information can be used to identify shorter, clearer and more practical paths while keeping stop order, distance and operational requirements visible to the institution.',
@@ -195,6 +222,12 @@ export const seoLandingPages = {
       },
     ],
     keywords: [
+      'intelligent school transport management software',
+      'intelligent college transport management software',
+      'best transport management software for schools and colleges',
+      'school transport fee management software',
+      'school bus GPS tracking and attendance',
+      'google maps numbered bus stops',
       'school transport management software',
       'college transport management software',
       'school bus tracking software',
@@ -209,6 +242,12 @@ export const seoLandingPages = {
       'transport management system for schools and colleges',
     ],
     faqs: [
+      { q: 'What is intelligent school and college transport management software?', a: 'It connects GPS school bus tracking, Google Maps route and numbered stops, pickup/drop attendance, arrival notifications, driver and parent apps, and flexible fee collection and dues management.' },
+      { q: 'How can I choose the best transport management software for schools and colleges?', a: 'Look for accurate routes and stops, authorized GPS access, separate pickup and drop attendance, parent arrival alerts, driver workflows, online and offline collections, pending-fee visibility and practical support for month-wise exceptions.' },
+      { q: 'Can EduBridge show the entire bus route with numbered stops on Google Maps?', a: 'Yes. EduBridge transport workflows support Google Maps route visualization with numbered pickup and drop stops and student assignments.' },
+      { q: 'Can school transport fees be collected online and offline?', a: 'Yes. The transport workflows include online and offline transport fee handling with student-wise pending dues.' },
+      { q: 'What if a student skips transport for one month?', a: 'Transport administrators can manage month-wise skip cases and the corresponding transport service or fee adjustment without permanently removing the student.' },
+      { q: 'Are pickup and drop transport attendance recorded separately?', a: 'Yes. Pickup and drop attendance are supported as distinct transport records, along with present, absent and leave statuses.' },
       { q: 'What is school and college transport management software?', a: 'It is a system used to manage vehicles, routes, stops, drivers, student pickup/drop assignments, tracking, transport attendance and communication. EduBridge connects these transport workflows directly with the institution’s ERP records.' },
       { q: 'Can EduBridge help find shorter or more efficient routes?', a: 'Yes. Route planning can use stop and pickup/drop information to help transport teams organize shorter and more practical route structures instead of relying only on manually maintained route lists.' },
       { q: 'Does EduBridge support live bus tracking?', a: 'Yes. EduBridge transport workflows can provide live vehicle visibility for authorized users while keeping the vehicle connected with its assigned route, stops, driver and student transport data.' },

@@ -28,6 +28,7 @@ export default function SearchLandingPage({ data }) {
   const faqs = data.faqs || [];
   const linkedPages = Object.values(seoLandingPages)
     .filter((item) => item.path !== data.path)
+    .sort((a, b) => Number(b.path.includes('transport')) - Number(a.path.includes('transport')))
     .slice(0, 5);
 
   const webPageSchema = {
@@ -45,11 +46,11 @@ export default function SearchLandingPage({ data }) {
   const softwareSchema = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
-    '@id': `${base}/#software`,
-    name: 'EduBridge ERP + LMS',
+    '@id': data.transportSections ? `${pageUrl}#software` : `${base}/#software`,
+    name: data.transportSections ? 'EduBridge Intelligent School & College Transport Management Software' : 'EduBridge ERP + LMS',
     url: `${base}/`,
     applicationCategory: 'EducationalApplication',
-    applicationSubCategory: 'School and College ERP + LMS',
+    applicationSubCategory: data.transportSections ? 'School Bus and College Transport Management' : 'School and College ERP + LMS',
     operatingSystem: 'Web, Android, iOS',
     description: data.description,
     provider: {
@@ -112,7 +113,7 @@ export default function SearchLandingPage({ data }) {
                 <p className="mt-6 max-w-3xl text-base leading-8 text-slate-300 md:text-lg">{data.intro}</p>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link href="/contact" className="inline-flex items-center gap-2 rounded-xl bg-orange-500 px-6 py-3.5 font-black text-white hover:bg-orange-600">Request a Live Demo <ArrowRight size={18} /></Link>
-                  <Link href="/ai-powered-school-erp" className="inline-flex items-center gap-2 rounded-xl border border-white/15 px-6 py-3.5 font-black text-white hover:bg-white/5">Explore AI Workflows</Link>
+                  <Link href={data.transportSections ? "/school-erp" : "/ai-powered-school-erp"} className="inline-flex items-center gap-2 rounded-xl border border-white/15 px-6 py-3.5 font-black text-white hover:bg-white/5">{data.transportSections ? "Explore School ERP" : "Explore AI Workflows"}</Link>
                 </div>
               </div>
               <div className="rounded-[2rem] border border-white/10 bg-white/[.055] p-7 shadow-2xl backdrop-blur md:p-8">
@@ -152,7 +153,7 @@ export default function SearchLandingPage({ data }) {
           <div className="mx-auto max-w-7xl px-5 md:px-8">
             <div className="max-w-3xl">
               <span className="brand-kicker">What EduBridge covers</span>
-              <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 md:text-5xl">A connected education platform, not another isolated tool.</h2>
+              <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 md:text-5xl">{data.transportSections ? "GPS tracking, routes, bus attendance and transport fees in one system." : "A connected education platform, not another isolated tool."}</h2>
             </div>
             <div className="mt-10 grid gap-4 md:grid-cols-2">
               {data.highlights.map((item, index) => (
@@ -170,7 +171,7 @@ export default function SearchLandingPage({ data }) {
             <div className="mx-auto max-w-7xl px-5 md:px-8">
               <div className="max-w-4xl">
                 <span className="brand-kicker">How the transport workflow works</span>
-                <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 md:text-5xl">From route planning to the final drop, every step stays connected.</h2>
+                <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 md:text-5xl">From Google Maps routes and bus attendance to fee collection, every step stays connected.</h2>
                 <p className="mt-5 max-w-3xl leading-7 text-slate-600">EduBridge is designed to give transport administrators, drivers, students and parents the right information at the right stage of the journey.</p>
               </div>
               <div className="mt-10 grid gap-6 lg:grid-cols-2">
