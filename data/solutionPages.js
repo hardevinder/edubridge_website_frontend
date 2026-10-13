@@ -40,12 +40,12 @@ export const solutions = {
     seo:'Library management software for schools and colleges with catalogue, circulation, borrower history and student/teacher access.'
   },
   'admission-crm': {
-    title:'Admission CRM & Enquiry Management', kicker:'From Enquiry to Enrollment',
-    description:'Capture leads, manage follow-ups and registrations, run entrance assessments and convert successful applicants into student records without duplicate data entry.',
-    image:'/images/screenshots/admission-crm.png', imageAlt:'EduBridge Admission CRM',
+    title:'School Admission CRM & AI Entrance Tests', kicker:'Enquiry to Admission · One Connected Workflow',
+    description:'Manage admission enquiries and complete follow-up histories, generate entrance tests with AI, let applicants take tests online, view automatically calculated results and convert selected applicants into student ERP records.',
+    image:'/images/screenshots/admission-crm.png', imageAlt:'EduBridge school admission CRM and enquiry management dashboard',
     modules:['admission-crm','entrance-assessment','student-information-system','visitor-management','gate-pass'],
-    bullets:['Enquiry and follow-up pipeline','Registration and conversion workflow','AI-assisted entrance assessment','Connected front-office operations'],
-    seo:'Admission CRM for schools and colleges with enquiries, follow-ups, registrations, entrance assessment and student conversion.'
+    bullets:['Complete enquiry records, status tracking and follow-up history','AI-assisted entrance test generation and online attempts','Automatic entrance test results and admission decisions','Enquiry-to-admission conversion with connected student records'],
+    seo:'School Admission CRM software with complete enquiry follow-ups, AI-generated entrance tests, online assessment, automatic results and admission conversion.'
   },
   'mobile-app': {
     title:'Institution-Branded iOS & Android Apps', kicker:'Your Institution in Every Pocket',

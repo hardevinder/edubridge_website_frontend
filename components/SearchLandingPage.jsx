@@ -166,6 +166,12 @@ export default function SearchLandingPage({ data }) {
           </div>
         </section>
 
+        {data.admissionSections?.length > 0 && (
+          <section className="py-16 md:py-24" aria-label="School admission CRM workflow">
+            <div className="mx-auto max-w-7xl px-5 md:px-8"><span className="brand-kicker">Complete admission journey</span><h2 className="mt-4 max-w-4xl text-3xl font-black text-slate-950 md:text-5xl">Enquiry → Follow-up → AI Test → Online Attempt → Results → Admission</h2><p className="mt-5 max-w-3xl leading-8 text-slate-600">Track prospective families, test readiness and confirmed admissions in a connected school workflow.</p><div className="mt-10 grid gap-6 md:grid-cols-2">{data.admissionSections.map((step,index) => <article key={step.title} className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm"><span className="text-xs font-black uppercase tracking-widest text-orange-600">Step {index+1}</span><h3 className="mt-3 text-xl font-black text-slate-950">{step.title}</h3><p className="mt-3 leading-7 text-slate-600">{step.text}</p><ul className="mt-5 space-y-2">{step.bullets.map(bullet => <li key={bullet} className="flex gap-2 text-sm font-semibold text-slate-700"><CheckCircle2 className="mt-0.5 shrink-0 text-orange-500" size={17}/>{bullet}</li>)}</ul></article>)}</div><p className="mt-8 text-sm text-slate-600">Explore the <Link href="/admission-crm" className="font-bold text-orange-700 underline">Admission CRM product overview</Link> or <Link href="/contact" className="font-bold text-orange-700 underline">request a live demo</Link>.</p></div>
+          </section>
+        )}
+
         {data.collegeSections?.length > 0 && (
           <section className="py-16 md:py-24" aria-label="College ERP and LMS workflows">
             <div className="mx-auto max-w-7xl px-5 md:px-8">
