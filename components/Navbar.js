@@ -26,6 +26,7 @@ const popularModules = [
   ['Library', '/modules/library'],
   ['Secure Chat', '/modules/secure-chat'],
   ['Teacher Performance', '/modules/teacher-performance'],
+  ['Health & Physical Education', '/health-physical-education-software'],
 ];
 
 export default function Navbar() {
@@ -103,6 +104,7 @@ export default function Navbar() {
                 ['AI-Powered School ERP', '/ai-powered-school-erp'],
                 ['QuestionForge AI', '/questionforge'],
                 ['Branded iOS & Android Apps', '/modules/branded-mobile-apps'],
+                ['Health & Physical Education', '/health-physical-education-software'],
                 ['Features', '/features'],
                 ['Case Studies', '/case-studies'],
                 ['Contact', '/contact'],
