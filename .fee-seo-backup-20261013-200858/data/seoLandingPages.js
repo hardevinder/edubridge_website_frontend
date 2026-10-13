@@ -1,0 +1,1698 @@
+const commonFeatures = [
+  'ERP + LMS in one connected platform',
+  'AI-assisted lesson planning, assessments and academic workflows',
+  'Examinations, marks, report cards and result workflows',
+  'Fees, online payments, admissions and finance operations',
+  'Student and staff attendance with role-based dashboards',
+  'Transport, route, bus and pickup/drop workflows',
+  'Branded web, Android and iOS experiences',
+  'Multi-branch and multi-campus institution support',
+];
+
+const commonFaq = [
+  {
+    q: 'Can EduBridge be configured around an institution’s existing process?',
+    a: 'Yes. EduBridge is designed around configurable academic, administrative and operational workflows so implementation can be aligned with the institution’s structure, roles and policies.',
+  },
+  {
+    q: 'Does EduBridge replace teacher judgement with AI?',
+    a: 'No. EduBridge uses AI as an assistive layer. Important academic outputs remain reviewable and teachers or authorized staff retain final control.',
+  },
+  {
+    q: 'Does EduBridge include both ERP and LMS capabilities?',
+    a: 'Yes. EduBridge connects school or college ERP operations with learning, assessments, academic planning and role-based digital experiences in one ecosystem.',
+  },
+];
+
+export const seoLandingPages = {
+  'school-management-software': {
+    path: '/school-management-software',
+    eyebrow: 'School Management Software',
+    title: 'School Management Software with ERP + LMS + AI | EduBridge ERP',
+    h1: 'Complete School Management Software with ERP, LMS and Practical AI',
+    description:
+      'EduBridge school management software connects academics, LMS, fees, attendance, exams, transport, communication, mobile apps and AI-assisted workflows in one platform.',
+    intro:
+      'EduBridge is a complete school management software platform for institutions that want academics, administration, communication and campus operations to work from one connected system. Instead of managing separate tools for fees, attendance, examinations, LMS, transport and mobile apps, schools can bring these workflows together with role-based access and practical AI assistance.',
+    audience: 'Schools and school groups comparing modern school management software that combines ERP, LMS, mobile apps and AI-assisted academic workflows.',
+    highlights: [
+      'Student information, admissions, attendance and complete academic records',
+      'Fees, online payments, receipts, concessions and finance workflows',
+      'LMS, syllabus breakup, lesson plans, homework, worksheets and assessments',
+      'Examination scheduling, seating plans, invigilation, marks and report cards',
+      'School transport, route, pickup/drop, live tracking and driver workflows',
+      'Parent, student, teacher and management dashboards with role-based access',
+      'Branded web, Android and iOS experiences for the institution community',
+      'AI-assisted planning, assessment, evaluation and management insight with human review',
+    ],
+    keywords: ['school management software', 'school management system', 'school ERP software', 'school ERP LMS', 'AI school management software', 'school administration software India'],
+    faqs: [
+      { q: 'What is school management software?', a: 'School management software is a digital platform used to manage student records, academics, attendance, examinations, fees, staff, transport, communication and other institutional operations from a connected system.' },
+      { q: 'How is EduBridge different from basic school administration software?', a: 'EduBridge combines operational ERP functions with LMS, academic planning, examination workflows, transport, mobile apps and AI-assisted educational workflows instead of limiting the platform to administrative data entry.' },
+      { q: 'Can parents, students, teachers and management use the same platform?', a: 'Yes. EduBridge provides role-based experiences so each user sees the information, actions and dashboards relevant to their responsibilities.' },
+      ...commonFaq,
+    ],
+    videos: ['jX8am6fMDHk', 'JGlX1PpvmOI'],
+  },
+  'school-management-system': {
+    path: '/school-management-system',
+    eyebrow: 'School Management System',
+    title: 'School Management System for Academics, Fees, Exams & LMS | EduBridge',
+    h1: 'A Connected School Management System for Every Major School Workflow',
+    description:
+      'Manage students, teachers, academics, fees, exams, attendance, transport, communication, LMS and mobile apps with the EduBridge school management system.',
+    intro:
+      'A modern school management system should do more than maintain student records. EduBridge connects the school office, teachers, examination team, accounts, transport staff, students and parents through coordinated workflows so information moves across departments without repeated manual entry.',
+    audience: 'Schools replacing disconnected software, spreadsheets or manual processes with a centralized school management system.',
+    highlights: [
+      'Central student, parent, teacher and institutional information management',
+      'Attendance, leave, timetable and day-to-day academic operations',
+      'Fee collection, dues, online payments and financial reporting',
+      'Examination setup, marks, grading, seating, invigilation and report cards',
+      'Integrated LMS for content, homework, worksheets, lesson planning and assessment',
+      'Transport assignment, stops, routes, tracking and pickup/drop visibility',
+      'Communication and quick notifications for important school updates',
+      'Management dashboards and role-based access across departments and campuses',
+    ],
+    keywords: ['school management system', 'school management system India', 'school information system', 'school administration system', 'school ERP system', 'school LMS ERP'],
+    faqs: [
+      { q: 'What does a school management system manage?', a: 'A complete system can manage student information, academics, attendance, fees, examinations, staff, transport, communication, LMS activities and reporting through connected role-based workflows.' },
+      { q: 'Can EduBridge support more than one branch or campus?', a: 'Yes. EduBridge supports multi-branch and multi-campus institution structures with role-based visibility and management.' },
+      ...commonFaq,
+    ],
+    videos: ['JGlX1PpvmOI'],
+  },
+  'erp-software-for-schools': {
+    path: '/erp-software-for-schools',
+    eyebrow: 'ERP Software for Schools',
+    title: 'ERP Software for Schools with LMS, Apps & AI | EduBridge ERP',
+    h1: 'ERP Software for Schools That Connects Administration with Academics',
+    description:
+      'EduBridge ERP software for schools integrates student management, fees, attendance, exams, transport, LMS, mobile apps and AI-assisted academic workflows.',
+    intro:
+      'ERP software for schools is most useful when departments are not forced to work in isolation. EduBridge connects admissions, academics, examination, accounts, transport, HR, communication and LMS workflows around shared institutional data, reducing duplicate work and improving visibility for authorized users.',
+    audience: 'Schools evaluating ERP software to replace fragmented administration, academic and communication tools.',
+    highlights: [
+      'Admissions and student lifecycle records connected to academic and fee data',
+      'Fees, dues, online payments, receipts and finance-related workflows',
+      'Attendance for students and staff with dashboards and reports',
+      'Examination management from scheduling to marks and report cards',
+      'LMS and academic planning connected with classes, subjects and teachers',
+      'Transport routes, vehicles, stops, student assignments and tracking workflows',
+      'HR, payroll, library, visitor and other campus administration modules',
+      'Branded mobile access and AI-assisted workflows within the same ecosystem',
+    ],
+    keywords: ['ERP software for schools', 'school ERP software', 'ERP for school', 'school ERP system India', 'school ERP LMS software', 'education ERP software'],
+    faqs: [
+      { q: 'Why do schools use ERP software?', a: 'Schools use ERP software to connect information and workflows across departments such as admissions, academics, fees, attendance, examinations, HR and transport, reducing repeated data entry and improving operational visibility.' },
+      { q: 'Does EduBridge ERP include an LMS?', a: 'Yes. EduBridge combines ERP operations with learning and academic workflows including lesson planning, assignments, assessments and related teacher/student experiences.' },
+      ...commonFaq,
+    ],
+    videos: ['jX8am6fMDHk'],
+  },
+  'school-erp-software-india': {
+    path: '/school-erp-software-india',
+    eyebrow: 'School ERP Software · India',
+    title: 'School ERP Software in India with LMS & AI | EduBridge ERP',
+    h1: 'School ERP Software in India for Modern Academic and Administrative Workflows',
+    description:
+      'EduBridge school ERP software in India combines ERP, LMS, exams, fees, attendance, transport, branded apps and AI-assisted academic workflows for schools.',
+    intro:
+      'Indian schools need ERP software that can adapt to different boards, fee structures, examination schemes, report cards, transport operations and academic processes. EduBridge is designed as a configurable school ERP + LMS platform that connects these requirements while supporting mobile access and practical AI-assisted workflows.',
+    audience: 'Indian schools, school groups and multi-campus institutions comparing configurable school ERP software with LMS and modern AI-assisted capabilities.',
+    highlights: [
+      'Configurable academic years, classes, sections, subjects, terms and grading',
+      'CBSE and configurable state-board examination and report-card workflows',
+      'Fees, payment gateways, dues, receipts and financial operations',
+      'Student/staff attendance, HR, payroll and administrative workflows',
+      'Integrated LMS, lesson planning, homework, assessments and worksheets',
+      'Transport, library, visitor, communication and campus operations',
+      'Branded Android/iOS and web experiences for institution stakeholders',
+      'Multi-branch support with practical AI assistance and human review',
+    ],
+    keywords: ['school ERP software India', 'school ERP India', 'best school ERP software India', 'school management software India', 'ERP LMS India schools', 'AI school ERP India'],
+    faqs: [
+      { q: 'Is EduBridge designed for Indian schools?', a: 'Yes. EduBridge supports workflows common to Indian schools including configurable academic structures, examination schemes, report cards, fees, transport, communication and institution-specific processes.' },
+      { q: 'Can EduBridge support CBSE and state-board schools?', a: 'Yes. Academic and examination structures can be configured around the institution’s approved board, subjects, terms, components, grading and reporting requirements.' },
+      ...commonFaq,
+    ],
+    videos: ['jX8am6fMDHk', 'JGlX1PpvmOI'],
+  },
+  'school-college-transport-management-software': {
+    path: '/school-college-transport-management-software',
+    eyebrow: 'Intelligent School & College Transport Management',
+    title: 'School Transport Management Software with GPS Tracking | EduBridge',
+    h1: 'School Transport Management Software with Live GPS Tracking & Driver App',
+    description:
+      'School transport management software with live GPS bus tracking, student arrival alerts, driver attendance, route planning, transport fees and fuel receipt verification.',
+    intro:
+      'EduBridge connects school and college transport operations from the first pickup to the final drop: administrators monitor buses on a live map, assigned students view their bus location, and proximity-based alerts notify students as their bus approaches a configured radius. Drivers see their assigned stops and student pickup lists, record pickup and drop attendance, and follow mapped routes. Administrators can review shortest-path options, route distance in kilometres, transport fees and skipped months. Fuel records include driver-uploaded odometer photographs and fuel receipts for administrative review.',
+    audience: 'Schools, colleges and multi-campus institutions that need safer, clearer and more efficient daily transport operations with live information for transport teams, drivers, students and parents.',
+    highlights: [
+      'GPS-based live school bus tracking and route progress visibility',
+      'Google Maps complete route view with numbered pickup and drop stops',
+      'Separate student pickup and drop attendance for each journey',
+      'School bus approaching-stop reminders and quick late-arrival alerts',
+      'Online and offline transport fee collection with pending-dues reporting',
+      'Month-wise transport skip and fee adjustment workflows',
+      'Transport admin, driver and student/parent app experiences',
+      'Smart route planning to help identify shorter and more efficient bus routes',
+      'Live bus tracking for authorized school or college users and transport stakeholders',
+      'Driver app with assigned bus, route, stops and student pickup/drop information',
+      'Student-wise pickup and drop manifest showing who must be collected from each location',
+      'Quick “bus arriving” notifications so students can be ready before the vehicle reaches the stop',
+      'Instant delay, route-change or transport-update notifications to affected students and parents',
+      'Pickup and drop stop mapping with location, timing and route information',
+      'Student transport attendance for present, absent, leave and boarding-related workflows',
+      'Driver and conductor mapping with daily transport responsibility and visibility',
+      'Bus-wise student lists, route summaries and operational information for transport staff',
+      'Centralized vehicle, route, stop, student and staff transport records inside the ERP',
+      'Connected parent/student communication without maintaining a separate transport communication tool',
+    ],
+    transportSections: [
+      // EDUBRIDGE_TRANSPORT_SEO_V2
+      {
+        title: 'Live GPS school bus tracking for administrators and assigned students',
+        text: 'A transport administrator can view a running bus on a live map. A student assigned to that bus can also follow its live location through the student experience, subject to the institution’s access permissions. This helps families plan their pickup without repeatedly contacting the school.',
+        bullets: ['Admin live fleet map', 'Assigned student bus tracking', 'Role-based journey visibility', 'Real-time vehicle location'],
+      },
+      {
+        title: 'Automatic bus approaching alerts based on pickup radius',
+        text: 'EduBridge can automatically notify a student when their assigned school bus is approaching the configured pickup radius. Arrival alerts make the morning journey easier to coordinate and reduce uncertainty around pickup timing. Actual notifications depend on device connectivity and location updates.',
+        bullets: ['Configurable proximity radius', 'Automatic approaching-bus notification', 'Student-specific bus assignment', 'Less manual calling'],
+      },
+      {
+        title: 'Shortest-route planning with distance in kilometres',
+        text: 'Use the administrator’s map to review stops, compare shorter route options and see route distance in kilometres. Route planning brings stops, students and expected travel distance into one operational view. A shorter route suggestion should still be reviewed for road safety and practical conditions.',
+        bullets: ['Stop-by-stop mapped routes', 'Shortest-path assistance', 'Route length in km', 'Transport admin route view'],
+      },
+      {
+        title: 'Fuel management with odometer photo and fuel receipt verification',
+        text: 'After refuelling, the driver records fuel expense details and uploads an odometer photograph and fuel receipt. Authorized administrators can review those records from the admin panel to check the recorded expense against supporting evidence. The photos support verification; they do not automatically prove that every charge is accurate.',
+        bullets: ['Driver odometer photo upload', 'Fuel receipt photo upload', 'Fuel amount and expense history', 'Admin review of supporting records'],
+      },
+      {
+        title: 'Manage transport fee collection, dues and skipped months',
+        text: 'Manage transport charges together with student bus assignments. Authorized staff can review student-wise transport dues, record applicable fee collections and handle months in which a student temporarily opts out of transport according to school policy.',
+        bullets: ['Student-wise transport charges', 'Fee collection records', 'Pending-dues visibility', 'Month-wise skip management'],
+      },
+      {
+        title: 'Driver app with stop-wise pickup list and attendance',
+        text: 'The driver can view assigned routes and stops, know which students to pick up at each location, and mark attendance for transport journeys. This makes day-to-day pickup coordination more practical than relying on handwritten lists.',
+        bullets: ['Assigned bus and route', 'Student names by pickup stop', 'Driver-marked attendance', 'Separate pickup and drop records'],
+      },
+      {
+        title: 'Intelligent GPS school bus tracking and Google Maps route visualization',
+        text: 'View the school or college bus route on Google Maps with numbered pickup and drop stops. Transport administrators and drivers can follow the stop sequence and associated student pickup/drop assignments alongside supported GPS location information.',
+        bullets: ['GPS bus tracking', 'Google Maps route view', 'Numbered stops in sequence', 'Student-wise pickup and drop points'],
+      },
+      {
+        title: 'Separate pickup and drop attendance and timely passenger alerts',
+        text: 'Record pickup and drop transport attendance, view bus-wise student lists and send practical bus-arriving or late-arrival alerts to affected students and parents. Authorized transport staff can manage present, absent or leave statuses.',
+        bullets: ['Pickup attendance', 'Drop attendance', 'Approaching-bus notifications', 'Late arrival reminders'],
+      },
+      {
+        title: 'Flexible school transport fees, pending dues and skip-month handling',
+        text: 'Collect student transport fees online or offline, see student-wise pending amounts and handle cases where a student skips transport for a particular month. This keeps transport operations and financial records connected to the institutional ERP.',
+        bullets: ['Online fee collection', 'Offline fee recording', 'Student-wise pending transport fees', 'Month-wise service skip management'],
+      },
+      {
+        title: 'Dedicated transport administrator, driver and parent or student apps',
+        text: 'Transport admins manage vehicles, routes, stops, student assignments and fees. Drivers access bus-wise stop sequences and manifests while students and parents receive relevant journey information and transport reminders.',
+        bullets: ['Transport admin dashboard', 'Driver app', 'Parent and student app', 'Role-based visibility'],
+      },
+      {
+        title: 'Plan efficient routes instead of managing routes manually',
+        text: 'Transport administrators can organize vehicles, routes and stops around actual student pickup and drop requirements. Route information can be used to identify shorter, clearer and more practical paths while keeping stop order, distance and operational requirements visible to the institution.',
+        bullets: ['Route and stop planning', 'Student demand by pickup/drop location', 'Vehicle-wise route assignment', 'Clear stop sequence and timing information'],
+      },
+      {
+        title: 'Give drivers a complete daily pickup and drop picture',
+        text: 'The driver experience is designed around action. A driver can see the assigned bus and route, the stops to cover and which students belong to each pickup or drop point, reducing dependence on printed lists or repeated phone calls.',
+        bullets: ['Driver app', 'Bus and route assignment', 'Stop-wise student list', 'Pickup/drop details for each student'],
+      },
+      {
+        title: 'Keep families informed with timely transport notifications',
+        text: 'Institutions can quickly communicate the updates that matter during the journey. Students or parents can be notified when the bus is approaching, when a vehicle is running late or when an operational change affects their route.',
+        bullets: ['Bus-arriving notification', 'Delay alert', 'Route or vehicle change update', 'Targeted communication to affected students'],
+      },
+      {
+        title: 'See live movement and transport status from one system',
+        text: 'Live tracking adds operational visibility for authorized users while the same transport record remains connected with student assignments, stops, routes, drivers and attendance. This gives the transport team a single working view instead of separate tracking and ERP systems.',
+        bullets: ['Live bus location', 'Route progress visibility', 'Central transport dashboard', 'Connected student and route records'],
+      },
+      {
+        title: 'Manage transport attendance and exceptions',
+        text: 'Daily transport operations also need to handle students who are present, absent or on leave. EduBridge transport attendance workflows help staff understand who is expected on a route and maintain a clearer operational record for pickup and drop.',
+        bullets: ['Student transport attendance', 'Present/absent/leave status', 'Bus-wise summaries', 'Driver/conductor-related marking workflows'],
+      },
+      {
+        title: 'Designed for both school and college transport operations',
+        text: 'The transport layer can support institutions that run multiple buses, routes, stops, campuses or user roles. Because it is part of EduBridge ERP + LMS, transport teams work from the same institutional data used by administration instead of maintaining a disconnected transport database.',
+        bullets: ['School and college use cases', 'Multi-route and multi-vehicle support', 'Role-based access', 'Connected ERP data'],
+      },
+    ],
+    keywords: [
+      'intelligent school transport management software',
+      'intelligent college transport management software',
+      'best transport management software for schools and colleges',
+      'school transport fee management software',
+      'school bus GPS tracking and attendance',
+      'google maps numbered bus stops',
+      'school transport management software',
+      'college transport management software',
+      'school bus tracking software',
+      'school bus live tracking system',
+      'school route management software',
+      'school bus route optimization',
+      'driver app for school bus',
+      'student pickup drop management software',
+      'school bus arrival notification',
+      'school transport ERP',
+      'school bus tracking app for students',
+      'school bus fuel expense management software',
+      'school bus odometer and fuel receipt tracking',
+      'school transport fees and skip month management',
+      'bus proximity alerts for students',
+      'college bus tracking system',
+      'transport management system for schools and colleges',
+    ],
+    faqs: [
+      { q: 'Can a student see only the bus assigned to them?', a: 'EduBridge supports live tracking of the bus assigned to the student, with access governed by the institution’s permissions.' },
+      { q: 'Does the school bus app send automatic alerts near the pickup point?', a: 'Yes. The transport workflow supports automatic approaching-bus alerts based on the configured radius and available location updates.' },
+      { q: 'Can administrators see route distance and find a shorter path?', a: 'The admin map supports route distance in kilometres and shortest-path assistance. Transport administrators should review suggested routes against safety and road conditions.' },
+      { q: 'How does the school verify fuel expenses submitted by drivers?', a: 'Drivers can upload an odometer photograph and fuel receipt alongside refuelling details. Authorized transport administrators can review the submitted evidence in their dashboard.' },
+      { q: 'Can transport charges be managed when a student skips one or more months?', a: 'Yes. The transport fee workflow supports student-wise charges, dues and month-wise service skip management according to school policy.' },
+      { q: 'What is intelligent school and college transport management software?', a: 'It connects GPS school bus tracking, Google Maps route and numbered stops, pickup/drop attendance, arrival notifications, driver and parent apps, and flexible fee collection and dues management.' },
+      { q: 'How can I choose the best transport management software for schools and colleges?', a: 'Look for accurate routes and stops, authorized GPS access, separate pickup and drop attendance, parent arrival alerts, driver workflows, online and offline collections, pending-fee visibility and practical support for month-wise exceptions.' },
+      { q: 'Can EduBridge show the entire bus route with numbered stops on Google Maps?', a: 'Yes. EduBridge transport workflows support Google Maps route visualization with numbered pickup and drop stops and student assignments.' },
+      { q: 'Can school transport fees be collected online and offline?', a: 'Yes. The transport workflows include online and offline transport fee handling with student-wise pending dues.' },
+      { q: 'What if a student skips transport for one month?', a: 'Transport administrators can manage month-wise skip cases and the corresponding transport service or fee adjustment without permanently removing the student.' },
+      { q: 'Are pickup and drop transport attendance recorded separately?', a: 'Yes. Pickup and drop attendance are supported as distinct transport records, along with present, absent and leave statuses.' },
+      { q: 'What is school and college transport management software?', a: 'It is a system used to manage vehicles, routes, stops, drivers, student pickup/drop assignments, tracking, transport attendance and communication. EduBridge connects these transport workflows directly with the institution’s ERP records.' },
+      { q: 'Can EduBridge help find shorter or more efficient routes?', a: 'Yes. Route planning can use stop and pickup/drop information to help transport teams organize shorter and more practical route structures instead of relying only on manually maintained route lists.' },
+      { q: 'Does EduBridge support live bus tracking?', a: 'Yes. EduBridge transport workflows can provide live vehicle visibility for authorized users while keeping the vehicle connected with its assigned route, stops, driver and student transport data.' },
+      { q: 'Can students or parents receive a notification when the bus is arriving?', a: 'Yes. Transport teams can quickly send arrival-related notifications so students can be ready before the bus reaches their pickup point.' },
+      { q: 'What happens if a bus is late?', a: 'Authorized staff can send quick delay or transport-update notifications to affected students or parents, helping reduce uncertainty and repeated calls to the institution.' },
+      { q: 'What information does the driver app show?', a: 'The driver workflow can show the assigned bus, route, stops and student pickup/drop information so the driver knows which students are expected and where they need to be picked up or dropped.' },
+      { q: 'Can the system maintain student transport attendance?', a: 'Yes. EduBridge includes transport attendance workflows for statuses such as present, absent or leave along with bus-wise operational summaries.' },
+      { q: 'Is the transport module separate from the school ERP?', a: 'No. The value of EduBridge transport management is that routes, stops, students, drivers and communication are connected with the wider ERP + LMS ecosystem instead of being maintained in an isolated application.' },
+      ...commonFaq,
+    ],
+    videos: [],
+  },
+  'best-ai-powered-school-erp-india': {
+    path: '/best-ai-powered-school-erp-india',
+    eyebrow: 'AI School ERP · India',
+    title: 'Best AI-Powered School ERP in India? Explore EduBridge ERP + LMS',
+    h1: 'Looking for the Best AI-Powered School ERP in India?',
+    description:
+      'Explore EduBridge ERP + LMS for Indian schools: AI-assisted academics, assessments, exams, fees, attendance, transport, branded apps and multi-campus management.',
+    intro:
+      'For schools comparing modern ERP platforms in India, the useful question is not who uses the biggest “AI” label. It is whether AI is connected to real school work. EduBridge combines school ERP, LMS and practical AI-assisted workflows across academics, assessments, examinations and management.',
+    audience: 'Indian K-12 schools, school groups and institutions evaluating an integrated ERP + LMS with practical AI workflows.',
+    highlights: [
+      'AI-assisted assessment creation and teacher-reviewed evaluation',
+      'School-branded question papers and connected result workflows',
+      'Academic planning, syllabus monitoring and lesson-plan assistance',
+      'Complete school operations beyond AI: fees, HR, transport and communication',
+    ],
+    keywords: ['best AI powered school ERP India', 'best school ERP India', 'AI school ERP India', 'school ERP LMS India', 'AI school management software India'],
+    faqs: [
+      { q: 'What should a school check when choosing the best AI-powered ERP in India?', a: 'Check whether AI works inside actual school workflows, whether teachers can review outputs, whether the platform also covers core ERP operations, and whether implementation, permissions and reporting fit the school’s requirements.' },
+      ...commonFaq,
+    ],
+    videos: ['jX8am6fMDHk', 'JGlX1PpvmOI', '3VY6eYMfHro'],
+  },
+  'best-school-erp-punjab': {
+    path: '/best-school-erp-punjab',
+    eyebrow: 'School ERP · Punjab',
+    title: 'Best School ERP in Punjab? EduBridge ERP + LMS for Modern Schools',
+    h1: 'Choosing the Best School ERP in Punjab for Your Institution',
+    description:
+      'EduBridge ERP + LMS is built for schools in Punjab with academics, CBSE/state-board workflows, fees, exams, transport, mobile apps and AI-assisted education tools.',
+    intro:
+      'Punjab schools often need more than a generic cloud ERP: responsive implementation, examination flexibility, fee workflows, transport, communication, mobile access and support for both academic and administrative teams. EduBridge is built as a connected platform for those day-to-day requirements.',
+    audience: 'Schools and education groups in Punjab looking for local implementation support and a complete school ERP + LMS.',
+    highlights: [
+      'Punjab-based implementation and support presence from Mohali',
+      'English, Hindi and Punjabi-friendly institutional workflows',
+      'CBSE and configurable state-board academic and examination processes',
+      'Transport, fees, attendance, academics and parent/student engagement in one platform',
+    ],
+    keywords: ['best school ERP Punjab', 'school ERP Punjab', 'school management software Punjab', 'ERP LMS Punjab schools', 'school software Mohali Chandigarh Punjab'],
+    faqs: [
+      { q: 'Is EduBridge suitable for schools in Punjab?', a: 'Yes. EduBridge supports school ERP and LMS workflows used by institutions in Punjab, with a Mohali presence for implementation and support coordination.' },
+      { q: 'Can Punjab schools use EduBridge for both CBSE and state-board processes?', a: 'Yes. Academic and examination structures can be configured around the institution’s board, terms, subjects, grading and reporting requirements.' },
+      ...commonFaq,
+    ],
+    videos: ['jX8am6fMDHk', 'JGlX1PpvmOI'],
+  },
+  'cbse-school-erp-lms': {
+    path: '/cbse-school-erp-lms',
+    eyebrow: 'CBSE School ERP + LMS',
+    title: 'CBSE School ERP & LMS with AI-Assisted Academics | EduBridge ERP',
+    h1: 'CBSE School ERP + LMS for Academics, Exams, Assessment and Operations',
+    description:
+      'EduBridge supports CBSE schools with ERP + LMS, exam schemes, report cards, assessments, AI-assisted evaluation, academic planning, fees, attendance, transport and apps.',
+    intro:
+      'CBSE schools need an ERP that connects academic planning with assessment, examination, reporting and everyday administration. EduBridge supports configurable term structures, assessment components, report cards and academic workflows while keeping fees, attendance, HR, transport and communication connected.',
+    audience: 'CBSE schools looking to connect academic planning, examination, result and operational workflows.',
+    highlights: [
+      'Configurable terms, assessment components, grading and report cards',
+      'AI-assisted question generation and written-answer evaluation with teacher review',
+      'Syllabus breakup, lesson planning, assignments and LMS workflows',
+      'Exam seating, invigilation, marks locking and result publication workflows',
+    ],
+    keywords: ['CBSE school ERP', 'CBSE ERP LMS', 'CBSE school management software', 'CBSE exam software', 'CBSE report card software', 'AI assessment CBSE school'],
+    faqs: [
+      { q: 'Can EduBridge support different CBSE assessment structures?', a: 'Yes. Schools can configure terms, components, marks, grades and report-card structures to match their approved academic scheme.' },
+      { q: 'Does EduBridge support CBSE examination operations beyond marks entry?', a: 'Yes. Supported workflows include exam setup, date sheets, seating plans, invigilation, answer-script processes, marks, results and report cards.' },
+      ...commonFaq,
+    ],
+    videos: ['jX8am6fMDHk', 'JGlX1PpvmOI'],
+  },
+  'state-board-school-erp-lms': {
+    path: '/state-board-school-erp-lms',
+    eyebrow: 'State Board ERP + LMS',
+    title: 'State Board School ERP & LMS Software in India | EduBridge ERP',
+    h1: 'Flexible ERP + LMS for State Board Schools in India',
+    description:
+      'EduBridge ERP + LMS supports configurable state-board school workflows for academics, exams, grades, report cards, fees, attendance, transport and mobile apps.',
+    intro:
+      'State-board schools can differ significantly in academic calendars, term structures, grading, report formats and operational processes. EduBridge focuses on configurable workflows instead of forcing every institution into one fixed academic model.',
+    audience: 'State-board and regional-board schools that need configurable academic and administrative workflows.',
+    highlights: [
+      'Configurable academic years, terms, subjects, marks and grade schemes',
+      'Flexible report-card and examination workflow support',
+      'Regional institution workflows with configurable roles and branches',
+      'ERP operations integrated with LMS, assignments and academic planning',
+    ],
+    keywords: ['state board school ERP India', 'state board ERP LMS', 'school ERP state board', 'school management software state board', 'state board exam software'],
+    faqs: [
+      { q: 'Can EduBridge be configured for different state-board examination patterns?', a: 'Yes. EduBridge is designed with configurable terms, components, grade schemes and reporting workflows so schools can align the platform to their approved board structure.' },
+      ...commonFaq,
+    ],
+    videos: ['jX8am6fMDHk'],
+  },
+  'school-erp-lms-india': {
+    path: '/school-erp-lms-india',
+    eyebrow: 'Integrated School ERP + LMS',
+    title: 'School ERP & LMS Software in India | EduBridge Education Platform',
+    h1: 'One School ERP + LMS Platform for Indian Schools',
+    description:
+      'Connect academics, LMS, assessments, exams, fees, attendance, admissions, HR, transport, communication and branded apps with EduBridge School ERP in India.',
+    intro:
+      'Running separate tools for school administration and digital learning creates duplicate data and disconnected workflows. EduBridge combines ERP and LMS capabilities so teachers, leadership, students, parents and operational teams work around one connected source of institutional data.',
+    audience: 'Schools replacing separate ERP, LMS, fee, exam and communication tools with one connected platform.',
+    highlights: commonFeatures.slice(0, 6),
+    keywords: ['school ERP LMS India', 'ERP and LMS for schools', 'school management LMS India', 'integrated school ERP LMS', 'school software India'],
+    faqs: [
+      { q: 'Why combine school ERP and LMS in one platform?', a: 'A connected platform reduces duplicate records and lets academic activities, assessments, attendance, communication and management reporting work around the same institutional data.' },
+      ...commonFaq,
+    ],
+    videos: ['jX8am6fMDHk', '3VY6eYMfHro'],
+  },
+  'best-school-college-erp-india': {
+    path: '/best-school-college-erp-india',
+    eyebrow: 'School + College ERP · India',
+    title: 'Best School & College ERP in India? Explore EduBridge ERP + LMS',
+    h1: 'A Unified ERP + LMS for Schools, Colleges and Multi-Campus Institutions',
+    description:
+      'Explore EduBridge for schools and colleges in India: ERP, LMS, academics, examinations, admissions, fees, HR, transport, campus operations and AI-assisted workflows.',
+    intro:
+      'Institutions that operate schools, colleges or multiple campuses often outgrow narrowly focused school software. EduBridge is designed as an education ERP platform that can support both school and college operations while keeping academic, administrative and campus workflows connected.',
+    audience: 'Education groups, colleges, schools and multi-campus institutions comparing a common ERP + LMS platform.',
+    highlights: [
+      'School and college workflows in one education platform',
+      'Multi-branch, multi-campus and role-based management',
+      'ERP + LMS + AI-assisted academic workflows',
+      'Admissions, examinations, finance, HR, library and campus operations',
+    ],
+    keywords: ['best school college ERP India', 'school and college ERP India', 'college ERP LMS India', 'education ERP India', 'multi campus ERP education'],
+    faqs: [
+      { q: 'Can EduBridge support both schools and colleges?', a: 'Yes. EduBridge includes education-management capabilities designed for school, college and multi-campus institution requirements, with configuration around each institution’s structure.' },
+      ...commonFaq,
+    ],
+    videos: ['jX8am6fMDHk', 'JGlX1PpvmOI'],
+  },
+  'ai-assessment-evaluation-school': {
+    path: '/ai-assessment-evaluation-school',
+    eyebrow: 'AI Assessment & Evaluation',
+    title: 'AI Assessment & Answer Evaluation Software for Schools | EduBridge ERP',
+    h1: 'AI-Assisted School Assessments from Question Creation to Evaluated Scripts',
+    description:
+      'Create tests with AI, generate branded papers, scan handwritten answer sheets, review question-wise AI-assisted marks and feedback, then publish results with EduBridge.',
+    intro:
+      'EduBridge connects assessment creation, printed papers, scanned handwritten scripts, teacher-reviewed AI assistance and student performance insight in one workflow. The goal is to reduce repetitive work while keeping educators in control of final evaluation.',
+    audience: 'Schools looking for AI-assisted assessment creation and written-answer evaluation within their existing ERP + LMS workflow.',
+    highlights: [
+      'AI-assisted question generation by topic and assessment context',
+      'School-branded downloadable assessment PDFs',
+      'Built-in scanning workflow for handwritten answer scripts',
+      'Question-wise marks, feedback and teacher approval before publication',
+      'Student result views with performance breakdown and evaluated scripts',
+    ],
+    keywords: ['AI assessment software school', 'AI answer evaluation school', 'AI grading school India', 'AI question paper generator school', 'handwritten answer evaluation AI'],
+    faqs: [
+      { q: 'Does AI automatically publish student marks?', a: 'No. The workflow is designed for teacher review. AI-assisted evaluation can provide question-wise marks and feedback, while the teacher can review and approve outcomes before publication.' },
+      { q: 'Can students see evaluated scripts and feedback?', a: 'Supported student workflows can show published results, performance insight, detailed feedback and evaluated scripts for review.' },
+      ...commonFaq,
+    ],
+    videos: ['jX8am6fMDHk'],
+  },
+  'exam-seating-plan-software': {
+    path: '/exam-seating-plan-software',
+    eyebrow: 'Examination Operations',
+    title: 'AI Exam Seating Plan & Invigilator Allocation Software | EduBridge ERP',
+    h1: 'Smart Exam Seating Plans and Invigilator Allocation for Schools',
+    description:
+      'Create exam seating plans with room capacity, student allocation, separation rules, conflict checks, invigilator assignment, printable layouts and publishing in EduBridge ERP.',
+    intro:
+      'Examination seating is a high-effort operational task when rooms, capacities, classes, schedules and invigilators are managed separately. EduBridge connects these inputs and provides smart rules to help examination teams build, review and publish seating arrangements efficiently.',
+    audience: 'Examination departments that need faster room, student and invigilator planning with clear conflict visibility.',
+    highlights: [
+      'Room and capacity-aware seating allocation',
+      'Rules to reduce same-class adjacency and seating conflicts',
+      'Invigilator allocation and examination duty workflows',
+      'Visual room layouts and printable seating-plan outputs',
+      'Connected exam schedules, student records and publishing workflows',
+    ],
+    keywords: ['exam seating plan software', 'school exam seating software', 'AI seating arrangement school', 'invigilator allocation software', 'examination management ERP'],
+    faqs: [
+      { q: 'Can EduBridge use exam schedules while building seating plans?', a: 'Yes. Seating workflows are designed to work with examination schedules, students, rooms and capacity information already available in the ERP.' },
+      { q: 'Does the system support invigilator duties?', a: 'Yes. Examination workflows include invigilator allocation and related duty-management processes alongside seating and room planning.' },
+      ...commonFaq,
+    ],
+    videos: ['JGlX1PpvmOI'],
+  },
+  'ai-entrance-exam-software': {
+    path: '/ai-entrance-exam-software',
+    eyebrow: 'Admissions + AI Assessment',
+    title: 'AI Entrance Exam Software for Schools | Online Tests & Results',
+    h1: 'AI Entrance Exam Software with Online Tests & Automatic Results',
+    description: 'Create AI-assisted school entrance tests, let applicants attempt assessments online, calculate objective scores automatically and review admission results in EduBridge ERP.',
+    intro: 'Create class- and subject-based entrance assessments with AI-assisted question generation and educator review. Publish the test for applicants to attempt online, collect answers, evaluate supported objective questions automatically and examine results before making admission decisions. Connect the assessment to the same EduBridge admission workflow.',
+    audience: 'Schools that conduct entrance tests or admission assessments and want a faster, connected assessment workflow.',
+    highlights: [
+      'AI-assisted entrance assessment and question preparation',
+      'Class, subject, syllabus, marks and instructions configuration',
+      'Publish admission tests for online applicant attempts',
+      'Save answers and submit completed assessments',
+      'Automatic objective-question scoring and percentages',
+      'Review results and assessment insights',
+      'Connected admission enquiry and follow-up workflow',
+      'Convert admitted applicants to ERP student records',
+    ],
+    keywords: [
+      'AI entrance exam software',
+      'school entrance test software',
+      'online school admission test',
+      'AI question paper generator school entrance',
+      'automatic entrance exam result software',
+      'entrance assessment system school India',
+    ],
+    faqs: [
+      { q: 'Can students attempt school entrance tests online?', a: 'Yes. Published admission assessments can be attempted online by applicants with suitable test access.' },
+      { q: 'Does the system automatically calculate entrance test results?', a: 'Supported objective questions are automatically scored. Staff can review scores and assessment insights.' },
+      { q: 'Can AI prepare questions for different classes and subjects?', a: 'AI-assisted generation supports class- and subject-based contexts, with assessment settings and staff review.' },
+      { q: 'Does the entrance examination connect to admissions?', a: 'Yes. Admission and entrance assessment workflows work together in EduBridge ERP.' },
+      ...commonFaq,
+    ],
+    videos: ['3VY6eYMfHro'],
+    relatedSlugs: [
+      'ai-entrance-exam-software',
+      'school-admission-management-software',
+      'school-erp',
+    ],
+  },
+
+  'college-management-software': {
+    path: '/college-management-software',
+    eyebrow: 'AI-Powered College ERP + LMS',
+    title: 'Best College ERP & LMS Software with AI | EduBridge ERP',
+    h1: 'Intelligent AI-Powered College ERP + LMS Software for Colleges and Institutions',
+    description: 'Explore EduBridge college ERP + LMS software: lecture attendance, assignments, online classes, AI assessments, fees, exams, progress reports and multi-campus management.',
+    intro: 'Looking for the best college ERP software with an integrated learning management system? EduBridge connects college administration, faculty teaching, student learning and campus services in one configurable platform. Deliver assignments and online classes, record attendance for each lecture, manage semester examinations and fee collection, and give students progress visibility. AI assists educators with lesson planning, questions and assessment evaluation under human review.',
+    audience: 'Degree colleges, professional and technical institutes, inter colleges, higher education institutions and college groups evaluating one connected ERP + LMS platform in India.',
+    highlights: [
+      'Lecture-wise and subject-wise student attendance with faculty and student access',
+      'LMS assignments: publish tasks, share study materials, collect student submissions and review work',
+      'Online classes and Zoom-linked teaching with timetables and learning resources',
+      'Online tests, question generation, smart assessments and AI-assisted evaluation with teacher review',
+      'Semester, course, department and subject management with HOD and faculty dashboards',
+      'Student performance and progress reports across attendance, learning and examination results',
+      'Fee structures, online and offline fee collection, student dues and payment reporting',
+      'Examinations, marks, results, seating plans, answer scripts and invigilation workflows',
+      'GPS-enabled college transport, routes, attendance, notifications and transport fee workflows',
+      'Admissions, HR, payroll, inventory, library, hostel, placement and alumni workflows',
+      'Institution-specific Android and iOS apps with role-based faculty, student and administrative access',
+      'Multi-branch and group-of-colleges management with controlled campus and department access',
+    ],
+    collegeSections: [
+      {title:'College LMS, digital assignments and online classes',text:'Faculty can share course resources, publish assignments, accept submissions and connect live online classes with everyday academic workflows.',bullets:['Assignments and teacher feedback','Study material and lecture resources','Zoom-linked online classes','Student learning dashboard']},
+      {title:'Lecture-wise attendance and student progress',text:'Record attendance by lecture and subject, connect attendance records with student and faculty views, and understand academic progress without separate registers.',bullets:['Lecture-wise attendance','Subject and faculty tracking','Student progress reports','Academic oversight dashboards']},
+      {title:'Exams, tests and practical AI assistance',text:'Manage tests, semester examinations and academic evaluation. AI can assist with lesson plans, question generation and reviewable assessment workflows.',bullets:['Online tests and assessments','Semester marks and results','AI-assisted question creation','Teacher-reviewed evaluation']},
+      {title:'Finance, transport and campus administration',text:'Run collections, monitor fee dues, manage campus transport and serve administrators and HODs from consistent role-based workflows.',bullets:['Online/offline fee payments','Pending-dues monitoring','College transport management','Department and campus access']},
+    ],
+    relatedSlugs: ['college-erp-lms-software','group-of-colleges-management-software','college-lecture-attendance-software','college-management-software'],
+    keywords: ['best college ERP software','college ERP software India','AI powered college ERP','college ERP LMS','college management software','college learning management system','higher education ERP software','college online classes software','college fee management software','college student progress report software'],
+    faqs: [
+      {q:'What is the best college ERP and LMS software for institutions in India?',a:'Choose software that fits your academic processes and combines admissions, lecture-wise attendance, learning, assignments, examinations, fees and reporting. EduBridge is one option designed to combine college ERP, LMS and AI-assisted teaching workflows.'},
+      {q:'Can faculty assign work to students and collect submissions online?',a:'Yes. EduBridge LMS supports sharing assignments and resources, student submissions and teacher review in connected academic workflows.'},
+      {q:'Does EduBridge support lecture-wise and subject-wise attendance?',a:'Yes. Faculty can manage attendance at lecture and subject level, with role-based academic visibility.'},
+      {q:'Can colleges conduct online classes and online tests?',a:'EduBridge supports Zoom-linked online classes, learning resources, assessments and online test workflows.'},
+      {q:'Can colleges collect fees online and offline?',a:'Yes. EduBridge supports college fee collection, payment records, dues and related reporting according to the institution setup.'},
+      {q:'Does the college software provide student progress reports?',a:'Student academic visibility can bring together attendance, assessments and examination outcomes through configurable dashboards and reports.'},
+      {q:'Is EduBridge AI-powered college management software?',a:'EduBridge offers AI-assisted lesson planning, question and assessment creation, and evaluation support. Educators review important academic outputs; AI does not replace faculty judgement.'},
+      {q:'Can one system serve a college and a group of colleges?',a:'The platform supports configurable branches, institutions, departments and permission-based views. Specific group-wide reporting needs should be confirmed during implementation.'},
+      {q:'Does EduBridge provide college transport and GPS tracking?',a:'Transport workflows cover routes, stops, buses, tracking, pickup/drop attendance and related fee administration. See the dedicated transport page for full details.'},
+      {q:'Does the ERP include placement, hostel, alumni and NAAC workflows?',a:'These areas are covered as configurable institutional workflows. Ask for a demonstration of the specific modules and implementation scope you require.'},
+    ],
+    videos: ['jX8am6fMDHk'],
+  },
+  'college-erp-lms-software': {
+    path:'/college-erp-lms-software', eyebrow:'College ERP + Learning Management System',
+    title:'College ERP & LMS Software | AI Learning Platform | EduBridge',
+    h1:'One College ERP and LMS for Assignments, Online Classes, Tests and Student Progress',
+    description:'College ERP + LMS for digital assignments, study materials, live online classes, lecture attendance, online tests, AI-assisted assessments and progress reporting.',
+    intro:'EduBridge brings college ERP and the learning management system together so faculty do not need disconnected platforms for student records, teaching, homework, online classes and assessment. Courses, departments and subjects can connect with student submissions, attendance, marks and academic follow-up.',
+    audience:'Colleges, teaching departments and institutes searching for a college LMS integrated with administration and student information.',
+    highlights:['Course and subject-linked study material and learning resources','Assignments to students with submissions and faculty review','Online classes with Zoom-linked scheduling and learning support','Online tests, quizzes and assessment workflows','Lecture and faculty attendance connected to student profiles','AI-assisted lesson plans, worksheets, question generation and evaluation','Performance tracking and student progress visibility','Semester examination and marks workflows','Faculty, HOD and student portals and mobile-friendly access','Fees and college operations integrated into the ERP'],
+    collegeSections:[{title:'From coursework to progress',text:'Connect teaching materials, student work, attendance and evaluation within the same course context.',bullets:['Publish assignments','Collect submissions','Run online classes','Track academic progress']},{title:'AI assistance with academic control',text:'AI supports planning and assessments; teachers remain responsible for reviewing results and publication.',bullets:['Lesson-plan assistance','Assessment drafting','Question generation','Reviewed evaluation']}],
+    relatedSlugs:['college-management-software','college-lecture-attendance-software','group-of-colleges-management-software'],
+    keywords:['college LMS software','college ERP LMS software','learning management system for colleges','college online class software','college assignment management system','AI powered college LMS','college online test software'],
+    faqs:[{q:'What is the difference between college ERP and LMS?',a:'ERP covers institutional operations such as admissions, fees, examinations and administration. An LMS supports teaching, course materials, assignments, online classes and tests. EduBridge connects both.'},{q:'Can a college use a combined ERP and LMS?',a:'Yes. A connected platform lets colleges reduce duplicate student and course data while linking learning and administration.'},{q:'Can students submit assignments online?',a:'Yes. Assignment workflows support student submissions and faculty review.'},{q:'Does the LMS support AI evaluation?',a:'EduBridge offers AI-assisted assessment workflows with teacher review and control over outcomes.'}], videos:['jX8am6fMDHk'],
+  },
+  'group-of-colleges-management-software': {
+    path:'/group-of-colleges-management-software', eyebrow:'Group of Colleges ERP',
+    title:'Group of Colleges ERP & LMS | Multi-Campus Software | EduBridge',
+    h1:'ERP + LMS Software for Groups of Colleges and Multi-Campus Institutions',
+    description:'Manage multiple colleges, branches and departments with connected ERP + LMS, role-based controls, admissions, fees, attendance, exams and college dashboards.',
+    intro:'A group of colleges needs consistent operations without losing the flexibility of individual campuses. EduBridge supports configurable institution and branch structures, departments, roles and academic workflows so authorized teams can work within their campus while management can obtain appropriate visibility across the organization.',
+    audience:'Education groups, societies and trusts operating multiple colleges, colleges with several branches and growing higher-education institutions.',
+    highlights:['Multiple college and branch structures with permission-based access','Separate academic departments, courses, subjects and faculty assignments','HOD, principal, institution administrator and group management roles','Campus-specific admissions, student and staff records','Lecture attendance, courses, LMS assignments and online classes','College-wise fees, payment records and pending dues','Semester examinations, results and academic reporting','Transport, hostels, library, placement and alumni workflows','Branded college student and staff mobile experiences','AI-assisted academic planning and assessments with human review'],
+    collegeSections:[{title:'Campus autonomy and central oversight',text:'Configure roles, branch assignments and departmental responsibility while keeping management access controlled.',bullets:['Branch-specific roles','Department assignments','Institution dashboards','Academic process consistency']},{title:'Teaching and administration together',text:'Serve each college with ERP operations and faculty/student learning tools.',bullets:['LMS and assignments','Lecture-wise attendance','Fee tracking','Examination workflows']}],
+    relatedSlugs:['college-management-software','college-erp-lms-software','college-lecture-attendance-software'],
+    keywords:['group of colleges ERP software','multi campus college ERP','multi college management software','institution management system','college group management software','multi branch college ERP LMS','education group ERP'],
+    faqs:[{q:'Can EduBridge manage more than one college?',a:'EduBridge supports multiple branches and configurable institutional structures. A demonstration can establish the campus-level permissions and reporting needed for your group.'},{q:'Can each college have its own departments and users?',a:'Yes. Institution, department and role setups can be configured for authorized staff and faculty.'},{q:'Can college groups use a shared LMS?',a:'The college ERP and LMS work in the same ecosystem while course, branch and user permissions are configurable.'},{q:'Can management view data for the whole group?',a:'Management visibility depends on the roles and institution structure configured during implementation; specific consolidated reports can be reviewed in a demo.'}], videos:[],
+  },
+  'college-lecture-attendance-software': {
+    path:'/college-lecture-attendance-software', eyebrow:'Lecture-Wise College Attendance',
+    title:'College Lecture Attendance Software & Student Progress | EduBridge',
+    h1:'Lecture-Wise Attendance Management Software for Colleges and Institutions',
+    description:'College lecture attendance software for faculty, subjects, courses and students. Track lecture-wise presence alongside assignments, examinations and progress reports.',
+    intro:'College attendance needs a lecture-level academic context, not just daily present or absent status. EduBridge supports faculty-led lecture-wise attendance with subject and student visibility, helping institutions follow class participation alongside other academic records, assignments and results.',
+    audience:'Colleges and institutes managing faculty-led lectures, subject-wise attendance and student academic follow-up.',
+    highlights:['Lecture-wise student attendance marking','Subject, class and faculty academic context','Attendance visibility for relevant users','Student attendance monitoring and reporting','Connected timetable and course structures','Attendance alongside LMS assignments and assessments','Academic dashboards and student progress visibility','Role-based faculty, HOD and administrator access'],
+    collegeSections:[{title:'Attendance as part of academic management',text:'Track lecture-level attendance in context of the taught subject, faculty and student academic journey.',bullets:['Lecture attendance','Student profiles','Subject-linked tracking','Progress visibility']}],
+    relatedSlugs:['college-management-software','college-erp-lms-software','group-of-colleges-management-software'],
+    keywords:['college lecture attendance software','lecture wise attendance management system','college attendance management system','subject wise attendance college','college student progress report software','faculty lecture attendance software'],
+    faqs:[{q:'What is lecture-wise attendance in college ERP?',a:'Lecture-wise attendance records student presence for individual teaching sessions rather than recording only a single daily status.'},{q:'Can lecturers mark subject-wise student attendance?',a:'EduBridge supports lecture and subject-context attendance workflows for the authorized faculty.'},{q:'Can attendance be connected to student performance?',a:'Attendance can be viewed with other academic information using role-based reporting and progress views.'}], videos:[],
+  },
+  'ai-school-management-software': {
+    path: '/ai-school-management-software',
+    eyebrow: 'AI School Management Software',
+    title: 'AI School Management Software with ERP + LMS | EduBridge ERP',
+    h1: 'AI School Management Software That Assists Real Academic and Administrative Workflows',
+    description:
+      'EduBridge AI school management software combines ERP + LMS with AI-assisted lesson planning, syllabus breakup, assessments, question creation, evaluation and management insights.',
+    intro:
+      'AI in school software is most useful when it improves real workflows rather than existing as a separate chatbot. EduBridge connects AI assistance with syllabus planning, lesson plans, assessments, question generation, answer evaluation and academic insight while teachers and authorized staff retain review and final control.',
+    audience: 'Schools looking for practical AI capabilities inside a complete school ERP + LMS rather than a standalone AI tool.',
+    highlights: [
+      'AI-assisted syllabus breakup linked with classes, subjects and teachers',
+      'AI-assisted lesson-plan creation from uploaded learning material and academic context',
+      'Assessment and worksheet generation inside teacher workflows',
+      'AI-assisted question-paper and entrance-assessment creation',
+      'AI-assisted written-answer evaluation with teacher review before publication',
+      'Academic dashboards and student-performance insight connected with institutional data',
+      'ERP + LMS modules remain available for fees, exams, attendance, transport, HR and administration',
+      'Human review remains part of important academic decisions and published outcomes',
+    ],
+    keywords: ['AI school management software', 'AI school ERP', 'AI ERP for schools', 'AI powered school management system', 'school ERP with AI', 'AI LMS school India'],
+    faqs: [
+      { q: 'What does AI school management software do?', a: 'AI-enabled school management software can assist teachers and administrators with tasks such as syllabus planning, lesson plans, assessments, question creation, evaluation and analysis while core ERP and LMS workflows manage the institution.' },
+      { q: 'Does EduBridge automatically replace teacher decisions with AI?', a: 'No. EduBridge uses AI as an assistive layer. Teachers and authorized users can review important academic outputs before final use or publication.' },
+      { q: 'Is AI separate from the EduBridge ERP?', a: 'No. The key advantage is that AI-assisted workflows are connected with classes, subjects, teachers, assessments and other institutional data already available in the ERP + LMS.' },
+      ...commonFaq,
+    ],
+    videos: ['jX8am6fMDHk', '3VY6eYMfHro'],
+  },
+  'school-fee-management-software': {
+    path: '/school-fee-management-software',
+    eyebrow: 'School Fee Management Software',
+    title: 'School Fee Management Software with Online Payments & Dues | EduBridge ERP',
+    h1: 'School Fee Management Software for Collections, Dues, Receipts and Online Payments',
+    description:
+      'Manage school fee structures, collections, concessions, dues, receipts, payment gateways, transaction tracking and student-wise reporting with EduBridge ERP.',
+    intro:
+      'EduBridge connects school fee collection with the student record so accounts teams can manage structures, dues, concessions, receipts, online payments and transaction visibility without maintaining separate spreadsheets. Authorized staff can view student-wise balances and follow payment activity through connected ERP workflows.',
+    audience: 'Schools that want fee collection, online payment, dues and reporting connected directly with student and institutional records.',
+    highlights: [
+      'Configurable fee heads, structures, schedules and student-wise fee records',
+      'Online payment gateway workflows with transaction-status tracking',
+      'Receipts, dues, concessions and collection visibility for accounts teams',
+      'Student-wise total due and payment-history reporting',
+      'Branch-aware transaction and finance workflows for multi-unit institutions',
+      'Role-based access for accounts, administrators and authorized management users',
+      'Fee reminders and communication workflows that can connect with institutional messaging',
+      'Connected student records reduce repeated manual reconciliation across systems',
+    ],
+    keywords: ['school fee management software', 'school fee collection software', 'school fees ERP', 'online school fee software', 'student fee management system', 'school payment software India'],
+    faqs: [
+      { q: 'What can school fee management software manage?', a: 'A complete fee system can manage fee structures, student dues, concessions, collections, receipts, online payments, transaction status and reporting from connected student records.' },
+      { q: 'Can EduBridge support online school fee payments?', a: 'Yes. EduBridge supports payment-gateway based online payment workflows along with transaction tracking and status synchronization.' },
+      { q: 'Can accounts staff see student-wise pending dues?', a: 'Yes. EduBridge includes student-wise due and collection reporting so authorized staff can review pending amounts and payment history.' },
+      ...commonFaq,
+    ],
+    videos: [],
+  },
+  'school-attendance-management-software': {
+    path: '/school-attendance-management-software',
+    eyebrow: 'School Attendance Management',
+    title: 'School Attendance Management Software for Students & Staff | EduBridge ERP',
+    h1: 'School Attendance Management Software Connected with Students, Teachers and Daily Operations',
+    description:
+      'Track student and staff attendance, leave, class-wise records, transport attendance and role-based reports with EduBridge school attendance management software.',
+    intro:
+      'Attendance becomes more useful when it is connected with the rest of the school system. EduBridge keeps student and staff attendance linked with class, section, user and institutional data so teachers and authorized administrators can record, review and report attendance without maintaining isolated registers.',
+    audience: 'Schools seeking digital student and staff attendance with class-wise records, leave visibility, reporting and connected ERP workflows.',
+    highlights: [
+      'Class and section-wise student attendance records',
+      'Staff and teacher attendance workflows with role-based visibility',
+      'Present, absent and leave status handling within connected records',
+      'Date-wise and student-wise attendance review and reporting',
+      'Transport attendance workflows for assigned buses and student pickup/drop operations',
+      'Authorized correction and maintenance workflows when attendance needs review',
+      'Dashboards that connect attendance with student and institutional information',
+      'Support for broader biometric/API integrations where institution hardware allows it',
+    ],
+    keywords: ['school attendance management software', 'student attendance software school', 'teacher attendance software', 'school attendance ERP', 'digital attendance system school', 'biometric attendance ERP school'],
+    faqs: [
+      { q: 'Can EduBridge manage both student and staff attendance?', a: 'Yes. EduBridge supports attendance workflows for students as well as staff, with role-based access and reporting appropriate to the institution.' },
+      { q: 'Does EduBridge support transport attendance?', a: 'Yes. Transport workflows can record student attendance for assigned buses and support bus-wise visibility for authorized transport staff.' },
+      { q: 'Can attendance be reviewed by date and student?', a: 'Yes. Authorized users can work with date-wise and student-wise attendance records and reports within the connected ERP.' },
+      ...commonFaq,
+    ],
+    videos: [],
+  },
+  'school-report-card-software': {
+    path: '/school-report-card-software',
+    eyebrow: 'School Report Card Software',
+    title: 'School Report Card Software for Flexible Exams & Grading | EduBridge ERP',
+    h1: 'School Report Card Software for Flexible Marks, Grades and Academic Reporting',
+    description:
+      'Create configurable school report cards with exam components, marks, grades, attendance, co-scholastic areas, remarks and institution branding using EduBridge ERP.',
+    intro:
+      'Report cards should reflect the school’s actual examination scheme instead of forcing every institution into one fixed template. EduBridge connects exam setup, marks, grading, attendance and student information so schools can generate configurable academic reports for different classes and assessment structures.',
+    audience: 'Schools that need configurable report cards for different classes, examination schemes, grades, co-scholastic areas and institutional branding.',
+    highlights: [
+      'Class and term-specific report-card layouts connected with exam data',
+      'Flexible exam components for pen-paper, internal, oral and graded subjects',
+      'Marks, totals, grading rules and configurable result presentation',
+      'Co-scholastic subjects and activity-grade sections where required',
+      'Student profile, attendance, remarks and academic information on the report',
+      'Institution identity, logo, session and contact information in branded outputs',
+      'Support for pre-primary, primary and configurable higher-class report structures',
+      'Connected marks entry and examination workflows reduce duplicate report preparation',
+    ],
+    keywords: ['school report card software', 'report card generator school', 'school result software', 'exam report card ERP', 'CBSE report card software', 'student progress report software'],
+    faqs: [
+      { q: 'Can report cards be configured for different classes?', a: 'Yes. EduBridge can support different report structures, components, grading and presentation rules for different class groups and institutional requirements.' },
+      { q: 'Can report cards include co-scholastic grades and attendance?', a: 'Yes. Report-card workflows can include co-scholastic or activity-based grades, attendance, remarks and other configured student information.' },
+      { q: 'Does EduBridge support branded school report cards?', a: 'Yes. Report outputs can include institutional identity such as school name, logo, session and configured contact or profile information.' },
+      ...commonFaq,
+    ],
+    videos: [],
+  },
+
+  'school-admission-management-software': {
+    path: '/school-admission-management-software',
+    eyebrow: 'School Admission CRM & AI Entrance Tests',
+    title: 'School Admission Management Software with AI Tests | EduBridge ERP',
+    h1: 'School Admission Management Software: Enquiries to Student Enrolment',
+    description: 'Manage school admission enquiries, full follow-up history, AI-generated entrance tests, online attempts, automatic objective results and conversion to ERP student records.',
+    intro: 'Move from first enquiry to confirmed admission with one connected school admission workflow. EduBridge ERP brings applicant information, complete staff follow-up history, next follow-up dates, AI-assisted entrance assessments, online attempts and automatic objective-answer results together. When a school confirms admission, the student ERP record is created without entering the same data again.',
+    audience: 'Schools and education groups that need enquiry tracking, follow-up history, online entrance assessments, result management and admission conversion within one ERP.',
+    highlights: [
+      'Central enquiry pipeline with applicant and parent details',
+      'Complete admission follow-up history, remarks and next action date',
+      'AI-assisted entrance test generation for class and subject contexts',
+      'Online applicant assessment with saved answers and submission',
+      'Automatic marking for supported objective questions and result review',
+      'Convert to Admission creates the student ERP record without duplicate entry',
+      'Admission status tracking and role-based staff access',
+      'Connected student records for post-admission ERP processes',
+    ],
+    admissionSections: [
+      {title: 'Capture admission enquiries', text: 'Record the prospective student, parent contacts, class of interest and enquiry status in one admission pipeline.', bullets: [
+        'Central applicant information',
+        'Class-wise enquiry tracking',
+        'Admission team visibility',
+    ]},
+      {title: 'Maintain complete follow-up history', text: 'Keep previous follow-up notes, next follow-up dates, staff activity and current enquiry status together.', bullets: [
+        'Staff-wise follow-up entries',
+        'Next follow-up scheduling',
+        'History and remarks',
+    ]},
+      {title: 'Prepare AI-assisted entrance tests', text: 'Create class- and subject-based admission assessments with AI-assisted question generation and staff review.', bullets: [
+        'Configure test content',
+        'Review generated questions',
+        'Publish admission assessment',
+    ]},
+      {title: 'Let applicants take tests online', text: 'Provide an online entrance assessment workflow with answer saving and final submission.', bullets: [
+        'Applicant test access',
+        'Online question attempts',
+        'Answer submission',
+    ]},
+      {title: 'Review automatically calculated results', text: 'Objective answers can be evaluated automatically, with scores, percentages and assessment insights available for review.', bullets: [
+        'Objective answer evaluation',
+        'Result and score visibility',
+        'Admission decision support',
+    ]},
+      {title: 'Convert the enquiry to a student record', text: 'When an applicant is admitted, the admission-conversion workflow creates the student record in the ERP without duplicate data entry.', bullets: [
+        'Admission status update',
+        'Automatic student record creation',
+        'Connected student lifecycle',
+    ]},
+    ],
+    keywords: [
+      'school admission management software',
+      'school admission CRM software India',
+      'school admission enquiry management',
+      'school admission follow up software',
+      'AI entrance exam software for schools',
+      'online school admission test software',
+      'automatic entrance test results',
+      'enquiry to admission conversion software',
+      'student admission management system',
+    ],
+    faqs: [
+      { q: 'How does EduBridge manage school admission enquiries?', a: 'Admissions staff can record applicant and parent details, review enquiry status and keep follow-up history with notes and next follow-up dates.' },
+      { q: 'Can schools create and conduct an entrance test online?', a: 'Yes. Staff can prepare AI-assisted entrance assessments, publish them for applicants and collect completed online test attempts.' },
+      { q: 'Are entrance test results calculated automatically?', a: 'Supported objective questions can be evaluated automatically. Schools can review obtained marks and assessment results before deciding on admission.' },
+      { q: 'Does Convert to Admission create a student ERP record?', a: 'Yes. The conversion workflow creates the admitted applicant’s student record in EduBridge ERP, reducing duplicate data entry.' },
+      { q: 'Can admission teams see earlier follow-up conversations?', a: 'Yes. Follow-up entries retain staff activity, notes and scheduled next actions against the enquiry.' },
+      ...commonFaq,
+    ],
+    videos: ['3VY6eYMfHro'],
+    relatedSlugs: [
+      'school-admission-management-software',
+      'ai-entrance-exam-software',
+      'school-erp',
+    ],
+  },
+  'school-timetable-software': {
+    path: '/school-timetable-software',
+    eyebrow: 'School Timetable Software',
+    title: 'School Timetable Software for Teachers, Classes & Periods | EduBridge ERP',
+    h1: 'School Timetable Software Connected with Teachers, Classes and Academic Workflows',
+    description:
+      'Plan school periods, classes, teachers and subject allocations with connected timetable, teacher availability and period-arrangement workflows in EduBridge ERP.',
+    intro:
+      'A school timetable is not just a grid of periods. It affects teacher workload, class schedules, subject coverage, substitutions and day-to-day academic operations. EduBridge keeps timetable information connected with classes, sections, subjects, teachers and availability so schools can manage regular schedules and operational changes from the same ecosystem.',
+    audience: 'Schools that want timetable planning, teacher availability and period-arrangement workflows connected with their ERP and academic data.',
+    highlights: [
+      'Class, section, subject, teacher and period-aware timetable planning',
+      'Teacher availability and unavailability visibility during academic operations',
+      'Period-arrangement workflows when a teacher is unavailable',
+      'Connected teacher, class and subject assignments reduce duplicate configuration',
+      'Role-based access for coordinators, academic teams and administrators',
+      'Timetable information can support teacher and student day-to-day views',
+      'Academic planning stays connected with syllabus, lesson plans and attendance workflows',
+      'Multi-branch or institution structures can be handled through configured ERP data',
+    ],
+    keywords: ['school timetable software', 'school timetable management system', 'teacher timetable software', 'school period arrangement software', 'school scheduling software India', 'school ERP timetable'],
+    faqs: [
+      { q: 'What does school timetable software manage?', a: 'It helps organize classes, sections, subjects, teachers and periods while making schedules easier to maintain and communicate across the institution.' },
+      { q: 'Can EduBridge help when a teacher is unavailable?', a: 'Yes. EduBridge includes teacher-unavailability and period-arrangement workflows so authorized staff can manage day-to-day substitutions around the existing timetable.' },
+      { q: 'Is timetable data connected with other academic modules?', a: 'Yes. Timetable information can work with shared class, subject and teacher data used across attendance, academic planning and related ERP workflows.' },
+      ...commonFaq,
+    ],
+    videos: [],
+  },
+  'parent-app-for-schools': {
+    path: '/parent-app-for-schools',
+    eyebrow: 'Parent App for Schools',
+    title: 'Parent App for Schools with Fees, Attendance & Updates | EduBridge ERP',
+    h1: 'A Parent App that Keeps Families Connected with Everyday School Information',
+    description:
+      'Give parents connected access to attendance, fees, academic updates, notices, transport information and school communication through EduBridge school parent-app workflows.',
+    intro:
+      'Parents should not need different apps or repeated phone calls to understand routine school information. EduBridge can bring relevant student, fee, attendance, academic, communication and transport information into a role-based parent experience connected directly with the institution’s ERP data.',
+    audience: 'Schools that want to improve parent communication and provide a connected digital experience around everyday student information.',
+    highlights: [
+      'Student attendance visibility for authorized parent accounts',
+      'Fee dues, payment information and related account visibility',
+      'Academic updates, homework, diary, notices and institutional communication',
+      'Exam, result and report-related information from connected ERP workflows',
+      'Transport information and journey-related notifications where configured',
+      'Quick institutional notifications without depending only on manual phone calls',
+      'Role-based access keeps each family connected with the appropriate student information',
+      'Branded mobile experience can align with the institution identity',
+    ],
+    keywords: ['parent app for schools', 'school parent app', 'school app for parents', 'parent communication app school', 'school fee attendance parent app', 'school ERP mobile app parents'],
+    faqs: [
+      { q: 'What information can a school parent app show?', a: 'Depending on configuration, a parent app can show attendance, fees, academic updates, notices, exam information, transport updates and other student-related information from the connected school system.' },
+      { q: 'Can parents receive transport or delay notifications?', a: 'Where transport workflows are configured, EduBridge can support journey-related notifications such as bus-arrival or delay updates for relevant students.' },
+      { q: 'Does the parent app use the same ERP data?', a: 'Yes. The goal is to surface authorized information from the connected EduBridge platform rather than maintain a separate disconnected parent database.' },
+      ...commonFaq,
+    ],
+    videos: [],
+  },
+  'school-communication-software': {
+    path: '/school-communication-software',
+    eyebrow: 'School Communication Software',
+    title: 'School Communication & Notification Software | EduBridge ERP',
+    h1: 'School Communication Software Connected with Students, Parents and Operations',
+    description:
+      'Send relevant school updates, notices, reminders and operational notifications from connected ERP workflows with EduBridge communication tools.',
+    intro:
+      'Communication is more useful when it comes from the same system that already knows the student, class, fee, transport or academic context. EduBridge helps institutions connect notices and notifications with operational workflows so staff can communicate relevant updates without repeatedly rebuilding recipient lists in separate tools.',
+    audience: 'Schools and colleges looking for communication and notification workflows connected with institutional data instead of standalone bulk-messaging tools.',
+    highlights: [
+      'Notices and institutional updates connected with role-based ERP users',
+      'Class, student or workflow-relevant communication using existing institutional data',
+      'Fee reminder workflows connected with student dues where configured',
+      'Transport arrival, delay and route-related notifications for relevant students',
+      'Academic, examination and operational updates from one connected ecosystem',
+      'Parent, student and staff communication aligned with role-based access',
+      'Quick notifications can reduce repetitive manual calling for routine updates',
+      'Communication history can stay closer to the workflow that generated the update',
+    ],
+    keywords: ['school communication software', 'school notification software', 'parent communication software school', 'school messaging ERP', 'school alert system', 'student notification software'],
+    faqs: [
+      { q: 'Why connect school communication with ERP data?', a: 'Connected communication makes it easier to send relevant updates to the right users because class, student, fee, transport and role information already exists in the same institutional system.' },
+      { q: 'Can EduBridge send transport-related notifications?', a: 'Yes. Transport workflows can support relevant alerts such as bus-arrival and delay notifications for students or families associated with the route.' },
+      { q: 'Can communication be targeted instead of sent to everyone?', a: 'Role-based and workflow-aware data can help institutions communicate with the relevant users or groups rather than treating every message as a school-wide broadcast.' },
+      ...commonFaq,
+    ],
+    videos: [],
+  },
+  'student-information-system-school': {
+    path: '/student-information-system-school',
+    eyebrow: 'Student Information System',
+    title: 'Student Information System for Schools | EduBridge ERP + LMS',
+    h1: 'A Student Information System Connected with the Full School ERP',
+    description:
+      'Centralize student profiles, family information, classes, attendance, fees, academics, exams, transport and communication with EduBridge student information system workflows.',
+    intro:
+      'A student information system becomes far more valuable when the student record is not isolated from daily school operations. EduBridge connects student identity and profile information with classes, attendance, fees, academics, examinations, transport, communication and role-based digital experiences so authorized teams work from a shared source of institutional data.',
+    audience: 'Schools looking for a student information system that is part of a broader ERP + LMS platform rather than a standalone student database.',
+    highlights: [
+      'Central student profile and family information',
+      'Class, section, subject and academic-year relationships',
+      'Attendance, leave and day-to-day student records',
+      'Fee dues, payments and finance-related student information',
+      'Examinations, marks, grades, results and report-card workflows',
+      'Transport assignments, pickup/drop information and related operations',
+      'Parent, student, teacher and management views based on role permissions',
+      'One connected record reduces repeated data entry across separate school tools',
+    ],
+    keywords: ['student information system school', 'school SIS software', 'student management system school', 'student database school ERP', 'school student record software', 'SIS school India'],
+    faqs: [
+      { q: 'What is a student information system in a school?', a: 'A student information system stores and organizes core student records and relationships such as profile, family, class, attendance and academic information. In a connected ERP, that record can also support fees, exams, transport and communication.' },
+      { q: 'Is EduBridge SIS separate from the school ERP?', a: 'No. Student information is designed to work as part of the broader EduBridge ERP + LMS ecosystem so institutional workflows can use the same authorized student data.' },
+      { q: 'Can different roles see different parts of student information?', a: 'Yes. Role-based access is used so teachers, administrators, accounts teams, parents, students and management can receive the information appropriate to their responsibilities.' },
+      ...commonFaq,
+    ],
+    videos: [],
+  },
+  'how-to-choose-school-erp': {
+    path: '/how-to-choose-school-erp',
+    eyebrow: 'School ERP Buyer Guide',
+    title: 'How to Choose School ERP Software: 2026 Buyer Checklist | EduBridge',
+    h1: 'How to Choose School ERP Software: A Practical Buyer Checklist for Schools',
+    description:
+      'Compare school ERP software using practical criteria for academics, LMS, exams, fees, attendance, transport, mobile apps, security, implementation, AI and long-term scalability.',
+    intro:
+      'Choosing a school ERP should start with the institution’s real workflows, not the length of a vendor feature list. Schools should evaluate how well the platform connects academic planning, administration, finance, examinations, communication and day-to-day operations; how easily users can adopt it; and whether the system can grow with future requirements without forcing the school into disconnected add-on tools.',
+    audience: 'Principals, management teams, administrators and IT coordinators comparing school ERP vendors or preparing an ERP evaluation checklist.',
+    highlights: [
+      'Check whether ERP and LMS share the same student, teacher, class and subject data',
+      'Evaluate examination depth: schedules, marks, report cards, seating and invigilation',
+      'Review fee workflows, online payments, dues, receipts and finance reporting',
+      'Test attendance, timetable, transport, admissions and communication workflows',
+      'Ask for real product demonstrations instead of relying only on feature claims',
+      'Check mobile access for parents, students, teachers and operational staff',
+      'Evaluate configuration, implementation, migration, support and multi-campus scalability',
+      'Treat AI as useful only when it improves real workflows and keeps humans in control',
+    ],
+    keywords: ['how to choose school ERP', 'school ERP buying guide', 'school ERP checklist', 'best school ERP features', 'compare school ERP software', 'school management software buying guide'],
+    faqs: [
+      { q: 'What are the most important features to check in a school ERP?', a: 'Start with student information, academics, attendance, fees, examinations, report cards, admissions, transport, communication, LMS, role-based access, mobile experiences, reporting, implementation and support. The important question is whether these workflows are genuinely connected.' },
+      { q: 'Should a school choose separate ERP and LMS products?', a: 'Separate products can work, but schools should evaluate the cost and complexity of duplicate users, classes, subjects and integrations. A connected ERP + LMS can reduce repeated data and fragmented workflows.' },
+      { q: 'How should schools evaluate AI features in ERP software?', a: 'Ask the vendor to demonstrate the AI workflow using real school tasks. Prefer assistive features that save time while keeping teachers or authorized staff in control of important academic outcomes.' },
+      { q: 'Why is a live product demo important before selecting ERP?', a: 'A live demo helps the school verify whether claimed features are actually integrated, usable and relevant to its processes instead of existing only as a marketing checklist.' },
+      ...commonFaq,
+    ],
+    videos: ['jX8am6fMDHk', 'JGlX1PpvmOI'],
+  },
+  'ai-lesson-plan-generator-school': {
+    path: '/ai-lesson-plan-generator-school',
+    eyebrow: 'AI Lesson Planning',
+    title: 'AI Lesson Plan Generator for Schools | EduBridge ERP + LMS',
+    h1: 'AI-Assisted Lesson Planning Connected with Syllabus, Classes and Teaching Workflows',
+    description:
+      'Help teachers create editable lesson-plan drafts using class, subject, topic and syllabus context, then connect planning with teaching, assessment and completion workflows in EduBridge.',
+    intro:
+      'A useful AI lesson-plan tool should do more than generate generic text. EduBridge places AI assistance inside the academic workflow so teachers can work with class, subject, syllabus breakup, topic, objectives, activities, resources, assessment methods and planned periods, review the draft and keep the final plan under teacher control.',
+    audience: 'Schools and academic teams that want to reduce repetitive lesson-plan preparation while keeping plans connected with real syllabus and classroom workflows.',
+    highlights: [
+      'AI-assisted lesson-plan drafts using class, subject and topic context',
+      'Learning objectives, activities, resources and assessment-method suggestions',
+      'Planned periods and teaching sequence can be organized around academic requirements',
+      'Lesson plans remain editable so teachers review and refine the final content',
+      'Plans can stay connected with syllabus breakup and completion workflows',
+      'Assessment and worksheet workflows can continue from the same academic context',
+      'Coordinator or leadership review can be supported through role-based academic workflows',
+      'ERP + LMS integration keeps teacher, subject, class and academic data connected',
+    ],
+    keywords: ['AI lesson plan generator school', 'AI lesson planner for teachers', 'school lesson plan software AI', 'AI lesson planning software India', 'teacher lesson plan ERP', 'AI lesson plan generator for teachers'],
+    faqs: [
+      { q: 'How does an AI lesson plan generator help teachers?', a: 'It can reduce repetitive drafting by suggesting structured objectives, activities, resources, assessment methods and teaching sequences from the supplied academic context. Teachers should still review and adapt the final plan for their students.' },
+      { q: 'Can EduBridge connect lesson plans with syllabus breakup?', a: 'Yes. EduBridge academic workflows are designed so syllabus planning, lesson plans, assessments and completion tracking can work around the same class and subject context.' },
+      { q: 'Does AI publish a lesson plan without teacher review?', a: 'No. AI is used as an assistive drafting layer. Teachers can review, edit and finalize the lesson plan before it becomes part of the academic workflow.' },
+      ...commonFaq,
+    ],
+    videos: [],
+  },
+  'ai-syllabus-breakup-school': {
+    path: '/ai-syllabus-breakup-school',
+    eyebrow: 'AI Syllabus Planning',
+    title: 'AI Syllabus Breakup & Academic Planning Software | EduBridge ERP',
+    h1: 'Turn a Syllabus into a Practical Teaching Plan with AI-Assisted Syllabus Breakup',
+    description:
+      'Create and organize syllabus breakup by class, subject, topics, periods and teaching windows with AI assistance, teacher review and connected completion tracking in EduBridge.',
+    intro:
+      'Syllabus planning becomes difficult when the annual curriculum, available teaching time, lesson plans and completion tracking live in separate documents. EduBridge helps academic teams structure syllabus breakup inside the ERP + LMS, use AI assistance to accelerate planning, assign the right academic context and track progress as teaching moves forward.',
+    audience: 'Schools, coordinators, HODs and teachers looking for structured syllabus planning and completion tracking with practical AI assistance.',
+    highlights: [
+      'AI-assisted syllabus breakup from subject and curriculum context',
+      'Organize topics, subtopics, teaching periods and planned academic windows',
+      'Class, section, subject and teacher context stays connected with ERP data',
+      'Teachers can review and edit AI-assisted planning before final use',
+      'Create lesson plans from the planned syllabus workflow',
+      'Track syllabus completion instead of maintaining disconnected manual sheets',
+      'Coordinator and leadership visibility supports academic follow-up',
+      'Connected assessment and worksheet workflows can use the same teaching context',
+    ],
+    keywords: ['AI syllabus breakup software', 'school syllabus planning software', 'AI curriculum planner school', 'syllabus completion tracker school', 'academic planning software school', 'AI syllabus planner teachers'],
+    faqs: [
+      { q: 'What is syllabus breakup software?', a: 'Syllabus breakup software helps academic teams convert a broad curriculum into a structured teaching plan organized by topics, periods or time windows, then track progress against that plan.' },
+      { q: 'Can AI help create a syllabus breakup?', a: 'Yes. AI can assist with structuring the supplied syllabus or topic context into a draft plan. Teachers or academic coordinators should review the result before adopting it.' },
+      { q: 'Can syllabus completion be tracked after planning?', a: 'Yes. EduBridge supports syllabus planning and completion workflows so institutions can compare planned academic work with teaching progress.' },
+      ...commonFaq,
+    ],
+    videos: [],
+  },
+  'ai-worksheet-generator-school': {
+    path: '/ai-worksheet-generator-school',
+    eyebrow: 'AI Worksheets',
+    title: 'AI Worksheet Generator for Schools & Teachers | EduBridge ERP + LMS',
+    h1: 'Create Classroom Worksheets Faster with AI and Keep Them Connected with Teaching',
+    description:
+      'Create AI-assisted worksheets from class, subject, topic and lesson context, review the questions and use them inside connected EduBridge academic and LMS workflows.',
+    intro:
+      'Worksheets are most useful when they match what students are actually learning. EduBridge can use the current class, subject, topic or lesson context to help teachers prepare worksheet content faster, while keeping the teacher responsible for reviewing difficulty, wording and final suitability before students receive it.',
+    audience: 'Teachers and schools that want faster worksheet preparation without separating content creation from lesson planning and classroom workflows.',
+    highlights: [
+      'AI-assisted worksheet creation using class, subject and topic context',
+      'Use lesson-plan or syllabus context to keep practice aligned with teaching',
+      'Generate varied practice material without repeatedly starting from a blank page',
+      'Teacher review and editing before worksheets are shared or used',
+      'Support for classroom practice, revision and reinforcement workflows',
+      'Keep worksheets connected with the same ERP + LMS academic structure',
+      'Reduce repetitive preparation while preserving teacher judgement',
+      'Move naturally from syllabus planning to lesson plan, worksheet and assessment workflows',
+    ],
+    keywords: ['AI worksheet generator school', 'AI worksheet generator teachers', 'school worksheet software', 'AI worksheets for students', 'worksheet generator by topic', 'AI teaching worksheet software India'],
+    faqs: [
+      { q: 'Can teachers generate worksheets by topic?', a: 'Yes. The workflow can use class, subject and topic context so worksheet drafts are more closely related to the material being taught.' },
+      { q: 'Are AI-generated worksheets automatically sent to students?', a: 'The intended workflow keeps teachers in control. Teachers can review and edit generated content before deciding how it should be used or shared.' },
+      { q: 'Can worksheets connect with lesson planning?', a: 'Yes. EduBridge is designed to connect syllabus, lesson-plan, worksheet and assessment workflows around shared academic context instead of treating each as a separate tool.' },
+      ...commonFaq,
+    ],
+    videos: [],
+  },
+  'ai-question-paper-generator-school': {
+    path: '/ai-question-paper-generator-school',
+    eyebrow: 'AI Question Papers',
+    title: 'AI Question Paper Generator for Schools | EduBridge QuestionForge',
+    h1: 'Generate School Question Papers with AI, Academic Context and Teacher Review',
+    description:
+      'Create AI-assisted question papers using class, subject, topic, marks and instructions, review the questions and produce school-ready assessments with EduBridge workflows.',
+    intro:
+      'Question-paper generation should respect academic context rather than produce random questions. EduBridge supports AI-assisted assessment creation using details such as class, subject, syllabus or topic, marks and instructions, helping teachers prepare a draft faster and then review the final paper before use.',
+    audience: 'Schools, examination teams and teachers looking for AI-assisted question-paper preparation connected with assessment and ERP workflows.',
+    highlights: [
+      'Generate question drafts from class, subject, syllabus or topic context',
+      'Use marks and assessment instructions to guide paper preparation',
+      'Teacher review keeps difficulty, relevance and wording under educator control',
+      'Create school-branded assessment outputs in supported workflows',
+      'Use the same academic context for worksheets, assessments and evaluation',
+      'Reduce repetitive paper-setting effort for teachers and examination teams',
+      'Question generation can sit inside the broader EduBridge ERP + LMS ecosystem',
+      'Supported assessment workflows can continue into answer evaluation and results',
+    ],
+    keywords: ['AI question paper generator school', 'AI exam paper generator teachers', 'school question paper software AI', 'AI test generator school', 'question paper generator India', 'EduBridge QuestionForge'],
+    faqs: [
+      { q: 'What information can be used to generate an AI question paper?', a: 'A useful workflow can use academic details such as class, subject, syllabus or topic, marks and instructions so the draft is generated around the intended assessment context.' },
+      { q: 'Can teachers review AI-generated questions?', a: 'Yes. Teacher review is an important part of the workflow so questions can be checked for correctness, difficulty, wording and relevance before the paper is used.' },
+      { q: 'Can question papers connect with evaluation?', a: 'Yes. EduBridge includes connected assessment and AI-assisted answer-evaluation workflows, allowing supported assessment activity to continue beyond question generation.' },
+      ...commonFaq,
+    ],
+    videos: ['jX8am6fMDHk'],
+  },
+  'ai-student-performance-analysis-school': {
+    path: '/ai-student-performance-analysis-school',
+    eyebrow: 'AI Academic Analysis',
+    title: 'AI Student Performance & Academic Analysis for Schools | EduBridge',
+    h1: 'Turn Assessment Data into Clearer Student and Subject Performance Insight',
+    description:
+      'Analyze assessment and academic performance with subject-wise, student-wise and class-level insight so teachers and school leaders can identify strengths, gaps and follow-up priorities.',
+    intro:
+      'Marks are more useful when schools can quickly understand what they mean. EduBridge brings assessment, result and academic information into connected reporting and analysis workflows so authorized users can review student performance, subject patterns and areas that may need academic follow-up instead of relying only on raw mark lists.',
+    audience: 'Principals, coordinators, examination teams and teachers who want clearer academic performance insight from connected school assessment data.',
+    highlights: [
+      'Student-wise and subject-wise performance visibility from connected assessment data',
+      'Class-level patterns can help academic teams identify stronger and weaker areas',
+      'Performance bands and comparative summaries can make large result sets easier to review',
+      'Toppers, students needing support and subject-level concerns can be surfaced in analysis workflows',
+      'Assessment information stays connected with the broader student academic record',
+      'Leadership and coordinators can use role-based views for academic follow-up',
+      'AI assistance can help summarize authorized academic context while staff retain judgement',
+      'Connected ERP + LMS data reduces the need to rebuild the same analysis across separate systems',
+    ],
+    keywords: ['AI student performance analysis school', 'school academic analyzer', 'student result analysis software', 'subject wise result analysis school', 'AI school performance analytics', 'exam result analysis software school'],
+    faqs: [
+      { q: 'What can school performance analysis show?', a: 'Depending on the available assessment data, schools can review student-wise, subject-wise and class-level performance patterns, performance bands, stronger areas and students or subjects that may need follow-up.' },
+      { q: 'Is academic analysis useful only for principals?', a: 'No. Different role-based views can support principals, coordinators, examination teams and teachers, with each user seeing information appropriate to their responsibilities.' },
+      { q: 'Does AI replace academic judgement in performance analysis?', a: 'No. AI can assist with summaries or pattern visibility, but educators and school leaders should interpret the information in the context of students, teaching and institutional policy.' },
+      ...commonFaq,
+    ],
+    videos: [],
+  },
+  'ai-teacher-assistant-school': {
+    path: '/ai-teacher-assistant-school',
+    eyebrow: 'AI Teacher Assistant',
+    title: 'AI Teacher Assistant for Schools | Lesson Plans, Worksheets & Assessments',
+    h1: 'An AI Teacher Assistant Connected with Real School Academic Workflows',
+    description:
+      'Support teachers with AI-assisted syllabus planning, lesson plans, worksheets, assessments and evaluation while keeping class, subject and ERP + LMS context connected in EduBridge.',
+    intro:
+      'A school AI assistant becomes more useful when it understands the workflow the teacher is already completing. EduBridge connects AI assistance with syllabus planning, lesson plans, worksheets, assessments and supported evaluation workflows so teachers can reduce repetitive preparation without moving academic work into disconnected public tools.',
+    audience: 'Schools evaluating practical AI tools for teachers and looking for assistance that works inside structured academic workflows.',
+    highlights: [
+      'Assist with syllabus breakup and academic planning',
+      'Create editable lesson-plan drafts from teaching context',
+      'Prepare topic-aligned worksheets and practice material',
+      'Generate assessment and question-paper drafts for teacher review',
+      'Support AI-assisted evaluation in configured assessment workflows',
+      'Reuse class, subject and academic context already available in the platform',
+      'Keep teachers in control of final academic content and decisions',
+      'Connect AI assistance with ERP + LMS rather than adding another isolated tool',
+    ],
+    keywords: ['AI teacher assistant school', 'AI tools for teachers school ERP', 'AI assistant for teachers India', 'AI lesson plan worksheet assessment teacher', 'school AI teaching assistant', 'AI education ERP teachers'],
+    faqs: [
+      { q: 'What can an AI teacher assistant do in EduBridge?', a: 'Supported workflows can assist teachers with syllabus planning, lesson-plan drafts, worksheets, assessments, question creation and evaluation support while using relevant academic context.' },
+      { q: 'Does an AI teacher assistant replace the teacher?', a: 'No. It is intended to reduce repetitive drafting and preparation. Teachers remain responsible for reviewing content, adapting it to students and making final academic decisions.' },
+      { q: 'Why connect an AI teacher assistant with school ERP and LMS data?', a: 'Connection with authorized class, subject and academic context can make assistance more relevant and reduce repeated data entry compared with moving work between separate tools.' },
+      ...commonFaq,
+    ],
+    videos: [],
+  },
+
+  "school-exam-marks-entry-software": {
+  "path": "/school-exam-marks-entry-software",
+  "eyebrow": "Examination Management",
+  "title": "School Exam Marks Entry, Grading & Locking Software | EduBridge",
+  "h1": "Manage Exam Marks, Assessment Components and Grade Controls",
+  "description": "Manage class-wise marks entry, grades, assessment schemes, Excel imports, marks locks and connected school report cards in EduBridge ERP.",
+  "intro": "Examination teams can configure assessment components and control entry, review and publication. Teacher permissions, mark locks and exports help reduce isolated spreadsheets and uncontrolled changes.",
+  "audience": "School principals, examination controllers, coordinators and teachers evaluating connected examination software.",
+  "highlights": [
+    "Marks entry by class, subject and exam",
+    "Configurable term and component schemes",
+    "Marks and grade-oriented assessments",
+    "Teacher assignment-based access",
+    "Marks import and export workflows",
+    "Authorized marks locking and unlocking",
+    "Marks access audit history",
+    "Report card and result integration"
+  ],
+  "keywords": [
+    "school exam marks entry software",
+    "school grade management software",
+    "marks locking examination ERP",
+    "assessment component marks system"
+  ],
+  "faqs": [
+    {
+      "q": "Can marks be locked after review?",
+      "a": "Authorized exam users can use marks locking and unlocking controls according to their configured workflows."
+    },
+    {
+      "q": "Does EduBridge cover the full examination lifecycle?",
+      "a": "EduBridge connects scheduling, seating plans, invigilator duties, answer-script handling, marks, results and report-card workflows in its examination module."
+    },
+    {
+      "q": "Are AI-generated examination outputs reviewed by staff?",
+      "a": "Yes. AI assistance supports planning and academic workflows; teachers and authorized examination staff retain review and final decision-making control."
+    },
+    {
+      "q": "Can schools use their own report-card designs?",
+      "a": "Schools can configure report-card layouts and grading structures according to supported template and assessment settings."
+    }
+  ],
+  "videos": []
+},
+  "school-exam-scheduling-software": {
+  "path": "/school-exam-scheduling-software",
+  "eyebrow": "Examination Management",
+  "title": "School Exam Scheduling & Date Sheet Software | EduBridge ERP",
+  "h1": "School Exam Scheduling and Date Sheet Management Software",
+  "description": "Plan class-wise school exam schedules, bulk-edit examination dates, publish date sheets and coordinate downstream seating and marks in EduBridge ERP.",
+  "intro": "Build and maintain exam schedules with class, subject, session and dates connected. Coordinate date sheets for students and align examination sessions with room planning, invigilation and results.",
+  "audience": "School principals, examination controllers, coordinators and teachers evaluating connected examination software.",
+  "highlights": [
+    "Class- and subject-wise exam schedules",
+    "Bulk exam scheduling and date/time changes",
+    "Copy schedules between classes",
+    "Excel import and export workflows",
+    "Publish student date sheets",
+    "Connect schedules with seating and invigilation",
+    "Align schedules with marks and assessment schemes",
+    "Manage multiple examination cycles"
+  ],
+  "keywords": [
+    "school exam scheduling software",
+    "school exam date sheet software",
+    "exam timetable generator school",
+    "school exam schedule management"
+  ],
+  "faqs": [
+    {
+      "q": "Can examination dates be updated in bulk?",
+      "a": "Bulk scheduling and exam-date update workflows are available for authorized examination staff."
+    },
+    {
+      "q": "Can the schedule be published to students?",
+      "a": "The examination scheduling workflow supports publishing relevant date-sheet information."
+    },
+    {
+      "q": "Does EduBridge cover the full examination lifecycle?",
+      "a": "EduBridge connects scheduling, seating plans, invigilator duties, answer-script handling, marks, results and report-card workflows in its examination module."
+    },
+    {
+      "q": "Are AI-generated examination outputs reviewed by staff?",
+      "a": "Yes. AI assistance supports planning and academic workflows; teachers and authorized examination staff retain review and final decision-making control."
+    },
+    {
+      "q": "Can schools use their own report-card designs?",
+      "a": "Schools can configure report-card layouts and grading structures according to supported template and assessment settings."
+    }
+  ],
+  "videos": []
+},
+  "exam-invigilation-management-software": {
+  "path": "/exam-invigilation-management-software",
+  "eyebrow": "Examination Management",
+  "title": "Intelligent Invigilator Allocation & Exam Duty Software | EduBridge",
+  "h1": "Intelligent Exam Invigilator Allocation and Duty Management",
+  "description": "Coordinate school invigilator duties, conflict-aware allocations, room assignments, duty acknowledgements and attendance in EduBridge ERP.",
+  "intro": "Connect invigilator assignment with rooms, dates and examination sessions instead of allocating staff from separate spreadsheets. Duty plans can be reviewed by authorized examination teams.",
+  "audience": "School principals, examination controllers, coordinators and teachers evaluating connected examination software.",
+  "highlights": [
+    "Intelligent invigilator allocation support",
+    "Room-wise staff and session assignments",
+    "Conflict-aware duty planning",
+    "Invigilator duty charts",
+    "Duty acknowledgement tracking",
+    "Invigilator attendance workflows",
+    "Connected examination room roster",
+    "Human review before publication"
+  ],
+  "keywords": [
+    "invigilator allocation software",
+    "smart exam duty allocation",
+    "school invigilation management",
+    "invigilator duty chart school"
+  ],
+  "faqs": [
+    {
+      "q": "Can the system help identify competing duties?",
+      "a": "Duty planning includes conflict awareness alongside room and exam-session assignments."
+    },
+    {
+      "q": "Does EduBridge cover the full examination lifecycle?",
+      "a": "EduBridge connects scheduling, seating plans, invigilator duties, answer-script handling, marks, results and report-card workflows in its examination module."
+    },
+    {
+      "q": "Are AI-generated examination outputs reviewed by staff?",
+      "a": "Yes. AI assistance supports planning and academic workflows; teachers and authorized examination staff retain review and final decision-making control."
+    },
+    {
+      "q": "Can schools use their own report-card designs?",
+      "a": "Schools can configure report-card layouts and grading structures according to supported template and assessment settings."
+    }
+  ],
+  "videos": [
+    "JGlX1PpvmOI"
+  ]
+},
+  "school-answer-script-management-software": {
+  "path": "/school-answer-script-management-software",
+  "eyebrow": "Examination Management",
+  "title": "Answer Script Collection, Evaluation & Rechecking Software | EduBridge",
+  "h1": "Track Answer Sheets from Collection to Evaluation and Return",
+  "description": "Track school answer-sheet collection, room-wise reconciliation, handovers, evaluator assignments, checking progress, return and rechecking with EduBridge.",
+  "intro": "Maintain accountability for physical answer scripts without claiming that every paper is automatically graded. From room-wise collection and bundles to staff handovers, evaluator workflow, return and rechecking, examination teams can see where records stand.",
+  "audience": "School principals, examination controllers, coordinators and teachers evaluating connected examination software.",
+  "highlights": [
+    "Room-wise answer-script collection",
+    "Reconciliation of collected sheets",
+    "Bundle management and handovers",
+    "Evaluator assignment and acceptance",
+    "Checking progress and completion",
+    "Answer script return records",
+    "Rechecking requests and status",
+    "PDF registers and audit records"
+  ],
+  "keywords": [
+    "school answer script tracking software",
+    "answer sheet collection management",
+    "exam answer booklet handover system",
+    "evaluation progress tracking software"
+  ],
+  "faqs": [
+    {
+      "q": "Does the system manage physical answer sheets?",
+      "a": "Yes. It provides digital records and handover workflows for physical answer scripts."
+    },
+    {
+      "q": "Does script tracking automatically grade every exam paper?",
+      "a": "No. Script tracking is separate from AI-assisted scanned-answer evaluation and staff checking."
+    },
+    {
+      "q": "Does EduBridge cover the full examination lifecycle?",
+      "a": "EduBridge connects scheduling, seating plans, invigilator duties, answer-script handling, marks, results and report-card workflows in its examination module."
+    },
+    {
+      "q": "Are AI-generated examination outputs reviewed by staff?",
+      "a": "Yes. AI assistance supports planning and academic workflows; teachers and authorized examination staff retain review and final decision-making control."
+    },
+    {
+      "q": "Can schools use their own report-card designs?",
+      "a": "Schools can configure report-card layouts and grading structures according to supported template and assessment settings."
+    }
+  ],
+  "videos": []
+},
+  "school-result-report-card-software": {
+  "path": "/school-result-report-card-software",
+  "eyebrow": "Examination Management",
+  "title": "Custom School Report Cards & Result Management Software | EduBridge",
+  "h1": "School Results and Custom Report Cards Connected to Exam Marks",
+  "description": "Generate school results and customizable report cards from marks, grades, attendance, scholastic/co-scholastic data and configured exam schemes.",
+  "intro": "Bring exam scores, component schemes, attendance and grade-based evaluations into a connected report-card process. Schools can configure approved visual layouts and publish printable outputs.",
+  "audience": "School principals, examination controllers, coordinators and teachers evaluating connected examination software.",
+  "highlights": [
+    "Custom report-card templates and cloning",
+    "Class and term-specific layouts",
+    "Marks and grade integration",
+    "Scholastic and co-scholastic sections",
+    "Attendance and teacher remarks",
+    "Subject ordering and branding",
+    "PDF report-card generation",
+    "Student results and exports"
+  ],
+  "keywords": [
+    "custom report card software school",
+    "school report card designer",
+    "school exam result management",
+    "CBSE report card software"
+  ],
+  "faqs": [
+    {
+      "q": "Can different classes use different report-card layouts?",
+      "a": "Class-specific report-card formats and configurable templates are supported."
+    },
+    {
+      "q": "Can scholastic and co-scholastic results appear together?",
+      "a": "The report-card workflow supports academic marks along with configured co-scholastic grading."
+    },
+    {
+      "q": "Does EduBridge cover the full examination lifecycle?",
+      "a": "EduBridge connects scheduling, seating plans, invigilator duties, answer-script handling, marks, results and report-card workflows in its examination module."
+    },
+    {
+      "q": "Are AI-generated examination outputs reviewed by staff?",
+      "a": "Yes. AI assistance supports planning and academic workflows; teachers and authorized examination staff retain review and final decision-making control."
+    },
+    {
+      "q": "Can schools use their own report-card designs?",
+      "a": "Schools can configure report-card layouts and grading structures according to supported template and assessment settings."
+    }
+  ],
+  "videos": []
+},
+  "school-examination-management-software": {
+  "path": "/school-examination-management-software",
+  "eyebrow": "Examination Management",
+  "title": "School Examination Management Software | AI Seating, Invigilation & Report Cards | EduBridge",
+  "h1": "School Examination Management Software: From Exam Schedules to Custom Report Cards",
+  "description": "Run school exams with EduBridge: scheduling, AI-assisted seating, invigilator duties, answer scripts, marks, results and custom report cards.",
+  "intro": "Examination operations should not depend on disconnected registers. EduBridge brings schedules, rooms, invigilation, answer-script accountability, marks and report-card workflows together. AI supports seating and academic tasks while authorized staff review important decisions.",
+  "audience": "School principals, examination controllers, coordinators and teachers evaluating connected examination software.",
+  "highlights": [
+    "Exam schedules, date sheets and publishing",
+    "AI-assisted seating plans and room allocation",
+    "Intelligent invigilator duty planning",
+    "Answer script collection and chain of custody",
+    "Marks entry, schemes and publication controls",
+    "Custom report cards and results",
+    "AI assessments and online tests",
+    "Examination spending and records"
+  ],
+  "keywords": [
+    "school examination management software",
+    "exam management software for schools",
+    "AI exam seating plan software",
+    "invigilator allocation software",
+    "answer sheet tracking software",
+    "custom school report card software"
+  ],
+  "faqs": [
+    {
+      "q": "Can an exam controller track answer scripts after an examination?",
+      "a": "The answer-script workflow supports collection, handover, reconciliation, evaluator assignment, return and rechecking records."
+    },
+    {
+      "q": "Does EduBridge cover the full examination lifecycle?",
+      "a": "EduBridge connects scheduling, seating plans, invigilator duties, answer-script handling, marks, results and report-card workflows in its examination module."
+    },
+    {
+      "q": "Are AI-generated examination outputs reviewed by staff?",
+      "a": "Yes. AI assistance supports planning and academic workflows; teachers and authorized examination staff retain review and final decision-making control."
+    },
+    {
+      "q": "Can schools use their own report-card designs?",
+      "a": "Schools can configure report-card layouts and grading structures according to supported template and assessment settings."
+    }
+  ],
+  "videos": [
+    "JGlX1PpvmOI"
+  ],
+  "examSections": [
+    {
+      "title": "Exam schedules, date sheets and publishing",
+      "text": "Configure class- and subject-wise exam dates, coordinate exam sessions, and publish schedules for authorized users.",
+      "bullets": [
+        "Class- and subject-wise schedules",
+        "Bulk date and time changes",
+        "Schedule import/export",
+        "Published date-sheet visibility"
+      ]
+    },
+    {
+      "title": "AI-assisted seating plans and room allocation",
+      "text": "Plan examination seating using room capacities and student information, review allocations and publish printable seating layouts.",
+      "bullets": [
+        "Room capacity and student allocations",
+        "AI-assisted seating analysis",
+        "Manual review and adjustments",
+        "Seating-plan PDF and audit history"
+      ]
+    },
+    {
+      "title": "Intelligent invigilator duty planning",
+      "text": "Allocate staff to examination rooms and sessions with duty coordination and conflict awareness.",
+      "bullets": [
+        "Room-wise invigilator duties",
+        "Conflict-aware allocation support",
+        "Duty charts and acknowledgement",
+        "Invigilator attendance workflows"
+      ]
+    },
+    {
+      "title": "Answer script collection and chain of custody",
+      "text": "Track physical answer sheets from collection to handover, bundles, evaluator assignment, checking and return.",
+      "bullets": [
+        "Room-wise collection and reconciliation",
+        "Script bundles and handovers",
+        "Evaluator acceptance and checking progress",
+        "Returns, rechecking and audit trail"
+      ]
+    },
+    {
+      "title": "Marks entry, schemes and publication controls",
+      "text": "Manage examination components, subject marks, grades, review stages and authorized marks locking.",
+      "bullets": [
+        "Marks and grades components",
+        "Teacher-wise marks access",
+        "Excel import/export",
+        "Locking, review and audit controls"
+      ]
+    },
+    {
+      "title": "Custom report cards and results",
+      "text": "Build school-specific report-card formats using connected marks, grading, attendance and scholastic/co-scholastic information.",
+      "bullets": [
+        "Customizable report-card templates",
+        "Term and class-specific layouts",
+        "Co-scholastic grading and remarks",
+        "Printable PDF outputs"
+      ]
+    },
+    {
+      "title": "AI assessments and online tests",
+      "text": "Create AI-assisted questions, publish assessments, support online student attempts and teacher-reviewed evaluation workflows.",
+      "bullets": [
+        "AI question generation assistance",
+        "Online attempts and answer records",
+        "AI-assisted evaluation with review",
+        "Publishable assessment results"
+      ]
+    },
+    {
+      "title": "Examination spending and records",
+      "text": "Maintain examination-related expense entries and supporting bills as part of administration workflows.",
+      "bullets": [
+        "Expense categories and entries",
+        "Bill attachment records",
+        "Correction and cancellation controls",
+        "Connected exam administration"
+      ]
+    }
+  ],
+  "examRelated": [
+    "/school-exam-scheduling-software",
+    "/exam-seating-plan-software",
+    "/exam-invigilation-management-software",
+    "/school-answer-script-management-software",
+    "/school-exam-marks-entry-software",
+    "/school-result-report-card-software",
+    "/custom-report-card-designer-school"
+  ]
+},
+
+  /* INVENTORY_SEO_START:school-college-inventory-management-software */
+  "school-college-inventory-management-software": {
+  "eyebrow": "School & College Inventory Management",
+  "title": "School & College Inventory Management Software | EduBridge ERP",
+  "h1": "School & College Inventory Management Software for Stores, Stock and Departments",
+  "description": "Track school and college stock, store locations, laboratory inventory, item issue and returns, transfers, adjustments and low-stock reports with EduBridge ERP.",
+  "intro": "EduBridge ERP helps schools and colleges organize inventory across stores, laboratories, offices and academic departments. Track incoming stock, maintain item-wise balances, record issues to staff or departments, accept returns and monitor low-stock items with controlled access and transaction history. Keep stock administration connected to your institution instead of scattered spreadsheets.",
+  "audience": "School administrators, college departments, store in-charges, lab in-charges and inventory teams managing supplies and returnable equipment.",
+  "highlights": [
+    "Create inventory categories, items and item codes",
+    "Manage central stores, laboratories, departments and other inventory locations",
+    "Register opening stock and stock received",
+    "Record item issues to staff and departments",
+    "Track due dates and returnable item returns",
+    "Move available stock between inventory locations",
+    "Record approved stock adjustments and stock transaction history",
+    "Review item-wise stock availability and low-stock reports",
+    "Store vendor and bill references on relevant stock records",
+    "Use role-based permissions for store and department operations"
+  ],
+  "keywords": [
+    "school inventory management software",
+    "college inventory management software",
+    "school stock management system",
+    "school store management software",
+    "department inventory management software",
+    "school laboratory inventory software",
+    "inventory issue return tracking school",
+    "school inventory low stock report"
+  ],
+  "inventorySections": [
+    {
+      "title": "Central Store, Departments and Laboratories",
+      "text": "Track supplies at the location where they are held. Maintain item categories, item codes, store locations and department context for an organized stock picture.",
+      "bullets": [
+        "Central and department stores",
+        "Laboratory and office locations",
+        "Inventory categories and item codes",
+        "Location-aware availability"
+      ]
+    },
+    {
+      "title": "Receiving, Issuing and Transfers",
+      "text": "Maintain stock from opening balance through new receipts, staff/department issues and transfers. Recorded movements support review of how stock changes over time.",
+      "bullets": [
+        "Opening stock and goods receipt",
+        "Staff and department issues",
+        "Transfers between locations",
+        "Adjustments and transaction records"
+      ]
+    },
+    {
+      "title": "Returnable Equipment and Accountability",
+      "text": "Record who received returnable items, track applicable due dates and handle return requests and confirmations within inventory workflows.",
+      "bullets": [
+        "Issue-to-person or department records",
+        "Returnable stock management",
+        "Return requests and confirmations",
+        "Issue and return history"
+      ]
+    },
+    {
+      "title": "Stock Visibility and Low-Stock Reports",
+      "text": "View current quantities, filter reports by location, category or item and identify low-stock items against configured minimum thresholds.",
+      "bullets": [
+        "Available stock calculation",
+        "Minimum stock thresholds",
+        "Low-stock filtering",
+        "Inventory movement history"
+      ]
+    },
+    {
+      "title": "Controlled Inventory Operations",
+      "text": "Inventory permissions help administrators and designated in-charges maintain accountability while other authorized users receive view-only visibility as configured.",
+      "bullets": [
+        "Role-aware inventory access",
+        "Controlled stock changes",
+        "Recorded cancellation safeguards",
+        "Centralized admin visibility"
+      ]
+    },
+    {
+      "title": "Designed for Education Campuses",
+      "text": "Coordinate inventory usage across school offices, sports departments, laboratories and college academic departments using the same institution platform.",
+      "bullets": [
+        "School stores and consumables",
+        "Science and computer laboratories",
+        "Sports and activity equipment",
+        "College department supplies"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can schools track inventory in multiple departments?",
+      "a": "Yes. EduBridge supports multiple inventory locations and department-wise stock workflows, so stores and labs can maintain clearer records."
+    },
+    {
+      "q": "Can an item be issued to a staff member and returned later?",
+      "a": "Yes. Stock issues and returnable-item workflows help document responsibility and return status, including due dates where applicable."
+    },
+    {
+      "q": "Does EduBridge show low-stock items?",
+      "a": "Yes. Inventory reporting includes low-stock filtering based on item-level minimum thresholds. Automatic low-stock messages are not claimed."
+    },
+    {
+      "q": "Can inventory be transferred between stores or departments?",
+      "a": "Yes. The inventory system supports stock movement between configured locations with associated transaction records."
+    },
+    {
+      "q": "Is this an asset depreciation or procurement approval system?",
+      "a": "This page describes verified inventory and stock-handling workflows. Asset depreciation, barcode scanning and purchase-order approvals are not advertised as standard features."
+    }
+  ],
+  "videos": [],
+  "path": "/school-college-inventory-management-software"
+},
+  /* INVENTORY_SEO_END:school-college-inventory-management-software */
+
+  /* INVENTORY_SEO_START:school-laboratory-inventory-management-software */
+  "school-laboratory-inventory-management-software": {
+  "eyebrow": "School Laboratory & Department Stock",
+  "title": "School Laboratory Inventory & Stock Issue Software | EduBridge",
+  "h1": "Manage Laboratory, Department and School Store Inventory in One Place",
+  "description": "Organize school laboratory and department inventory: receive stock, issue supplies, record returns and transfers, and monitor location-wise balances with EduBridge ERP.",
+  "intro": "Science labs, computer labs, sports departments and administrative stores have different inventory needs. EduBridge gives school and college teams location-based stock records, item issues, returnable-item tracking and low-stock reports, connected to institutional permissions and administration.",
+  "audience": "School laboratory in-charges, campus stores, academic departments and administrators looking for an organized issue-and-return inventory process.",
+  "highlights": [
+    "Maintain separate stock locations for laboratories and departments",
+    "Register items and categorized stock records",
+    "Track opening balances and stock receipts",
+    "Issue materials to staff or departments",
+    "Manage returnable equipment issues and returns",
+    "Record movement between authorized locations",
+    "Review item-wise availability and low-stock reports",
+    "Keep movement and cancellation history for accountability"
+  ],
+  "keywords": [
+    "school laboratory inventory management software",
+    "lab inventory management for schools",
+    "school department inventory software",
+    "school store issue return management",
+    "college lab stock software"
+  ],
+  "inventorySections": [
+    {
+      "title": "Lab and Department Stock",
+      "text": "Keep location-wise item records across labs, offices, and academic departments so teams can find the current stock context.",
+      "bullets": [
+        "Location-based stock",
+        "Item categories",
+        "Opening balances",
+        "Stock receiving"
+      ]
+    },
+    {
+      "title": "Issue, Return and Transfer Workflow",
+      "text": "Track when equipment and supplies are issued and returned, and manage transfers where stock must move between locations.",
+      "bullets": [
+        "Staff issues",
+        "Return tracking",
+        "Stock transfers",
+        "Movement history"
+      ]
+    },
+    {
+      "title": "Minimum Stock and Reporting",
+      "text": "Use category, item and location report filters to review stock balances and find items below configured minimum levels.",
+      "bullets": [
+        "Current balances",
+        "Low-stock filters",
+        "Item reports",
+        "Department visibility"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does EduBridge support laboratory inventory?",
+      "a": "Yes. Configurable inventory locations and stock processes support laboratory and department inventory records."
+    },
+    {
+      "q": "Can schools track equipment returned by teachers?",
+      "a": "Yes. Issue and return workflows track returnable inventory items as part of the stock record."
+    },
+    {
+      "q": "Can lab in-charges see low-stock items?",
+      "a": "Authorized users can view relevant inventory records and low-stock reports based on their configured permissions."
+    }
+  ],
+  "videos": [],
+  "path": "/school-laboratory-inventory-management-software"
+},
+  /* INVENTORY_SEO_END:school-laboratory-inventory-management-software */
+
+};
+
+export const seoLandingSlugs = Object.keys(seoLandingPages);

@@ -184,6 +184,33 @@ export default function SearchLandingPage({ data }) {
           </section>
         )}
 
+        {data.feeSections?.length > 0 && (
+          <section className="py-16 md:py-24" aria-label="School fee management workflows">
+            <div className="mx-auto max-w-7xl px-5 md:px-8">
+              <div className="max-w-4xl">
+                <span className="brand-kicker">Fee collection workflows in detail</span>
+                <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 md:text-5xl">From fee setup and online payments to pending dues and collection reports.</h2>
+                <p className="mt-5 leading-7 text-slate-600">Explore how EduBridge connects school accounts, student records and transport collections.</p>
+              </div>
+              <div className="mt-10 grid gap-6 md:grid-cols-2">
+                {data.feeSections.map((section) => (
+                  <article key={section.title} className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+                    <h3 className="text-xl font-black text-slate-950">{section.title}</h3>
+                    <p className="mt-3 leading-7 text-slate-600">{section.text}</p>
+                    <ul className="mt-5 space-y-3">{section.bullets.map((bullet) => (
+                      <li key={bullet} className="flex gap-2 text-sm font-semibold leading-6 text-slate-700"><CheckCircle2 className="mt-1 shrink-0 text-orange-500" size={17}/><span>{bullet}</span></li>
+                    ))}</ul>
+                  </article>
+                ))}
+              </div>
+              <div className="mt-10 flex flex-wrap gap-3">
+                <Link href="/contact" className="rounded-xl bg-orange-500 px-6 py-3 font-black text-white hover:bg-orange-600">Request a Fee Management Demo</Link>
+                <Link href="/school-college-transport-management-software" className="rounded-xl border border-slate-300 px-6 py-3 font-bold text-slate-900 hover:bg-slate-50">Explore Transport Management</Link>
+              </div>
+            </div>
+          </section>
+        )}
+
         {data.collegeSections?.length > 0 && (
           <section className="py-16 md:py-24" aria-label="College ERP and LMS workflows">
             <div className="mx-auto max-w-7xl px-5 md:px-8">
