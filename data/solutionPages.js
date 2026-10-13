@@ -24,12 +24,12 @@ export const solutions = {
     seo:'Multi-campus institute management software for schools and colleges with centralized dashboards, roles and operational control.'
   },
   'exam-management': {
-    title:'Examination Management Software', kicker:'Complete Exam Lifecycle',
-    description:'Plan exams, publish date sheets, allocate seats, manage invigilation and answer scripts, enter marks and generate results from one examination system.',
+    title:'AI-Powered Examination Management Software', kicker:'Exams, Seating, Invigilation & Report Cards',
+    description:'Manage school exams end-to-end: date sheets, AI-assisted seating plans, intelligent invigilator duties, answer-script collection and evaluation tracking, marks controls and customizable report cards.',
     image:'/images/screenshots/exam-management.png', imageAlt:'EduBridge examination management software',
     modules:['exam-management','exam-date-sheet','exam-seating','invigilation','answer-scripts','marks-management','results-report-cards','co-scholastic'],
-    bullets:['From scheduling to report cards','Room, seat and invigilator workflows','Answer script accountability','Flexible marks, grades and report formats'],
-    seo:'Examination management software for schools and colleges with date sheets, seating plans, invigilation, answer scripts, marks and report cards.'
+    bullets:['Class-wise schedules, date sheets and exam sessions','AI-assisted seat planning and invigilator allocation','Answer-script collection, evaluator handover and rechecking','Marks, grading and customized PDF report cards'],
+    seo:'AI-powered school examination management software with exam schedules, intelligent seating and invigilation, answer script tracking, marks entry and custom report cards.'
   },
   'library': {
     title:'Library Management Software', kicker:'Connected Library Operations',

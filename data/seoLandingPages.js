@@ -1068,88 +1068,379 @@ export const seoLandingPages = {
     videos: [],
   },
 
-  'school-exam-marks-entry-software': {
-    path: '/school-exam-marks-entry-software', eyebrow: 'Exam Marks Entry',
-    title: 'School Exam Marks Entry Software | Secure Marks & Result Workflow | EduBridge',
-    h1: 'Enter, Review and Manage School Exam Marks in a Controlled Workflow',
-    description: 'Manage subject-wise exam marks entry, components, grades, teacher access, review and result preparation in a connected EduBridge examination workflow.',
-    intro: 'Marks entry becomes difficult when subjects, components, grades and users are managed in disconnected sheets. EduBridge keeps marks entry linked with exam schemes, students, subjects and report-card workflows so authorized teachers and examination teams can work from one controlled system.',
-    audience: 'Schools looking for structured marks entry with teacher access, examination controls, grades and connected report-card generation.',
-    highlights: [
-      'Subject-wise and class-wise marks entry for configured examinations','Support for multiple assessment components and examination structures','Teacher access aligned with assigned classes and subjects','Grade-oriented and marks-oriented workflows according to configured schemes','Review, correction and examination-team control before result publication','Marks locking and unlocking controls for authorized examination users','Connected result calculations and report-card generation','Reduce repeated spreadsheet consolidation across teachers and classes'
-    ],
-    keywords: ['school marks entry software','exam marks entry software school','online marks entry system','school result marks software','teacher marks entry ERP','marks locking school exam software'],
-    faqs: [
-      { q: 'Can teachers enter marks only for their assigned subjects?', a: 'Role and assignment-based workflows can be used so teachers work with the classes and subjects relevant to them.' },
-      { q: 'Can an examination team control marks after teachers finish entry?', a: 'Yes. Authorized examination users can review result workflows and use controls such as marks locking or unlocking according to school process.' },
-      { q: 'Does marks entry connect with report cards?', a: 'Yes. Marks, grades and configured examination components can flow into the connected result and report-card workflow.' },
-      ...commonFaq,
-    ], videos: [],
-  },
-  'school-exam-scheduling-software': {
-    path: '/school-exam-scheduling-software', eyebrow: 'Exam Scheduling',
-    title: 'School Exam Scheduling Software | Exam Dates, Subjects & Classes | EduBridge',
-    h1: 'Plan School Examinations with Connected Class, Subject and Schedule Data',
-    description: 'Create and manage school examination schedules with classes, subjects, dates and connected examination workflows in EduBridge ERP + LMS.',
-    intro: 'An examination schedule is the starting point for marks entry, seating, invigilation and result preparation. EduBridge keeps exam planning connected with the institutional class and subject structure so the examination team can coordinate the full cycle from one platform.',
-    audience: 'Schools that want examination dates, subjects, classes and downstream exam workflows managed from a central system.',
-    highlights: ['Create examination schedules for relevant classes and subjects','Keep exam dates and subject context connected with student data','Use schedules as part of downstream marks-entry workflows','Connect scheduled examinations with seating-plan preparation','Coordinate invigilator and examination-duty workflows','Maintain one source of exam information for authorized staff','Reduce repeated schedule data across separate spreadsheets','Continue from exam planning into marks, results and report cards'],
-    keywords: ['school exam scheduling software','exam timetable software school','school examination schedule ERP','exam date sheet software','school exam planner software'],
-    faqs: [
-      { q: 'Can EduBridge create school examination schedules?', a: 'Yes. Examination schedules can be configured for the relevant classes, subjects and dates within the connected examination workflow.' },
-      { q: 'Does the exam schedule connect with seating and marks entry?', a: 'Yes. The schedule can form part of the broader examination process that continues into seating, invigilation, marks and results.' },
-      { q: 'Can schools manage different examinations during the session?', a: 'Yes. Institutions can configure multiple examination cycles according to their academic structure and policies.' },
-      ...commonFaq,
-    ], videos: [],
-  },
-  'exam-invigilation-management-software': {
-    path: '/exam-invigilation-management-software', eyebrow: 'Invigilation Management',
-    title: 'Exam Invigilation Management Software for Schools | EduBridge',
-    h1: 'Plan Invigilator Duties Alongside Rooms, Students and Exam Sessions',
-    description: 'Manage school exam invigilator allocation, duty planning, conflicts, attendance and connected seating-plan workflows with EduBridge examination management.',
-    intro: 'Invigilation planning involves more than assigning a teacher name to a room. EduBridge connects invigilator duties with examination sessions, rooms and seating-plan workflows so examination teams can prepare duty charts, reduce conflicts and maintain clearer operational records.',
-    audience: 'Examination departments that need structured invigilator assignment, duty charts, conflict awareness and attendance tracking.',
-    highlights: ['Assign invigilators to examination rooms and sessions','Coordinate duties with room and seating-plan information','Identify and reduce conflicting duty assignments','Prepare invigilator duty charts for examination operations','Track invigilator attendance in supported workflows','Keep teacher and examination records connected','Support examination-team review before duties are published','Reduce manual duty allocation across spreadsheets and messages'],
-    keywords: ['exam invigilation management software','invigilator duty software school','exam duty allocation software','school invigilator management','exam room duty chart software'],
-    faqs: [
-      { q: 'Can EduBridge allocate teachers as exam invigilators?', a: 'Yes. Examination teams can manage invigilator assignments alongside exam-session and room workflows.' },
-      { q: 'Can the system help identify duty conflicts?', a: 'Yes. Connected scheduling information can help examination users avoid overlapping or unsuitable duty assignments.' },
-      { q: 'Can invigilator attendance be maintained?', a: 'EduBridge supports examination invigilator attendance workflows where configured for the institution.' },
-      ...commonFaq,
-    ], videos: ['JGlX1PpvmOI'],
-  },
-  'school-answer-script-management-software': {
-    path: '/school-answer-script-management-software', eyebrow: 'Answer Scripts',
-    title: 'School Answer Script Management Software | Exam Script Workflow | EduBridge',
-    h1: 'Track Examination Answer Scripts Through a Clear School Workflow',
-    description: 'Manage school examination answer-script workflows with connected exam, student, teacher and result processes in EduBridge ERP + LMS.',
-    intro: 'Physical answer scripts still require digital accountability. EduBridge can support examination teams in tracking script-related workflows alongside students, exams and staff so the process from examination operations to checking and result preparation remains easier to coordinate.',
-    audience: 'Schools and examination departments that want better accountability around answer-script handling and checking workflows.',
-    highlights: ['Keep answer-script workflows connected with examination records','Associate script processes with relevant students and examinations','Support organized issue, checking and return stages where configured','Improve visibility for examination teams across the checking cycle','Reduce reliance on informal handwritten tracking registers','Connect script workflows with teachers and examination responsibilities','Use centralized records to support follow-up on pending checking work','Continue from script handling into marks and result preparation'],
-    keywords: ['answer script management software school','exam answer sheet tracking software','school answer script workflow','exam copy checking management','answer booklet tracking ERP'],
-    faqs: [
-      { q: 'What is school answer-script management software?', a: 'It is a digital workflow used to organize and track examination answer scripts and their related checking or handling stages alongside exam records.' },
-      { q: 'Can answer scripts be connected with examination and teacher data?', a: 'Yes. Keeping script workflows connected with exams, students and responsible staff improves visibility for authorized examination users.' },
-      { q: 'Does answer-script management replace physical answer sheets?', a: 'Not necessarily. It can provide digital tracking and workflow control around physical scripts, while other supported workflows may also use scanned material for AI-assisted evaluation.' },
-      ...commonFaq,
-    ], videos: ['jX8am6fMDHk'],
-  },
-  'school-result-report-card-software': {
-    path: '/school-result-report-card-software', eyebrow: 'Results & Report Cards',
-    title: 'School Result & Report Card Software | Grades, Results & PDFs | EduBridge',
-    h1: 'Move from Marks and Grades to Complete School Results and Report Cards',
-    description: 'Prepare school results and report cards from connected marks, grades, attendance and student data with flexible formats and bulk PDF output in EduBridge.',
-    intro: 'Result preparation should not require rebuilding the same marks and student information in separate documents. EduBridge connects examination data with grades, attendance and report-card formats so schools can move from marks entry to publishable result documents with less repetitive work.',
-    audience: 'Schools that want connected result preparation, grading and flexible report-card output across different classes and examination structures.',
-    highlights: ['Use connected marks and grades to prepare student results','Support class-specific examination and grading structures','Include relevant attendance and student profile information','Prepare scholastic and co-scholastic result sections','Use school-specific report-card formats and branding','Generate report cards in printable PDF workflows','Support multiple result periods such as term, half-yearly or annual','Reduce manual result consolidation and document preparation'],
-    keywords: ['school result software','school report card software','result management system school','school result card generator','report card PDF software','CBSE result report card software'],
-    faqs: [
-      { q: 'Can EduBridge generate school report cards from entered marks?', a: 'Yes. Report-card workflows can use the marks, grades, student information and examination structures already maintained in the ERP.' },
-      { q: 'Can different classes have different result formats?', a: 'Yes. Different class levels can use different report-card structures according to the school examination and reporting requirements.' },
-      { q: 'Can schools customize the visual report card format?', a: 'Yes. EduBridge supports school-specific report-card presentation; the dedicated Custom Report Card Designer page explains this capability in more detail.' },
-      ...commonFaq,
-    ], videos: [],
-  },
+  "school-exam-marks-entry-software": {
+  "path": "/school-exam-marks-entry-software",
+  "eyebrow": "Examination Management",
+  "title": "School Exam Marks Entry, Grading & Locking Software | EduBridge",
+  "h1": "Manage Exam Marks, Assessment Components and Grade Controls",
+  "description": "Manage class-wise marks entry, grades, assessment schemes, Excel imports, marks locks and connected school report cards in EduBridge ERP.",
+  "intro": "Examination teams can configure assessment components and control entry, review and publication. Teacher permissions, mark locks and exports help reduce isolated spreadsheets and uncontrolled changes.",
+  "audience": "School principals, examination controllers, coordinators and teachers evaluating connected examination software.",
+  "highlights": [
+    "Marks entry by class, subject and exam",
+    "Configurable term and component schemes",
+    "Marks and grade-oriented assessments",
+    "Teacher assignment-based access",
+    "Marks import and export workflows",
+    "Authorized marks locking and unlocking",
+    "Marks access audit history",
+    "Report card and result integration"
+  ],
+  "keywords": [
+    "school exam marks entry software",
+    "school grade management software",
+    "marks locking examination ERP",
+    "assessment component marks system"
+  ],
+  "faqs": [
+    {
+      "q": "Can marks be locked after review?",
+      "a": "Authorized exam users can use marks locking and unlocking controls according to their configured workflows."
+    },
+    {
+      "q": "Does EduBridge cover the full examination lifecycle?",
+      "a": "EduBridge connects scheduling, seating plans, invigilator duties, answer-script handling, marks, results and report-card workflows in its examination module."
+    },
+    {
+      "q": "Are AI-generated examination outputs reviewed by staff?",
+      "a": "Yes. AI assistance supports planning and academic workflows; teachers and authorized examination staff retain review and final decision-making control."
+    },
+    {
+      "q": "Can schools use their own report-card designs?",
+      "a": "Schools can configure report-card layouts and grading structures according to supported template and assessment settings."
+    }
+  ],
+  "videos": []
+},
+  "school-exam-scheduling-software": {
+  "path": "/school-exam-scheduling-software",
+  "eyebrow": "Examination Management",
+  "title": "School Exam Scheduling & Date Sheet Software | EduBridge ERP",
+  "h1": "School Exam Scheduling and Date Sheet Management Software",
+  "description": "Plan class-wise school exam schedules, bulk-edit examination dates, publish date sheets and coordinate downstream seating and marks in EduBridge ERP.",
+  "intro": "Build and maintain exam schedules with class, subject, session and dates connected. Coordinate date sheets for students and align examination sessions with room planning, invigilation and results.",
+  "audience": "School principals, examination controllers, coordinators and teachers evaluating connected examination software.",
+  "highlights": [
+    "Class- and subject-wise exam schedules",
+    "Bulk exam scheduling and date/time changes",
+    "Copy schedules between classes",
+    "Excel import and export workflows",
+    "Publish student date sheets",
+    "Connect schedules with seating and invigilation",
+    "Align schedules with marks and assessment schemes",
+    "Manage multiple examination cycles"
+  ],
+  "keywords": [
+    "school exam scheduling software",
+    "school exam date sheet software",
+    "exam timetable generator school",
+    "school exam schedule management"
+  ],
+  "faqs": [
+    {
+      "q": "Can examination dates be updated in bulk?",
+      "a": "Bulk scheduling and exam-date update workflows are available for authorized examination staff."
+    },
+    {
+      "q": "Can the schedule be published to students?",
+      "a": "The examination scheduling workflow supports publishing relevant date-sheet information."
+    },
+    {
+      "q": "Does EduBridge cover the full examination lifecycle?",
+      "a": "EduBridge connects scheduling, seating plans, invigilator duties, answer-script handling, marks, results and report-card workflows in its examination module."
+    },
+    {
+      "q": "Are AI-generated examination outputs reviewed by staff?",
+      "a": "Yes. AI assistance supports planning and academic workflows; teachers and authorized examination staff retain review and final decision-making control."
+    },
+    {
+      "q": "Can schools use their own report-card designs?",
+      "a": "Schools can configure report-card layouts and grading structures according to supported template and assessment settings."
+    }
+  ],
+  "videos": []
+},
+  "exam-invigilation-management-software": {
+  "path": "/exam-invigilation-management-software",
+  "eyebrow": "Examination Management",
+  "title": "Intelligent Invigilator Allocation & Exam Duty Software | EduBridge",
+  "h1": "Intelligent Exam Invigilator Allocation and Duty Management",
+  "description": "Coordinate school invigilator duties, conflict-aware allocations, room assignments, duty acknowledgements and attendance in EduBridge ERP.",
+  "intro": "Connect invigilator assignment with rooms, dates and examination sessions instead of allocating staff from separate spreadsheets. Duty plans can be reviewed by authorized examination teams.",
+  "audience": "School principals, examination controllers, coordinators and teachers evaluating connected examination software.",
+  "highlights": [
+    "Intelligent invigilator allocation support",
+    "Room-wise staff and session assignments",
+    "Conflict-aware duty planning",
+    "Invigilator duty charts",
+    "Duty acknowledgement tracking",
+    "Invigilator attendance workflows",
+    "Connected examination room roster",
+    "Human review before publication"
+  ],
+  "keywords": [
+    "invigilator allocation software",
+    "smart exam duty allocation",
+    "school invigilation management",
+    "invigilator duty chart school"
+  ],
+  "faqs": [
+    {
+      "q": "Can the system help identify competing duties?",
+      "a": "Duty planning includes conflict awareness alongside room and exam-session assignments."
+    },
+    {
+      "q": "Does EduBridge cover the full examination lifecycle?",
+      "a": "EduBridge connects scheduling, seating plans, invigilator duties, answer-script handling, marks, results and report-card workflows in its examination module."
+    },
+    {
+      "q": "Are AI-generated examination outputs reviewed by staff?",
+      "a": "Yes. AI assistance supports planning and academic workflows; teachers and authorized examination staff retain review and final decision-making control."
+    },
+    {
+      "q": "Can schools use their own report-card designs?",
+      "a": "Schools can configure report-card layouts and grading structures according to supported template and assessment settings."
+    }
+  ],
+  "videos": [
+    "JGlX1PpvmOI"
+  ]
+},
+  "school-answer-script-management-software": {
+  "path": "/school-answer-script-management-software",
+  "eyebrow": "Examination Management",
+  "title": "Answer Script Collection, Evaluation & Rechecking Software | EduBridge",
+  "h1": "Track Answer Sheets from Collection to Evaluation and Return",
+  "description": "Track school answer-sheet collection, room-wise reconciliation, handovers, evaluator assignments, checking progress, return and rechecking with EduBridge.",
+  "intro": "Maintain accountability for physical answer scripts without claiming that every paper is automatically graded. From room-wise collection and bundles to staff handovers, evaluator workflow, return and rechecking, examination teams can see where records stand.",
+  "audience": "School principals, examination controllers, coordinators and teachers evaluating connected examination software.",
+  "highlights": [
+    "Room-wise answer-script collection",
+    "Reconciliation of collected sheets",
+    "Bundle management and handovers",
+    "Evaluator assignment and acceptance",
+    "Checking progress and completion",
+    "Answer script return records",
+    "Rechecking requests and status",
+    "PDF registers and audit records"
+  ],
+  "keywords": [
+    "school answer script tracking software",
+    "answer sheet collection management",
+    "exam answer booklet handover system",
+    "evaluation progress tracking software"
+  ],
+  "faqs": [
+    {
+      "q": "Does the system manage physical answer sheets?",
+      "a": "Yes. It provides digital records and handover workflows for physical answer scripts."
+    },
+    {
+      "q": "Does script tracking automatically grade every exam paper?",
+      "a": "No. Script tracking is separate from AI-assisted scanned-answer evaluation and staff checking."
+    },
+    {
+      "q": "Does EduBridge cover the full examination lifecycle?",
+      "a": "EduBridge connects scheduling, seating plans, invigilator duties, answer-script handling, marks, results and report-card workflows in its examination module."
+    },
+    {
+      "q": "Are AI-generated examination outputs reviewed by staff?",
+      "a": "Yes. AI assistance supports planning and academic workflows; teachers and authorized examination staff retain review and final decision-making control."
+    },
+    {
+      "q": "Can schools use their own report-card designs?",
+      "a": "Schools can configure report-card layouts and grading structures according to supported template and assessment settings."
+    }
+  ],
+  "videos": []
+},
+  "school-result-report-card-software": {
+  "path": "/school-result-report-card-software",
+  "eyebrow": "Examination Management",
+  "title": "Custom School Report Cards & Result Management Software | EduBridge",
+  "h1": "School Results and Custom Report Cards Connected to Exam Marks",
+  "description": "Generate school results and customizable report cards from marks, grades, attendance, scholastic/co-scholastic data and configured exam schemes.",
+  "intro": "Bring exam scores, component schemes, attendance and grade-based evaluations into a connected report-card process. Schools can configure approved visual layouts and publish printable outputs.",
+  "audience": "School principals, examination controllers, coordinators and teachers evaluating connected examination software.",
+  "highlights": [
+    "Custom report-card templates and cloning",
+    "Class and term-specific layouts",
+    "Marks and grade integration",
+    "Scholastic and co-scholastic sections",
+    "Attendance and teacher remarks",
+    "Subject ordering and branding",
+    "PDF report-card generation",
+    "Student results and exports"
+  ],
+  "keywords": [
+    "custom report card software school",
+    "school report card designer",
+    "school exam result management",
+    "CBSE report card software"
+  ],
+  "faqs": [
+    {
+      "q": "Can different classes use different report-card layouts?",
+      "a": "Class-specific report-card formats and configurable templates are supported."
+    },
+    {
+      "q": "Can scholastic and co-scholastic results appear together?",
+      "a": "The report-card workflow supports academic marks along with configured co-scholastic grading."
+    },
+    {
+      "q": "Does EduBridge cover the full examination lifecycle?",
+      "a": "EduBridge connects scheduling, seating plans, invigilator duties, answer-script handling, marks, results and report-card workflows in its examination module."
+    },
+    {
+      "q": "Are AI-generated examination outputs reviewed by staff?",
+      "a": "Yes. AI assistance supports planning and academic workflows; teachers and authorized examination staff retain review and final decision-making control."
+    },
+    {
+      "q": "Can schools use their own report-card designs?",
+      "a": "Schools can configure report-card layouts and grading structures according to supported template and assessment settings."
+    }
+  ],
+  "videos": []
+},
+  "school-examination-management-software": {
+  "path": "/school-examination-management-software",
+  "eyebrow": "Examination Management",
+  "title": "School Examination Management Software | AI Seating, Invigilation & Report Cards | EduBridge",
+  "h1": "School Examination Management Software: From Exam Schedules to Custom Report Cards",
+  "description": "Run school exams with EduBridge: scheduling, AI-assisted seating, invigilator duties, answer scripts, marks, results and custom report cards.",
+  "intro": "Examination operations should not depend on disconnected registers. EduBridge brings schedules, rooms, invigilation, answer-script accountability, marks and report-card workflows together. AI supports seating and academic tasks while authorized staff review important decisions.",
+  "audience": "School principals, examination controllers, coordinators and teachers evaluating connected examination software.",
+  "highlights": [
+    "Exam schedules, date sheets and publishing",
+    "AI-assisted seating plans and room allocation",
+    "Intelligent invigilator duty planning",
+    "Answer script collection and chain of custody",
+    "Marks entry, schemes and publication controls",
+    "Custom report cards and results",
+    "AI assessments and online tests",
+    "Examination spending and records"
+  ],
+  "keywords": [
+    "school examination management software",
+    "exam management software for schools",
+    "AI exam seating plan software",
+    "invigilator allocation software",
+    "answer sheet tracking software",
+    "custom school report card software"
+  ],
+  "faqs": [
+    {
+      "q": "Can an exam controller track answer scripts after an examination?",
+      "a": "The answer-script workflow supports collection, handover, reconciliation, evaluator assignment, return and rechecking records."
+    },
+    {
+      "q": "Does EduBridge cover the full examination lifecycle?",
+      "a": "EduBridge connects scheduling, seating plans, invigilator duties, answer-script handling, marks, results and report-card workflows in its examination module."
+    },
+    {
+      "q": "Are AI-generated examination outputs reviewed by staff?",
+      "a": "Yes. AI assistance supports planning and academic workflows; teachers and authorized examination staff retain review and final decision-making control."
+    },
+    {
+      "q": "Can schools use their own report-card designs?",
+      "a": "Schools can configure report-card layouts and grading structures according to supported template and assessment settings."
+    }
+  ],
+  "videos": [
+    "JGlX1PpvmOI"
+  ],
+  "examSections": [
+    {
+      "title": "Exam schedules, date sheets and publishing",
+      "text": "Configure class- and subject-wise exam dates, coordinate exam sessions, and publish schedules for authorized users.",
+      "bullets": [
+        "Class- and subject-wise schedules",
+        "Bulk date and time changes",
+        "Schedule import/export",
+        "Published date-sheet visibility"
+      ]
+    },
+    {
+      "title": "AI-assisted seating plans and room allocation",
+      "text": "Plan examination seating using room capacities and student information, review allocations and publish printable seating layouts.",
+      "bullets": [
+        "Room capacity and student allocations",
+        "AI-assisted seating analysis",
+        "Manual review and adjustments",
+        "Seating-plan PDF and audit history"
+      ]
+    },
+    {
+      "title": "Intelligent invigilator duty planning",
+      "text": "Allocate staff to examination rooms and sessions with duty coordination and conflict awareness.",
+      "bullets": [
+        "Room-wise invigilator duties",
+        "Conflict-aware allocation support",
+        "Duty charts and acknowledgement",
+        "Invigilator attendance workflows"
+      ]
+    },
+    {
+      "title": "Answer script collection and chain of custody",
+      "text": "Track physical answer sheets from collection to handover, bundles, evaluator assignment, checking and return.",
+      "bullets": [
+        "Room-wise collection and reconciliation",
+        "Script bundles and handovers",
+        "Evaluator acceptance and checking progress",
+        "Returns, rechecking and audit trail"
+      ]
+    },
+    {
+      "title": "Marks entry, schemes and publication controls",
+      "text": "Manage examination components, subject marks, grades, review stages and authorized marks locking.",
+      "bullets": [
+        "Marks and grades components",
+        "Teacher-wise marks access",
+        "Excel import/export",
+        "Locking, review and audit controls"
+      ]
+    },
+    {
+      "title": "Custom report cards and results",
+      "text": "Build school-specific report-card formats using connected marks, grading, attendance and scholastic/co-scholastic information.",
+      "bullets": [
+        "Customizable report-card templates",
+        "Term and class-specific layouts",
+        "Co-scholastic grading and remarks",
+        "Printable PDF outputs"
+      ]
+    },
+    {
+      "title": "AI assessments and online tests",
+      "text": "Create AI-assisted questions, publish assessments, support online student attempts and teacher-reviewed evaluation workflows.",
+      "bullets": [
+        "AI question generation assistance",
+        "Online attempts and answer records",
+        "AI-assisted evaluation with review",
+        "Publishable assessment results"
+      ]
+    },
+    {
+      "title": "Examination spending and records",
+      "text": "Maintain examination-related expense entries and supporting bills as part of administration workflows.",
+      "bullets": [
+        "Expense categories and entries",
+        "Bill attachment records",
+        "Correction and cancellation controls",
+        "Connected exam administration"
+      ]
+    }
+  ],
+  "examRelated": [
+    "/school-exam-scheduling-software",
+    "/exam-seating-plan-software",
+    "/exam-invigilation-management-software",
+    "/school-answer-script-management-software",
+    "/school-exam-marks-entry-software",
+    "/school-result-report-card-software",
+    "/custom-report-card-designer-school"
+  ]
+},
 
 };
 

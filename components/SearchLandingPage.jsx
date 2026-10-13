@@ -172,6 +172,18 @@ export default function SearchLandingPage({ data }) {
           </section>
         )}
 
+        {data.examSections?.length > 0 && (
+          <section className="py-16 md:py-24" aria-label="Examination lifecycle workflows">
+            <div className="mx-auto max-w-7xl px-5 md:px-8">
+              <div className="max-w-4xl"><span className="brand-kicker">Complete examination lifecycle</span><h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 md:text-5xl">Plan, conduct, evaluate and publish—one connected examination system.</h2><p className="mt-5 leading-7 text-slate-600">AI helps staff prepare and review examination workflows; authorized users retain final control over academic and administrative decisions.</p></div>
+              <div className="mt-10 grid gap-6 md:grid-cols-2">
+                {data.examSections.map((section, index) => <article key={section.title} className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm"><span className="text-sm font-black text-orange-600">STEP {String(index + 1).padStart(2, '0')}</span><h3 className="mt-3 text-xl font-black text-slate-950">{section.title}</h3><p className="mt-3 leading-7 text-slate-600">{section.text}</p><ul className="mt-5 space-y-3">{section.bullets.map((item) => <li key={item} className="flex gap-2 text-sm font-semibold text-slate-700"><CheckCircle2 className="mt-0.5 shrink-0 text-orange-500" size={16} />{item}</li>)}</ul></article>)}
+              </div>
+              <div className="mt-10 rounded-3xl bg-slate-950 p-7 text-white"><h3 className="text-xl font-black">Explore each examination workflow</h3><div className="mt-5 flex flex-wrap gap-3">{(data.examRelated || []).map((path) => <Link key={path} href={path} className="rounded-xl border border-white/20 px-4 py-3 text-sm font-bold text-white hover:bg-white/10">{path.replaceAll('-', ' ').replaceAll('/', '').replace('software', '').trim()} →</Link>)}</div></div>
+            </div>
+          </section>
+        )}
+
         {data.collegeSections?.length > 0 && (
           <section className="py-16 md:py-24" aria-label="College ERP and LMS workflows">
             <div className="mx-auto max-w-7xl px-5 md:px-8">
