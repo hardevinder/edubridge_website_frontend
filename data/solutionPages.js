@@ -40,13 +40,17 @@ export const solutions = {
     seo:'Library management software for schools and colleges with catalogue, circulation, borrower history and student/teacher access.'
   },
   'admission-crm': {
-    title:'School Admission CRM & AI Entrance Tests', kicker:'Enquiry to Admission · One Connected Workflow',
-    description:'Manage admission enquiries and complete follow-up histories, generate entrance tests with AI, let applicants take tests online, view automatically calculated results and convert selected applicants into student ERP records.',
+    title: 'School Admission CRM & Enquiry Follow-up Software', kicker:'Enquiry to Admission · One Connected Workflow',
+    description: 'Track every school admission enquiry and follow-up, schedule the next contact, prepare AI-assisted entrance tests, run online attempts, review objective results and convert admitted applicants directly into ERP student records.',
     image:'/images/screenshots/admission-crm.png', imageAlt:'EduBridge school admission CRM and enquiry management dashboard',
     modules:['admission-crm','entrance-assessment','student-information-system','visitor-management','gate-pass'],
-    bullets:['Complete enquiry records, status tracking and follow-up history','AI-assisted entrance test generation and online attempts','Automatic entrance test results and admission decisions','Enquiry-to-admission conversion with connected student records'],
-    seo:'School Admission CRM software with complete enquiry follow-ups, AI-generated entrance tests, online assessment, automatic results and admission conversion.'
-  },
+    bullets: [
+      'Enquiry and complete staff follow-up history',
+      'Next follow-up dates, notes and admission statuses',
+      'AI entrance tests, online attempts and automatic objective results',
+      'Convert to Admission creates ERP student record',
+    ],
+    seo: 'School admission CRM software for enquiries, follow-up records, AI entrance tests, online assessments, automatic objective results and enquiry-to-student conversion.',},
   'mobile-app': {
     title:'Institution-Branded iOS & Android Apps', kicker:'Your Institution in Every Pocket',
     description:'Extend EduBridge through role-based mobile experiences carrying your institution name, logo and visual identity for students, parents, teachers and operational teams.',
