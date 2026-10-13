@@ -196,6 +196,18 @@ export default function SearchLandingPage({ data }) {
           </section>
         )}
 
+        {data.inventorySections?.length > 0 && (
+          <section className="py-16 md:py-24" aria-label="Inventory operations and stock workflows">
+            <div className="mx-auto max-w-7xl px-5 md:px-8">
+              <div className="max-w-3xl"><span className="brand-kicker">Inventory workflows</span><h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 md:text-5xl">Stock accountability from receipt to return.</h2></div>
+              <div className="mt-10 grid gap-6 md:grid-cols-2">
+                {data.inventorySections.map((section) => <article key={section.title} className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm"><h3 className="text-xl font-black text-slate-950">{section.title}</h3><p className="mt-3 leading-7 text-slate-600">{section.text}</p><ul className="mt-5 space-y-3">{section.bullets.map((item) => <li key={item} className="flex gap-2 font-semibold text-slate-700"><CheckCircle2 size={17} className="mt-1 shrink-0 text-orange-500" />{item}</li>)}</ul></article>)}
+              </div>
+              <p className="mt-8 text-sm leading-7 text-slate-600">Want to see stock issue, returns and department workflows in your institution? <Link href="/contact" className="font-bold text-orange-700 underline">Request an inventory management demo</Link>.</p>
+            </div>
+          </section>
+        )}
+
         {data.transportSections?.length > 0 && (
           <section className="py-16 md:py-24">
             <div className="mx-auto max-w-7xl px-5 md:px-8">

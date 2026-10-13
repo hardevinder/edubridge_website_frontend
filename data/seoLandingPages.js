@@ -1442,6 +1442,201 @@ export const seoLandingPages = {
   ]
 },
 
+  /* INVENTORY_SEO_START:school-college-inventory-management-software */
+  "school-college-inventory-management-software": {
+  "eyebrow": "School & College Inventory Management",
+  "title": "School & College Inventory Management Software | EduBridge ERP",
+  "h1": "School & College Inventory Management Software for Stores, Stock and Departments",
+  "description": "Track school and college stock, store locations, laboratory inventory, item issue and returns, transfers, adjustments and low-stock reports with EduBridge ERP.",
+  "intro": "EduBridge ERP helps schools and colleges organize inventory across stores, laboratories, offices and academic departments. Track incoming stock, maintain item-wise balances, record issues to staff or departments, accept returns and monitor low-stock items with controlled access and transaction history. Keep stock administration connected to your institution instead of scattered spreadsheets.",
+  "audience": "School administrators, college departments, store in-charges, lab in-charges and inventory teams managing supplies and returnable equipment.",
+  "highlights": [
+    "Create inventory categories, items and item codes",
+    "Manage central stores, laboratories, departments and other inventory locations",
+    "Register opening stock and stock received",
+    "Record item issues to staff and departments",
+    "Track due dates and returnable item returns",
+    "Move available stock between inventory locations",
+    "Record approved stock adjustments and stock transaction history",
+    "Review item-wise stock availability and low-stock reports",
+    "Store vendor and bill references on relevant stock records",
+    "Use role-based permissions for store and department operations"
+  ],
+  "keywords": [
+    "school inventory management software",
+    "college inventory management software",
+    "school stock management system",
+    "school store management software",
+    "department inventory management software",
+    "school laboratory inventory software",
+    "inventory issue return tracking school",
+    "school inventory low stock report"
+  ],
+  "inventorySections": [
+    {
+      "title": "Central Store, Departments and Laboratories",
+      "text": "Track supplies at the location where they are held. Maintain item categories, item codes, store locations and department context for an organized stock picture.",
+      "bullets": [
+        "Central and department stores",
+        "Laboratory and office locations",
+        "Inventory categories and item codes",
+        "Location-aware availability"
+      ]
+    },
+    {
+      "title": "Receiving, Issuing and Transfers",
+      "text": "Maintain stock from opening balance through new receipts, staff/department issues and transfers. Recorded movements support review of how stock changes over time.",
+      "bullets": [
+        "Opening stock and goods receipt",
+        "Staff and department issues",
+        "Transfers between locations",
+        "Adjustments and transaction records"
+      ]
+    },
+    {
+      "title": "Returnable Equipment and Accountability",
+      "text": "Record who received returnable items, track applicable due dates and handle return requests and confirmations within inventory workflows.",
+      "bullets": [
+        "Issue-to-person or department records",
+        "Returnable stock management",
+        "Return requests and confirmations",
+        "Issue and return history"
+      ]
+    },
+    {
+      "title": "Stock Visibility and Low-Stock Reports",
+      "text": "View current quantities, filter reports by location, category or item and identify low-stock items against configured minimum thresholds.",
+      "bullets": [
+        "Available stock calculation",
+        "Minimum stock thresholds",
+        "Low-stock filtering",
+        "Inventory movement history"
+      ]
+    },
+    {
+      "title": "Controlled Inventory Operations",
+      "text": "Inventory permissions help administrators and designated in-charges maintain accountability while other authorized users receive view-only visibility as configured.",
+      "bullets": [
+        "Role-aware inventory access",
+        "Controlled stock changes",
+        "Recorded cancellation safeguards",
+        "Centralized admin visibility"
+      ]
+    },
+    {
+      "title": "Designed for Education Campuses",
+      "text": "Coordinate inventory usage across school offices, sports departments, laboratories and college academic departments using the same institution platform.",
+      "bullets": [
+        "School stores and consumables",
+        "Science and computer laboratories",
+        "Sports and activity equipment",
+        "College department supplies"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can schools track inventory in multiple departments?",
+      "a": "Yes. EduBridge supports multiple inventory locations and department-wise stock workflows, so stores and labs can maintain clearer records."
+    },
+    {
+      "q": "Can an item be issued to a staff member and returned later?",
+      "a": "Yes. Stock issues and returnable-item workflows help document responsibility and return status, including due dates where applicable."
+    },
+    {
+      "q": "Does EduBridge show low-stock items?",
+      "a": "Yes. Inventory reporting includes low-stock filtering based on item-level minimum thresholds. Automatic low-stock messages are not claimed."
+    },
+    {
+      "q": "Can inventory be transferred between stores or departments?",
+      "a": "Yes. The inventory system supports stock movement between configured locations with associated transaction records."
+    },
+    {
+      "q": "Is this an asset depreciation or procurement approval system?",
+      "a": "This page describes verified inventory and stock-handling workflows. Asset depreciation, barcode scanning and purchase-order approvals are not advertised as standard features."
+    }
+  ],
+  "videos": [],
+  "path": "/school-college-inventory-management-software"
+},
+  /* INVENTORY_SEO_END:school-college-inventory-management-software */
+
+  /* INVENTORY_SEO_START:school-laboratory-inventory-management-software */
+  "school-laboratory-inventory-management-software": {
+  "eyebrow": "School Laboratory & Department Stock",
+  "title": "School Laboratory Inventory & Stock Issue Software | EduBridge",
+  "h1": "Manage Laboratory, Department and School Store Inventory in One Place",
+  "description": "Organize school laboratory and department inventory: receive stock, issue supplies, record returns and transfers, and monitor location-wise balances with EduBridge ERP.",
+  "intro": "Science labs, computer labs, sports departments and administrative stores have different inventory needs. EduBridge gives school and college teams location-based stock records, item issues, returnable-item tracking and low-stock reports, connected to institutional permissions and administration.",
+  "audience": "School laboratory in-charges, campus stores, academic departments and administrators looking for an organized issue-and-return inventory process.",
+  "highlights": [
+    "Maintain separate stock locations for laboratories and departments",
+    "Register items and categorized stock records",
+    "Track opening balances and stock receipts",
+    "Issue materials to staff or departments",
+    "Manage returnable equipment issues and returns",
+    "Record movement between authorized locations",
+    "Review item-wise availability and low-stock reports",
+    "Keep movement and cancellation history for accountability"
+  ],
+  "keywords": [
+    "school laboratory inventory management software",
+    "lab inventory management for schools",
+    "school department inventory software",
+    "school store issue return management",
+    "college lab stock software"
+  ],
+  "inventorySections": [
+    {
+      "title": "Lab and Department Stock",
+      "text": "Keep location-wise item records across labs, offices, and academic departments so teams can find the current stock context.",
+      "bullets": [
+        "Location-based stock",
+        "Item categories",
+        "Opening balances",
+        "Stock receiving"
+      ]
+    },
+    {
+      "title": "Issue, Return and Transfer Workflow",
+      "text": "Track when equipment and supplies are issued and returned, and manage transfers where stock must move between locations.",
+      "bullets": [
+        "Staff issues",
+        "Return tracking",
+        "Stock transfers",
+        "Movement history"
+      ]
+    },
+    {
+      "title": "Minimum Stock and Reporting",
+      "text": "Use category, item and location report filters to review stock balances and find items below configured minimum levels.",
+      "bullets": [
+        "Current balances",
+        "Low-stock filters",
+        "Item reports",
+        "Department visibility"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does EduBridge support laboratory inventory?",
+      "a": "Yes. Configurable inventory locations and stock processes support laboratory and department inventory records."
+    },
+    {
+      "q": "Can schools track equipment returned by teachers?",
+      "a": "Yes. Issue and return workflows track returnable inventory items as part of the stock record."
+    },
+    {
+      "q": "Can lab in-charges see low-stock items?",
+      "a": "Authorized users can view relevant inventory records and low-stock reports based on their configured permissions."
+    }
+  ],
+  "videos": [],
+  "path": "/school-laboratory-inventory-management-software"
+},
+  /* INVENTORY_SEO_END:school-laboratory-inventory-management-software */
+
 };
 
 export const seoLandingSlugs = Object.keys(seoLandingPages);
