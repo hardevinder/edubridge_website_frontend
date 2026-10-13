@@ -141,12 +141,12 @@ export const seoLandingPages = {
   'school-college-transport-management-software': {
     path: '/school-college-transport-management-software',
     eyebrow: 'Intelligent School & College Transport Management',
-    title: 'Intelligent School & College Transport Management Software | EduBridge',
-    h1: 'Intelligent School & College Transport Management Software',
+    title: 'School Transport Management Software with GPS Tracking | EduBridge',
+    h1: 'School Transport Management Software with Live GPS Tracking & Driver App',
     description:
-      'Intelligent school and college transport management software with GPS tracking, Google Maps numbered stops, pickup and drop attendance, bus alerts and transport fee management.',
+      'School transport management software with live GPS bus tracking, student arrival alerts, driver attendance, route planning, transport fees and fuel receipt verification.',
     intro:
-      'EduBridge is an intelligent transport management system for schools and colleges combining GPS bus tracking, Google Maps routes with numbered pickup and drop stops, transport administrator and driver workflows, student and parent apps, separate pickup/drop attendance, arrival and late-bus alerts, and online or offline transport fees. Transport teams can find student-wise pending fees and manage months when a student temporarily skips bus service. See the full route, identify assigned passengers and coordinate each journey from one connected platform.',
+      'EduBridge connects school and college transport operations from the first pickup to the final drop: administrators monitor buses on a live map, assigned students view their bus location, and proximity-based alerts notify students as their bus approaches a configured radius. Drivers see their assigned stops and student pickup lists, record pickup and drop attendance, and follow mapped routes. Administrators can review shortest-path options, route distance in kilometres, transport fees and skipped months. Fuel records include driver-uploaded odometer photographs and fuel receipts for administrative review.',
     audience: 'Schools, colleges and multi-campus institutions that need safer, clearer and more efficient daily transport operations with live information for transport teams, drivers, students and parents.',
     highlights: [
       'GPS-based live school bus tracking and route progress visibility',
@@ -170,6 +170,37 @@ export const seoLandingPages = {
       'Connected parent/student communication without maintaining a separate transport communication tool',
     ],
     transportSections: [
+      // EDUBRIDGE_TRANSPORT_SEO_V2
+      {
+        title: 'Live GPS school bus tracking for administrators and assigned students',
+        text: 'A transport administrator can view a running bus on a live map. A student assigned to that bus can also follow its live location through the student experience, subject to the institution’s access permissions. This helps families plan their pickup without repeatedly contacting the school.',
+        bullets: ['Admin live fleet map', 'Assigned student bus tracking', 'Role-based journey visibility', 'Real-time vehicle location'],
+      },
+      {
+        title: 'Automatic bus approaching alerts based on pickup radius',
+        text: 'EduBridge can automatically notify a student when their assigned school bus is approaching the configured pickup radius. Arrival alerts make the morning journey easier to coordinate and reduce uncertainty around pickup timing. Actual notifications depend on device connectivity and location updates.',
+        bullets: ['Configurable proximity radius', 'Automatic approaching-bus notification', 'Student-specific bus assignment', 'Less manual calling'],
+      },
+      {
+        title: 'Shortest-route planning with distance in kilometres',
+        text: 'Use the administrator’s map to review stops, compare shorter route options and see route distance in kilometres. Route planning brings stops, students and expected travel distance into one operational view. A shorter route suggestion should still be reviewed for road safety and practical conditions.',
+        bullets: ['Stop-by-stop mapped routes', 'Shortest-path assistance', 'Route length in km', 'Transport admin route view'],
+      },
+      {
+        title: 'Fuel management with odometer photo and fuel receipt verification',
+        text: 'After refuelling, the driver records fuel expense details and uploads an odometer photograph and fuel receipt. Authorized administrators can review those records from the admin panel to check the recorded expense against supporting evidence. The photos support verification; they do not automatically prove that every charge is accurate.',
+        bullets: ['Driver odometer photo upload', 'Fuel receipt photo upload', 'Fuel amount and expense history', 'Admin review of supporting records'],
+      },
+      {
+        title: 'Manage transport fee collection, dues and skipped months',
+        text: 'Manage transport charges together with student bus assignments. Authorized staff can review student-wise transport dues, record applicable fee collections and handle months in which a student temporarily opts out of transport according to school policy.',
+        bullets: ['Student-wise transport charges', 'Fee collection records', 'Pending-dues visibility', 'Month-wise skip management'],
+      },
+      {
+        title: 'Driver app with stop-wise pickup list and attendance',
+        text: 'The driver can view assigned routes and stops, know which students to pick up at each location, and mark attendance for transport journeys. This makes day-to-day pickup coordination more practical than relying on handwritten lists.',
+        bullets: ['Assigned bus and route', 'Student names by pickup stop', 'Driver-marked attendance', 'Separate pickup and drop records'],
+      },
       {
         title: 'Intelligent GPS school bus tracking and Google Maps route visualization',
         text: 'View the school or college bus route on Google Maps with numbered pickup and drop stops. Transport administrators and drivers can follow the stop sequence and associated student pickup/drop assignments alongside supported GPS location information.',
@@ -238,10 +269,20 @@ export const seoLandingPages = {
       'student pickup drop management software',
       'school bus arrival notification',
       'school transport ERP',
+      'school bus tracking app for students',
+      'school bus fuel expense management software',
+      'school bus odometer and fuel receipt tracking',
+      'school transport fees and skip month management',
+      'bus proximity alerts for students',
       'college bus tracking system',
       'transport management system for schools and colleges',
     ],
     faqs: [
+      { q: 'Can a student see only the bus assigned to them?', a: 'EduBridge supports live tracking of the bus assigned to the student, with access governed by the institution’s permissions.' },
+      { q: 'Does the school bus app send automatic alerts near the pickup point?', a: 'Yes. The transport workflow supports automatic approaching-bus alerts based on the configured radius and available location updates.' },
+      { q: 'Can administrators see route distance and find a shorter path?', a: 'The admin map supports route distance in kilometres and shortest-path assistance. Transport administrators should review suggested routes against safety and road conditions.' },
+      { q: 'How does the school verify fuel expenses submitted by drivers?', a: 'Drivers can upload an odometer photograph and fuel receipt alongside refuelling details. Authorized transport administrators can review the submitted evidence in their dashboard.' },
+      { q: 'Can transport charges be managed when a student skips one or more months?', a: 'Yes. The transport fee workflow supports student-wise charges, dues and month-wise service skip management according to school policy.' },
       { q: 'What is intelligent school and college transport management software?', a: 'It connects GPS school bus tracking, Google Maps route and numbered stops, pickup/drop attendance, arrival notifications, driver and parent apps, and flexible fee collection and dues management.' },
       { q: 'How can I choose the best transport management software for schools and colleges?', a: 'Look for accurate routes and stops, authorized GPS access, separate pickup and drop attendance, parent arrival alerts, driver workflows, online and offline collections, pending-fee visibility and practical support for month-wise exceptions.' },
       { q: 'Can EduBridge show the entire bus route with numbered stops on Google Maps?', a: 'Yes. EduBridge transport workflows support Google Maps route visualization with numbered pickup and drop stops and student assignments.' },

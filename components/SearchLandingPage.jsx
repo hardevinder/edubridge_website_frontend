@@ -153,7 +153,7 @@ export default function SearchLandingPage({ data }) {
           <div className="mx-auto max-w-7xl px-5 md:px-8">
             <div className="max-w-3xl">
               <span className="brand-kicker">What EduBridge covers</span>
-              <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 md:text-5xl">{data.transportSections ? "GPS tracking, routes, bus attendance and transport fees in one system." : "A connected education platform, not another isolated tool."}</h2>
+              <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 md:text-5xl">{data.transportSections ? "GPS tracking, bus arrival alerts, verified fuel records and transport fees in one system." : "A connected education platform, not another isolated tool."}</h2>
             </div>
             <div className="mt-10 grid gap-4 md:grid-cols-2">
               {data.highlights.map((item, index) => (
@@ -189,7 +189,7 @@ export default function SearchLandingPage({ data }) {
             <div className="mx-auto max-w-7xl px-5 md:px-8">
               <div className="max-w-4xl">
                 <span className="brand-kicker">How the transport workflow works</span>
-                <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 md:text-5xl">From Google Maps routes and bus attendance to fee collection, every step stays connected.</h2>
+                <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 md:text-5xl">Live bus tracking, automatic arrival alerts, driver attendance, route distance, transport fees and fuel records in one system.</h2>
                 <p className="mt-5 max-w-3xl leading-7 text-slate-600">EduBridge is designed to give transport administrators, drivers, students and parents the right information at the right stage of the journey.</p>
               </div>
               <div className="mt-10 grid gap-6 lg:grid-cols-2">
@@ -213,6 +213,15 @@ export default function SearchLandingPage({ data }) {
                   </article>
                 ))}
               </div>
+            </div>
+          </section>
+        )}
+
+        {data.transportSections?.length > 0 && (
+          <section className="border-y border-orange-100 bg-orange-50/50 py-14" aria-label="Transport management live demonstration">
+            <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-6 px-5 md:flex-row md:items-center md:px-8">
+              <div><h2 className="text-2xl font-black text-slate-950 md:text-3xl">See the transport dashboard, driver app and student tracking in a live demo</h2><p className="mt-3 max-w-3xl leading-7 text-slate-700">Ask us to demonstrate GPS tracking, proximity alerts, route distance, pickup attendance, transport fees and fuel receipt uploads using your institution’s requirements.</p></div>
+              <Link href="/contact" className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-orange-600 px-6 py-3 font-black text-white hover:bg-orange-700">Book Transport Demo <ArrowRight size={18} /></Link>
             </div>
           </section>
         )}
