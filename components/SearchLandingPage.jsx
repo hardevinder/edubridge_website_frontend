@@ -268,6 +268,29 @@ export default function SearchLandingPage({ data }) {
           </section>
         )}
 
+        {/* TRANSPORT_SEO_V3: contextual links to existing, relevant pages (no new URLs) */}
+        {data.transportSections?.length > 0 && (
+          <section className="bg-slate-50 py-14" aria-label="Explore transport management modules">
+            <div className="mx-auto max-w-7xl px-5 md:px-8">
+              <h2 className="text-2xl font-black text-slate-950 md:text-3xl">Explore EduBridge transport workflows</h2>
+              <p className="mt-3 max-w-3xl leading-7 text-slate-600">Explore connected transport capabilities or request a demonstration suited to your school's requirements.</p>
+              <div className="mt-7 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {[
+                  ['/modules/transport-management', 'School transport management'],
+                  ['/modules/transport-attendance', 'School bus pickup and drop attendance'],
+                  ['/modules/transport-expenses', 'Transport fuel and expense management'],
+                  ['/modules/transport-staff', 'Driver and transport staff management'],
+                  ['/contact', 'Request a transport software demo'],
+                ].map(([href, label]) => (
+                  <Link key={href} href={href} className="flex items-center justify-between gap-3 rounded-2xl border border-slate-200 bg-white p-5 font-bold text-slate-900 transition hover:border-orange-300 hover:text-orange-700">
+                    <span>{label}</span><ArrowRight size={18} className="shrink-0" />
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {data.transportSections?.length > 0 && (
           <section className="border-y border-orange-100 bg-orange-50/50 py-14" aria-label="Transport management live demonstration">
             <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-6 px-5 md:flex-row md:items-center md:px-8">
