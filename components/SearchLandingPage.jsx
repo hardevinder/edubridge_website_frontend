@@ -9,6 +9,19 @@ import { seoLandingPages } from '../data/seoLandingPages';
 const base = 'https://www.edubridgeerp.in';
 
 const videoMeta = {
+  'Mrq-GG5RZnQ': {
+    title: 'Digital Marks Entry, Report Cards & Performance Analytics',
+    description: 'Follow the examination workflow from subject-wise marks entry to PDF report cards and comparisons across assessments such as PT-1 and Half-Yearly. See how student progress, class trends and teacher assessment completion help staff review academic outcomes.',
+    chapters: [
+      { seconds: 0, time: '0:00', label: 'Digital marks entry and subject-wise records' },
+      { seconds: 41, time: '0:41', label: 'Generate, compare and distribute PDF report cards' },
+      { seconds: 71, time: '1:11', label: 'Compare student progress across examinations' },
+    ],
+    links: [
+      { href: '/school-exam-marks-entry-software', label: 'Explore digital marks entry' },
+      { href: '/school-report-card-software', label: 'Explore report-card workflows' },
+    ],
+  },
   jX8am6fMDHk: {
     title: 'AI-Assisted Assessment & Answer Evaluation',
     description: 'Create tests, scan handwritten answer sheets, review AI-assisted evaluation and publish detailed student results.',
@@ -166,6 +179,23 @@ export default function SearchLandingPage({ data }) {
           </div>
         </section>
 
+        {data.detailSections?.length > 0 && (
+          <section className="py-16 md:py-24" aria-labelledby="school-guide-heading">
+            <div className="mx-auto max-w-7xl px-5 md:px-8">
+              <h2 id="school-guide-heading" className="max-w-4xl text-3xl font-black tracking-tight text-slate-950 md:text-5xl">{data.detailHeading}</h2>
+              <div className="mt-10 grid gap-6 md:grid-cols-2">
+                {data.detailSections.map((section) => (
+                  <article key={section.title} className="rounded-3xl border border-slate-200 p-6 md:p-8">
+                    <h3 className="text-xl font-black text-slate-950">{section.title}</h3>
+                    <p className="mt-4 leading-7 text-slate-600">{section.text}</p>
+                    <Link href={section.href} className="mt-5 inline-flex items-center gap-2 font-bold text-orange-700 underline underline-offset-4">{section.label}<ArrowRight size={16} className="shrink-0" aria-hidden="true" /></Link>
+                  </article>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {data.admissionSections?.length > 0 && (
           <section className="py-16 md:py-24" aria-label="School admission CRM workflow">
             <div className="mx-auto max-w-7xl px-5 md:px-8"><span className="brand-kicker">Complete admission journey</span><h2 className="mt-4 max-w-4xl text-3xl font-black text-slate-950 md:text-5xl">Enquiry → Follow-up → AI Test → Online Attempt → Results → Admission</h2><p className="mt-5 max-w-3xl leading-8 text-slate-600">Track prospective families, test readiness and confirmed admissions in a connected school workflow.</p><div className="mt-10 grid gap-6 md:grid-cols-2">{data.admissionSections.map((step,index) => <article key={step.title} className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm"><span className="text-xs font-black uppercase tracking-widest text-orange-600">Step {index+1}</span><h3 className="mt-3 text-xl font-black text-slate-950">{step.title}</h3><p className="mt-3 leading-7 text-slate-600">{step.text}</p><ul className="mt-5 space-y-2">{step.bullets.map(bullet => <li key={bullet} className="flex gap-2 text-sm font-semibold text-slate-700"><CheckCircle2 className="mt-0.5 shrink-0 text-orange-500" size={17}/>{bullet}</li>)}</ul></article>)}</div><p className="mt-8 text-sm text-slate-600">Explore the <Link href="/admission-crm" className="font-bold text-orange-700 underline">Admission CRM product overview</Link> or <Link href="/contact" className="font-bold text-orange-700 underline">request a live demo</Link>.</p></div>
@@ -316,7 +346,29 @@ export default function SearchLandingPage({ data }) {
                       <div className="aspect-video bg-slate-950">
                         <iframe className="h-full w-full" src={`https://www.youtube-nocookie.com/embed/${id}`} title={video.title} loading="lazy" referrerPolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
                       </div>
-                      <div className="p-6"><h3 className="text-xl font-black text-slate-950">{video.title}</h3><p className="mt-3 text-sm leading-6 text-slate-600">{video.description}</p></div>
+                      <div className="p-6">
+                        <h3 className="text-xl font-black text-slate-950">{video.title}</h3>
+                        <p className="mt-3 text-sm leading-6 text-slate-600">{video.description}</p>
+                        {video.chapters?.length > 0 && (
+                          <div className="mt-5">
+                            <h4 className="font-bold text-slate-950">Jump to a workflow on YouTube</h4>
+                            <ul className="mt-3 space-y-3">
+                              {video.chapters.map((chapter) => (
+                                <li key={chapter.seconds}>
+                                  <a href={`https://www.youtube.com/watch?v=${id}&t=${chapter.seconds}s`} className="text-sm font-semibold text-orange-700 underline underline-offset-4">{chapter.time} — {chapter.label}</a>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                        {video.links?.length > 0 && (
+                          <ul className="mt-5 space-y-3 border-t border-slate-200 pt-5">
+                            {video.links.map((link) => (
+                              <li key={link.href}><Link href={link.href} className="text-sm font-bold text-orange-700 underline underline-offset-4">{link.label}</Link></li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
                     </article>
                   );
                 })}

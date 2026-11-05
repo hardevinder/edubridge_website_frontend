@@ -7,6 +7,9 @@ Disallow: /login
 # Search and AI discovery
 User-agent: Googlebot
 Allow: /
+Disallow: /api/
+Disallow: /dashboard
+Disallow: /login
 
 User-agent: OAI-SearchBot
 Allow: /

@@ -26,9 +26,49 @@ const commonFaq = [
 
 export const seoLandingPages = {
   'school-management-software': {
+    detailHeading: "What to evaluate before choosing school management software",
+    detailSections: [
+      {
+            "title": "Choose modules around your school\u2019s daily work",
+            "text": "Start with the tasks your teams handle every day: student records, fee collection, attendance and examinations. EduBridge also connects LMS, transport and role-based mobile access. Use the demo to check a complete workflow, including the records and reports each team needs.",
+            "href": "/modules",
+            "label": "Explore school management modules"
+      },
+      {
+            "title": "Evaluate fee collection and financial reporting",
+            "text": "Ask to see how a fee structure becomes a student due, how a payment is recorded and how the accounts team reviews collections. Include your concession rules, receipt requirements and transport charges in the discussion.",
+            "href": "/school-fee-management-software",
+            "label": "Review fee management workflows"
+      },
+      {
+            "title": "Check examinations against your reporting requirements",
+            "text": "Bring a sample examination scheme and report card to the demo. Review scheduling, marks entry, grading and report-card configuration together so the evaluation reflects your school\u2019s academic process.",
+            "href": "/school-examination-management-software",
+            "label": "Explore examination management"
+      },
+      {
+            "title": "Plan implementation before choosing software",
+            "text": "Prepare a list of campuses, classes, user roles and existing records. Agree which data needs to move, how it will be checked, who will approve configuration and how staff will learn each workflow. Confirm responsibilities and the rollout schedule with the implementation team.",
+            "href": "/school-management-system",
+            "label": "Read the school system workflow guide"
+      },
+      {
+            "title": "Ask for a quote with a clear scope",
+            "text": "When requesting pricing, describe your student numbers, campuses, required modules, mobile app needs and integrations. Ask which setup, migration, training and ongoing support services are included, and confirm any recurring or third-party charges in the proposal.",
+            "href": "/contact",
+            "label": "Request a scoped demo and quote"
+      },
+      {
+            "title": "Make your demo a practical evaluation",
+            "text": "Choose one scenario for each team: an admission enquiry, a fee payment, a teacher\u2019s marks entry and a parent update. Ask the demonstrator to follow each scenario through to its final record or report, then note any configuration questions before deciding.",
+            "href": "/how-to-choose-school-erp",
+            "label": "Use the school ERP selection guide"
+      }
+],
+
     path: '/school-management-software',
     eyebrow: 'School Management Software',
-    title: 'School Management Software with ERP + LMS + AI | EduBridge ERP',
+    title: 'School Management Software for Indian Schools | EduBridge',
     h1: 'Complete School Management Software with ERP, LMS and Practical AI',
     description:
       'EduBridge school management software connects academics, LMS, fees, attendance, exams, transport, communication, mobile apps and AI-assisted workflows in one platform.',
@@ -52,13 +92,53 @@ export const seoLandingPages = {
       { q: 'Can parents, students, teachers and management use the same platform?', a: 'Yes. EduBridge provides role-based experiences so each user sees the information, actions and dashboards relevant to their responsibilities.' },
       ...commonFaq,
     ],
-    videos: ['jX8am6fMDHk', 'JGlX1PpvmOI'],
+    videos: ['Mrq-GG5RZnQ', 'jX8am6fMDHk', 'JGlX1PpvmOI'],
   },
   'school-management-system': {
+    detailHeading: "How information moves between school departments",
+    detailSections: [
+      {
+            "title": "Admissions: from enquiry to student records",
+            "text": "The admissions team tracks enquiries and admission activity; student information then provides the foundation for class assignments and academic records. Map the fields your office collects and decide who can create, verify and update each record.",
+            "href": "/admission-crm",
+            "label": "Explore admissions CRM"
+      },
+      {
+            "title": "Accounts: from fee setup to collection reports",
+            "text": "Accounts staff work with fee structures, dues, receipts and payments. Define your fee categories, concessions and approval responsibilities before configuration, then check that a sample student\u2019s charges and receipts match the school\u2019s records.",
+            "href": "/school-fee-management-software",
+            "label": "See fee collection workflows"
+      },
+      {
+            "title": "Teachers: from daily attendance to learning activities",
+            "text": "Teachers need the correct class and subject assignments to record attendance and manage learning activities. Review timetables, attendance responsibilities, homework and assessment access with academic coordinators before introducing the system to staff.",
+            "href": "/school-attendance-management-software",
+            "label": "Explore attendance management"
+      },
+      {
+            "title": "Examinations: from scheme setup to report cards",
+            "text": "The examination team defines the approved assessment structure; teachers enter marks and authorized staff review results. Validate subjects, components, grading and a sample report card before publishing results to families.",
+            "href": "/school-report-card-software",
+            "label": "Review report-card workflows"
+      },
+      {
+            "title": "Families: role-based access to school information",
+            "text": "Parent and student experiences connect families with school information and communication. During evaluation, check what each role can see and how staff control updates so access matches your school\u2019s communication policy.",
+            "href": "/parent-app-for-schools",
+            "label": "Explore the parent app"
+      },
+      {
+            "title": "Rollout: prepare, validate and introduce each workflow",
+            "text": "Inventory existing records and remove duplicates before migration planning. Assign owners for configuration and validation, pilot agreed scenarios with staff, and confirm a support process before wider rollout. Discuss feasibility and timing with the implementation team.",
+            "href": "/school-management-software",
+            "label": "Evaluate EduBridge school management software"
+      }
+],
+
     path: '/school-management-system',
     eyebrow: 'School Management System',
-    title: 'School Management System for Academics, Fees, Exams & LMS | EduBridge',
-    h1: 'A Connected School Management System for Every Major School Workflow',
+    title: 'School Management System: Workflows & Setup | EduBridge',
+    h1: 'How a Connected School Management System Works',
     description:
       'Manage students, teachers, academics, fees, exams, attendance, transport, communication, LMS and mobile apps with the EduBridge school management system.',
     intro:
@@ -80,7 +160,7 @@ export const seoLandingPages = {
       { q: 'Can EduBridge support more than one branch or campus?', a: 'Yes. EduBridge supports multi-branch and multi-campus institution structures with role-based visibility and management.' },
       ...commonFaq,
     ],
-    videos: ['JGlX1PpvmOI'],
+    videos: ['Mrq-GG5RZnQ', 'JGlX1PpvmOI'],
   },
   'erp-software-for-schools': {
     path: '/erp-software-for-schools',

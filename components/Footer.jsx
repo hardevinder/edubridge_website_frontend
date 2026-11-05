@@ -8,6 +8,8 @@ const groups = [
       ['All Modules', '/modules'],
       ['Solutions by Role', '/roles'],
       ['School ERP', '/school-erp'],
+      ['School Management Software', '/school-management-software'],
+      ['School Management System Guide', '/school-management-system'],
       ['College ERP', '/college-erp'],
       ['AI-Powered School ERP', '/ai-powered-school-erp'],
       ['Best AI School ERP India', '/best-ai-powered-school-erp-india'],
