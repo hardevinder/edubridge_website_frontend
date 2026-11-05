@@ -15,21 +15,21 @@ export default function SolutionPage({ data, path }){
       <section className="bg-slate-50 py-16 md:py-24" aria-labelledby="exam-demo-heading">
         <div className="mx-auto max-w-7xl px-5 md:px-8">
           <span className="brand-kicker">Examination workflow demonstration</span>
-          <h2 id="exam-demo-heading" className="mt-4 max-w-4xl text-3xl font-black text-slate-950 md:text-5xl">Watch marks entry, report cards and performance analytics.</h2>
+          <h2 id="exam-demo-heading" className="mt-4 max-w-4xl text-3xl font-black text-slate-950 md:text-5xl">Watch the connected examination management workflow.</h2>
           <div className="mt-10 grid items-start gap-8 lg:grid-cols-2">
             <div className="aspect-video overflow-hidden rounded-2xl bg-slate-950">
-              <iframe className="h-full w-full" src="https://www.youtube-nocookie.com/embed/Mrq-GG5RZnQ" title="EduBridge digital marks entry, report cards and performance analytics demonstration" loading="lazy" referrerPolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
+              <iframe className="h-full w-full" src="https://www.youtube-nocookie.com/embed/ObbbYkWbT5U" title="EduBridge examination planning, seating, invigilation and reporting demonstration" loading="lazy" referrerPolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
             </div>
             <div>
-              <p className="leading-7 text-slate-600">See how EduBridge connects subject-wise marks entry with PDF report-card generation, comparison and distribution. The demonstration also covers student progress across assessments such as PT-1 and Half-Yearly, class trends and teacher assessment completion.</p>
+              <p className="leading-7 text-slate-600">See how EduBridge brings examination schedules, assessments, marks entry and performance analytics into one platform. This overview demonstrates AI-assisted seating plans with mobile seat assignments, invigilator tools for attendance and student verification, evaluation progress tracking, and customized, branded report cards.</p>
               <h3 className="mt-6 text-lg font-bold text-slate-950">Jump to a workflow on YouTube</h3>
               <ul className="mt-4 space-y-3">
-                {[[0, '0:00', 'Digital marks entry and subject-wise records'], [41, '0:41', 'Generate, compare and distribute PDF report cards'], [71, '1:11', 'Compare student progress across examinations']].map(([seconds, time, label]) => (
-                  <li key={seconds}><a href={`https://www.youtube.com/watch?v=Mrq-GG5RZnQ&t=${seconds}s`} className="font-semibold text-orange-700 underline underline-offset-4">{time} — {label}</a></li>
+                {[[0, '0:00', 'Examination planning and assessment schedules'], [13, '0:13', 'Student and class performance insights'], [22, '0:22', 'Smart seating plans and mobile seat assignments'], [34, '0:34', 'Invigilator tools and evaluation progress'], [48, '0:48', 'Customized, branded report cards']].map(([seconds, time, label]) => (
+                  <li key={seconds}><a href={`https://www.youtube.com/watch?v=ObbbYkWbT5U&t=${seconds}s`} className="font-semibold text-orange-700 underline underline-offset-4">{time} — {label}</a></li>
                 ))}
               </ul>
               <div className="mt-6 flex flex-wrap gap-4">
-                <Link href="/school-exam-marks-entry-software" className="font-bold text-orange-700 underline underline-offset-4">Explore digital marks entry</Link>
+                <Link href="/exam-seating-plan-software" className="font-bold text-orange-700 underline underline-offset-4">Explore examination seating plans</Link>
                 <Link href="/school-report-card-software" className="font-bold text-orange-700 underline underline-offset-4">Explore report-card workflows</Link>
               </div>
               <Link href="/contact" className="btn-primary mt-6">Request an examination demo <ArrowRight size={18} /></Link>
