@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://www.edubridgeerp.in/</loc>
     <changefreq>weekly</changefreq>
@@ -549,6 +549,14 @@
   </url>
   <url>
     <loc>https://www.edubridgeerp.in/roles/principal</loc>
+    <lastmod>2026-11-10</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/c3UYCTGikMM/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>EduBridge Principal Dashboard and School Command Center</video:title>
+      <video:description>Watch the Principal Command Center walkthrough covering school AI, classroom monitoring, teacher performance, examinations, class analytics and student health.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/c3UYCTGikMM</video:player_loc>
+      <video:duration>166</video:duration>
+    </video:video>
     <changefreq>monthly</changefreq>
     <priority>0.82</priority>
   </url>
