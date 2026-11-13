@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import TransportVideo from './TransportVideo';
 import { ArrowRight, BrainCircuit, CheckCircle2, GraduationCap, Layers3, MapPin, ShieldCheck, Sparkles } from 'lucide-react';
 import Navbar from './Navbar';
 import Footer from './Footer';
@@ -52,7 +53,7 @@ export default function SearchLandingPage({ data }) {
     name: data.title,
     description: data.description,
     isPartOf: { '@id': `${base}/#website` },
-    about: { '@id': `${base}/#software` },
+    about: { '@id': data.transportSections ? `${pageUrl}#software` : `${base}/#software` },
     inLanguage: 'en-IN',
   };
 
@@ -61,7 +62,7 @@ export default function SearchLandingPage({ data }) {
     '@type': 'SoftwareApplication',
     '@id': data.transportSections ? `${pageUrl}#software` : `${base}/#software`,
     name: data.transportSections ? 'EduBridge Intelligent School & College Transport Management Software' : 'EduBridge ERP + LMS',
-    url: `${base}/`,
+    url: data.transportSections ? pageUrl : `${base}/`,
     applicationCategory: 'EducationalApplication',
     applicationSubCategory: data.transportSections ? 'School Bus and College Transport Management' : 'School and College ERP + LMS',
     operatingSystem: 'Web, Android, iOS',
@@ -126,6 +127,7 @@ export default function SearchLandingPage({ data }) {
                 <p className="mt-6 max-w-3xl text-base leading-8 text-slate-300 md:text-lg">{data.intro}</p>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link href="/contact" className="inline-flex items-center gap-2 rounded-xl bg-orange-500 px-6 py-3.5 font-black text-white hover:bg-orange-600">Request a Live Demo <ArrowRight size={18} /></Link>
+                  {data.transportSections && <a href="#transport-video" className="inline-flex items-center gap-2 rounded-xl border border-white/15 px-6 py-3.5 font-black text-white hover:bg-white/5">Watch Transport Video</a>}
                   <Link href={data.transportSections ? "/school-erp" : "/ai-powered-school-erp"} className="inline-flex items-center gap-2 rounded-xl border border-white/15 px-6 py-3.5 font-black text-white hover:bg-white/5">{data.transportSections ? "Explore School ERP" : "Explore AI Workflows"}</Link>
                 </div>
               </div>
@@ -166,7 +168,7 @@ export default function SearchLandingPage({ data }) {
           <div className="mx-auto max-w-7xl px-5 md:px-8">
             <div className="max-w-3xl">
               <span className="brand-kicker">What EduBridge covers</span>
-              <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 md:text-5xl">{data.transportSections ? "GPS tracking, bus arrival alerts, verified fuel records and transport fees in one system." : "A connected education platform, not another isolated tool."}</h2>
+              <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 md:text-5xl">{data.transportSections ? "GPS tracking, bus arrival alerts, fuel expense records and transport fees in one system." : "A connected education platform, not another isolated tool."}</h2>
             </div>
             <div className="mt-10 grid gap-4 md:grid-cols-2">
               {data.highlights.map((item, index) => (
@@ -264,6 +266,8 @@ export default function SearchLandingPage({ data }) {
             </div>
           </section>
         )}
+
+        {data.transportSections?.length > 0 && <TransportVideo />}
 
         {data.transportSections?.length > 0 && (
           <section className="py-16 md:py-24">

@@ -59,7 +59,7 @@ const keyModules = [
     icon: BusFront,
     title: 'Transport & Student Safety',
     desc: 'Routes, buses, live GPS, driver trips, pickup and drop attendance, transport fees and real-time operational visibility.',
-    href: '/roles/transport',
+    href: '/school-college-transport-management-software',
   },
 ];
 

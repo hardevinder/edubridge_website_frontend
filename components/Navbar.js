@@ -21,6 +21,7 @@ const popularModules = [
   ['Exam Management', '/modules/exam-management'],
   ['Fees & Payments', '/modules/fee-management'],
   ['HR & Payroll', '/modules/payroll'],
+  ['Transport Management', '/school-college-transport-management-software'],
   ['Live Bus Tracking', '/modules/live-bus-tracking'],
   ['Inventory', '/modules/inventory'],
   ['Library', '/modules/library'],
@@ -96,6 +97,7 @@ export default function Navbar() {
               {[
                 ['Home', '/'],
                 ['All Modules', '/modules'],
+                ['Transport Management', '/school-college-transport-management-software'],
                 ['Solutions by Role', '/roles'],
                 ['Examination Management', '/roles/examination'],
                 ['HOD & Department Management', '/roles/hod'],

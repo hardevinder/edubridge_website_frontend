@@ -221,10 +221,10 @@ export const seoLandingPages = {
   'school-college-transport-management-software': {
     path: '/school-college-transport-management-software',
     eyebrow: 'Intelligent School & College Transport Management',
-    title: 'School Transport Management Software | GPS, Routes & Fees',
+    title: 'School Transport Management Software & GPS | EduBridge',
     h1: 'School Transport Management Software for GPS, Attendance, Routes & Fees',
     description:
-      'Manage school buses, routes, GPS tracking, pickup and drop attendance, transport fees and driver workflows with EduBridge ERP. Request a demo.',
+      'Manage school bus GPS tracking, routes, fees, maintenance and parent alerts with EduBridge. Watch the smart transport demo and explore AI delay summaries.',
     intro:
       'EduBridge connects school and college transport operations from the first pickup to the final drop: administrators monitor buses on a live map, assigned students view their bus location, and proximity-based alerts notify students as their bus approaches a configured radius. Drivers see their assigned stops and student pickup lists, record pickup and drop attendance, and follow mapped routes. Administrators can review shortest-path options, route distance in kilometres, transport fees and skipped months. Fuel records include driver-uploaded odometer photographs and fuel receipts for administrative review.',
     audience: 'Schools, colleges and multi-campus institutions that need safer, clearer and more efficient daily transport operations with live information for transport teams, drivers, students and parents.',
@@ -251,6 +251,21 @@ export const seoLandingPages = {
     ],
     // TRANSPORT_SEO_V3: concise, differentiated workflows (avoid duplicate sections)
     transportSections: [
+      {
+        title: 'Parent app with live GPS tracking and arrival alerts',
+        text: 'Parents view their child’s assigned bus on Google Maps in the parent app. A customizable arrival radius lets families receive a notification when the bus approaches their pickup point, while delay updates keep them informed when the journey runs behind schedule.',
+        bullets: ['Live assigned-bus location', 'Google Maps view', 'Custom arrival radius', 'Bus delay notifications'],
+      },
+      {
+        title: 'Vehicle maintenance and document expiry reminders',
+        text: 'Keep service history, repairs, fuel expenses and maintenance costs alongside vehicle insurance, registration and fitness certificates. Record driver licence details and receive upcoming document expiry reminders so transport teams can plan renewals and service work.',
+        bullets: ['Service and repair history', 'Fuel and maintenance costs', 'Vehicle certificates', 'Driver document expiry alerts'],
+      },
+      {
+        title: 'AI-powered bus delay monitoring and daily summaries',
+        text: 'AI-powered insights summarize daily transport activity and highlight buses running on time or behind schedule. Administrators can review fleet status and routes needing attention without checking every bus individually, supporting timely coordination with drivers and parents.',
+        bullets: ['Daily operational overview', 'On-time and delayed bus status', 'Route performance visibility', 'Informed transport coordination'],
+      },
       {
         title: 'School bus GPS tracking and authorized journey visibility',
         text: 'Bring bus location, assigned route, stops and student transport information into a connected view. Access can be limited to authorized transport administrators and the students or parents associated with a bus. Ask for a live demonstration of the tracking experience available in your deployment.',
@@ -304,6 +319,10 @@ export const seoLandingPages = {
       'school transport management software Punjab',
     ],
     faqs: [
+      { q: 'How does the parent app track school buses?', a: 'The EduBridge parent app shows the live GPS location of the child’s assigned bus on Google Maps. Parents can set an arrival radius for approaching-bus alerts and receive delay notifications when the bus is running behind schedule.' },
+      { q: 'How does AI help monitor bus delays?', a: 'AI-powered insights summarize daily transport operations and highlight on-time and delayed buses. This helps administrators identify routes needing attention without manually reviewing each bus and coordinate updates with transport staff and families.' },
+      { q: 'What vehicle maintenance records can schools track?', a: 'Schools can maintain service and repair histories, fuel expenses and maintenance costs, plus insurance policies, registration certificates and fitness certificates. Driver licence records and automated document expiry reminders help teams organize renewals.' },
+      { q: 'Can schools collect transport fees online and offline?', a: 'Yes. EduBridge supports online and offline transport fee collection linked to student records, with reports for outstanding dues so accounts and transport teams can follow up on pending payments.' },
       { q: 'What is school transport management software?', a: 'It helps schools manage buses, routes, stops, assigned students, driver responsibilities, pickup and drop attendance, and transport fee records in one workflow.' },
       { q: 'Can schools track buses with GPS?', a: 'EduBridge describes GPS-enabled bus tracking for authorized users. Contact the team to verify live tracking availability and device requirements for your deployment.' },
       { q: 'Can a driver mark pickup and drop attendance separately?', a: 'The transport workflow supports journey-wise student pickup and drop attendance, with relevant bus and student lists.' },

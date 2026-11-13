@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import TransportVideo from '../../components/TransportVideo';
 import { ArrowRight, BarChart3, CheckCircle2, ChevronRight, FileText, Layers3, MonitorSmartphone, ShieldCheck, Sparkles, UsersRound } from 'lucide-react';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
@@ -45,6 +46,8 @@ export default function ModuleDetail({ module, related }) {
         [MonitorSmartphone,'Web + mobile','Responsive, role-based experience'],
         [ShieldCheck,'Governed access','Institution-scoped data & controls'],
       ].map(([Icon,label,value])=><div key={label} className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-4"><span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white text-orange-600 shadow-sm"><Icon size={19}/></span><div><p className="text-xs font-bold uppercase tracking-wider text-slate-400">{label}</p><p className="mt-1 text-sm font-bold text-slate-900">{value}</p></div></div>)}</div></section>
+
+      {module.slug === 'transport-management' && <TransportVideo />}
 
       {deep && <section className="py-16 md:py-24"><div className="mx-auto max-w-7xl px-5 md:px-8"><div className="mx-auto max-w-4xl text-center"><span className="brand-kicker">Feature depth</span><h2 className="mt-4 text-3xl font-black text-slate-950 md:text-5xl">{deep.title}</h2><p className="mt-5 text-lg leading-8 text-slate-600">{deep.intro}</p></div><div className="mt-12 grid gap-5 md:grid-cols-2">{deep.groups.map((group)=><div key={group.title} className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm md:p-8"><h3 className="text-xl font-black text-slate-950">{group.title}</h3><div className="mt-5 space-y-3">{group.items.map(item=><p key={item} className="flex gap-3 text-sm leading-6 text-slate-600"><CheckCircle2 size={18} className="mt-0.5 shrink-0 text-orange-500"/><span>{item}</span></p>)}</div></div>)}</div></div></section>}
 
